@@ -1,0 +1,1634 @@
+<tr>
+  <th
+    aria-label="Player"
+    data-stat="player"
+    scope="col"
+    class="poptip sort_default_asc left"
+  >
+    Player
+  </th>
+  <th aria-label="Span" data-stat="span" scope="col" class="poptip center">
+    Span
+  </th>
+  <th
+    aria-label="Nation"
+    data-stat="nationality"
+    scope="col"
+    class="poptip sort_default_asc center"
+    data-tip="Nationality of the player. First, we check our records in international play at senior level. Then youth level. Then citizenship presented on wikipedia. Finally, we use their birthplace when available."
+  >
+    Nation
+  </th>
+  <th
+    aria-label="Position"
+    data-stat="position"
+    scope="col"
+    class="poptip center"
+    data-tip="Position Position most commonly played by the player GK - Goalkeepers DF - Defenders MF - Midfielders FW - Forwards FB - Fullbacks LB - Left Backs RB - Right Backs CB - Center Backs DM - Defensive Midfielders CM - Central Midfielders LM - Left Midfielders RM - Right Midfielders WM - Wide Midfielders LW - Left Wingers RW - Right Wingers AM - Attacking Midfielders "
+  >
+    Pos
+  </th>
+  <th
+    aria-label="Squad"
+    data-stat="team"
+    scope="col"
+    class="poptip sort_default_asc center"
+  >
+    Squad
+  </th>
+  <th
+    aria-label="Matches Played"
+    data-stat="games"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="Matches Played Matches Played by the player or squad"
+    data-over-header="Playing Time"
+  >
+    MP
+  </th>
+  <th
+    aria-label="Starts"
+    data-stat="games_starts"
+    scope="col"
+    class="poptip center"
+    data-tip="Game or games started by player"
+    data-over-header="Playing Time"
+  >
+    Starts
+  </th>
+  <th
+    aria-label="Minutes"
+    data-stat="minutes"
+    scope="col"
+    class="poptip center"
+    data-tip="Minutes "
+    data-over-header="Playing Time"
+  >
+    Min
+  </th>
+  <th
+    aria-label="90s Played"
+    data-stat="minutes_90s"
+    scope="col"
+    class="poptip center"
+    data-tip="90s Played 90s played Minutes played divided by 90"
+    data-over-header="Playing Time"
+  >
+    90s
+  </th>
+  <th
+    aria-label="Goals"
+    data-stat="goals"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="Goals Goals scored or allowed"
+    data-over-header="Performance"
+  >
+    Gls
+  </th>
+  <th
+    aria-label="Assists"
+    data-stat="assists"
+    scope="col"
+    class="poptip center"
+    data-tip="Assists Assists"
+    data-over-header="Performance"
+  >
+    Ast
+  </th>
+  <th
+    aria-label="Goals + Assists"
+    data-stat="goals_assists"
+    scope="col"
+    class="poptip center"
+    data-tip="Goals + Assists Goals and Assists"
+    data-over-header="Performance"
+  >
+    G+A
+  </th>
+  <th
+    aria-label="Non-Penalty Goals"
+    data-stat="goals_pens"
+    scope="col"
+    class="poptip center"
+    data-tip="Non-Penalty Goals Non-Penalty Goals"
+    data-over-header="Performance"
+  >
+    G-PK
+  </th>
+  <th
+    aria-label="Penalty Kicks Made"
+    data-stat="pens_made"
+    scope="col"
+    class="poptip center"
+    data-tip="Penalty Kicks Made Penalty Kicks Made"
+    data-over-header="Performance"
+  >
+    PK
+  </th>
+  <th
+    aria-label="Penalty Kicks Attempted"
+    data-stat="pens_att"
+    scope="col"
+    class="poptip center"
+    data-tip="Penalty Kicks Attempted Penalty Kicks Attempted"
+    data-over-header="Performance"
+  >
+    PKatt
+  </th>
+  <th
+    aria-label="Yellow Cards"
+    data-stat="cards_yellow"
+    scope="col"
+    class="poptip center"
+    data-tip="Yellow Cards Yellow Cards"
+    data-over-header="Performance"
+  >
+    CrdY
+  </th>
+  <th
+    aria-label="Red Cards"
+    data-stat="cards_red"
+    scope="col"
+    class="poptip center"
+    data-tip="Red Cards Red Cards"
+    data-over-header="Performance"
+  >
+    CrdR
+  </th>
+  <th
+    aria-label="xG"
+    data-stat="xg"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="Expected Goals xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted). Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="xG"
+  >
+    xG
+  </th>
+  <th
+    aria-label="Non-Penalty xG"
+    data-stat="npxg"
+    scope="col"
+    class="poptip center"
+    data-tip="Non-Penalty xG Non-Penalty Expected Goals Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="Non-Penalty xG"
+  >
+    npxG
+  </th>
+  <th
+    aria-label="xAG"
+    data-stat="xg_assist"
+    scope="col"
+    class="poptip center"
+    data-tip="Expected Assisted Goals xG which follows a pass that assists a shot Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="xAG"
+  >
+    xAG
+  </th>
+  <th
+    aria-label="npxG + xAG"
+    data-stat="npxg_xg_assist"
+    scope="col"
+    class="poptip center"
+    data-tip="npxG + xAG Non-Penalty Expected Goals plus Assisted Goals xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted). Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available. Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Expected"
+  >
+    npxG+xAG
+  </th>
+  <th
+    aria-label="Progressive Carries"
+    data-stat="progressive_carries"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="Progressive Carries Carries that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any carry into the penalty area. Excludes carries which end in the defending 50% of the pitch"
+    data-over-header="Progression"
+  >
+    PrgC
+  </th>
+  <th
+    aria-label="Progressive Passes"
+    data-stat="progressive_passes"
+    scope="col"
+    class="poptip center"
+    data-tip="Progressive Passes Progressive Passes Completed passes that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area. Excludes passes from the defending 40% of the pitch"
+    data-over-header="Progression"
+  >
+    PrgP
+  </th>
+  <th
+    aria-label="Progressive Passes Rec"
+    data-stat="progressive_passes_received"
+    scope="col"
+    class="poptip center"
+    data-tip="Progressive Passes Rec Progressive Passes Received Completed passes that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area. Excludes passes from the defending 40% of the pitch"
+    data-over-header="Progression"
+  >
+    PrgR
+  </th>
+  <th
+    aria-label="Goals/90"
+    data-stat="goals_per90"
+    scope="col"
+    class="poptip hide_non_quals center group_start"
+    data-tip="Goals/90 Goals Scored per 90 minutes Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Goals/90"
+  >
+    Gls
+  </th>
+  <th
+    aria-label="Assists/90"
+    data-stat="assists_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="Assists/90 Assists per 90 minutes Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Assists/90"
+  >
+    Ast
+  </th>
+  <th
+    aria-label="Goals + Assists/90"
+    data-stat="goals_assists_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="Goals + Assists/90 Goals and Assists per 90 minutes Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Goals + Assists/90"
+  >
+    G+A
+  </th>
+  <th
+    aria-label="Non-Penalty Goals/90"
+    data-stat="goals_pens_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="Non-Penalty Goals/90 Goals minus Penalty Kicks made per 90 minutes Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Non-Penalty Goals/90"
+  >
+    G-PK
+  </th>
+  <th
+    aria-label="Non-Penalty Goals + Assists/90"
+    data-stat="goals_assists_pens_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="Non-Penalty Goals + Assists/90 Goals plus Assists minus Penalty Kicks made per 90 minutes Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Non-Penalty Goals + Assists/90"
+  >
+    G+A-PK
+  </th>
+  <th
+    aria-label="xG/90"
+    data-stat="xg_per90"
+    scope="col"
+    class="poptip hide_non_quals center group_start"
+    data-tip="xG/90 Expected Goals per 90 minutes xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted). Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available. Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="xG/90"
+  >
+    xG
+  </th>
+  <th
+    aria-label="xAG/90"
+    data-stat="xg_assist_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="xAG/90 Expected Assisted Goals per 90 minutes Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available. Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="xAG/90"
+  >
+    xAG
+  </th>
+  <th
+    aria-label="xG + xAG/90"
+    data-stat="xg_xg_assist_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="xG + xAG/90 Expected Goals plus Assisted Goals per 90 minutes xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted). Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available. Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+  >
+    xG+xAG
+  </th>
+  <th
+    aria-label="npxG/90"
+    data-stat="npxg_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="npxG/90 Non-Penalty Expected Goals per 90 minutes Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available. Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="npxG/90"
+  >
+    npxG
+  </th>
+  <th
+    aria-label="npxG + xAG"
+    data-stat="npxg_xg_assist_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="npxG + xAG Non-Penalty Expected Goals plus Assisted Goals per 90 minutes Provided by Opta. An underline indicates there is a match that is missing data, but will be updated when available. Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+  >
+    npxG+xAG
+  </th>
+</tr>
+
+<tr>
+  <th
+    aria-label="Player"
+    data-stat="player"
+    scope="col"
+    class="poptip sort_default_asc left"
+  >
+    Player
+  </th>
+  <th aria-label="Span" data-stat="span" scope="col" class="poptip center">
+    Span
+  </th>
+  <th
+    aria-label="Nation"
+    data-stat="nationality"
+    scope="col"
+    class="poptip sort_default_asc center"
+    data-tip="Nationality of the player.<br>First, we check our records in international play at senior level.<br>Then youth level.<br>Then citizenship presented on wikipedia.<br>Finally, we use their birthplace when available."
+  >
+    Nation
+  </th>
+  <th
+    aria-label="Position"
+    data-stat="position"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Position</strong><br>Position most commonly played by the player<br>GK - Goalkeepers<br>DF - Defenders<br>MF - Midfielders<br>FW - Forwards<br>FB - Fullbacks<br>LB - Left Backs<br>RB - Right Backs<br>CB - Center Backs<br>DM - Defensive Midfielders<br>CM - Central Midfielders<br>LM - Left Midfielders<br>RM - Right Midfielders<br>WM - Wide Midfielders<br>LW - Left Wingers<br>RW - Right Wingers<br>AM - Attacking Midfielders<br>"
+  >
+    Pos
+  </th>
+  <th
+    aria-label="Squad"
+    data-stat="team"
+    scope="col"
+    class="poptip sort_default_asc center"
+  >
+    Squad
+  </th>
+  <th
+    aria-label="Matches Played"
+    data-stat="games"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Matches Played</strong><br>Matches Played by the player or squad"
+    data-over-header="Playing Time"
+  >
+    MP
+  </th>
+  <th
+    aria-label="Starts"
+    data-stat="games_starts"
+    scope="col"
+    class="poptip center"
+    data-tip="Game or games started by player"
+    data-over-header="Playing Time"
+  >
+    Starts
+  </th>
+  <th
+    aria-label="Minutes"
+    data-stat="minutes"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Minutes</strong><br>"
+    data-over-header="Playing Time"
+  >
+    Min
+  </th>
+  <th
+    aria-label="90s Played"
+    data-stat="minutes_90s"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>90s Played</strong><br><strong>90s played</strong><br>Minutes played divided by 90"
+    data-over-header="Playing Time"
+  >
+    90s
+  </th>
+  <th
+    aria-label="Goals"
+    data-stat="goals"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Goals</strong><br>Goals scored or allowed"
+    data-over-header="Performance"
+  >
+    Gls
+  </th>
+  <th
+    aria-label="Assists"
+    data-stat="assists"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Assists</strong><br>Assists"
+    data-over-header="Performance"
+  >
+    Ast
+  </th>
+  <th
+    aria-label="Goals + Assists"
+    data-stat="goals_assists"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Goals + Assists</strong><br>Goals and Assists"
+    data-over-header="Performance"
+  >
+    G+A
+  </th>
+  <th
+    aria-label="Non-Penalty Goals"
+    data-stat="goals_pens"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Non-Penalty Goals</strong><br>Non-Penalty Goals"
+    data-over-header="Performance"
+  >
+    G-PK
+  </th>
+  <th
+    aria-label="Penalty Kicks Made"
+    data-stat="pens_made"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Penalty Kicks Made</strong><br>Penalty Kicks Made"
+    data-over-header="Performance"
+  >
+    PK
+  </th>
+  <th
+    aria-label="Penalty Kicks Attempted"
+    data-stat="pens_att"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Penalty Kicks Attempted</strong><br>Penalty Kicks Attempted"
+    data-over-header="Performance"
+  >
+    PKatt
+  </th>
+  <th
+    aria-label="Yellow Cards"
+    data-stat="cards_yellow"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Yellow Cards</strong><br>Yellow Cards"
+    data-over-header="Performance"
+  >
+    CrdY
+  </th>
+  <th
+    aria-label="Red Cards"
+    data-stat="cards_red"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Red Cards</strong><br>Red Cards"
+    data-over-header="Performance"
+  >
+    CrdR
+  </th>
+  <th
+    aria-label="xG"
+    data-stat="xg"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="Expected Goals<br>xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="xG"
+  >
+    xG
+  </th>
+  <th
+    aria-label="Non-Penalty xG"
+    data-stat="npxg"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Non-Penalty xG</strong><br><strong>Non-Penalty Expected Goals</strong><br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="Non-Penalty xG"
+  >
+    npxG
+  </th>
+  <th
+    aria-label="xAG"
+    data-stat="xg_assist"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Expected Assisted Goals</strong><br>xG which follows a pass that assists a shot<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="xAG"
+  >
+    xAG
+  </th>
+  <th
+    aria-label="npxG + xAG"
+    data-stat="npxg_xg_assist"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>npxG + xAG</strong><br>Non-Penalty Expected Goals plus Assisted Goals<br>xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Expected"
+  >
+    npxG+xAG
+  </th>
+  <th
+    aria-label="Progressive Carries"
+    data-stat="progressive_carries"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Progressive Carries</strong><br>Carries that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any carry into the penalty area. Excludes carries which end in the defending 50% of the pitch"
+    data-over-header="Progression"
+  >
+    PrgC
+  </th>
+  <th
+    aria-label="Progressive Passes"
+    data-stat="progressive_passes"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Progressive Passes</strong><br>Progressive Passes<br>Completed passes that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area. Excludes passes from the defending 40% of the pitch"
+    data-over-header="Progression"
+  >
+    PrgP
+  </th>
+  <th
+    aria-label="Progressive Passes Rec"
+    data-stat="progressive_passes_received"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Progressive Passes Rec</strong><br>Progressive Passes Received<br>Completed passes that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area. Excludes passes from the defending 40% of the pitch"
+    data-over-header="Progression"
+  >
+    PrgR
+  </th>
+  <th
+    aria-label="Goals/90"
+    data-stat="goals_per90"
+    scope="col"
+    class="poptip hide_non_quals center group_start"
+    data-tip="<strong>Goals/90</strong><br>Goals Scored per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Goals/90"
+  >
+    Gls
+  </th>
+  <th
+    aria-label="Assists/90"
+    data-stat="assists_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Assists/90</strong><br>Assists per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Assists/90"
+  >
+    Ast
+  </th>
+  <th
+    aria-label="Goals + Assists/90"
+    data-stat="goals_assists_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Goals + Assists/90</strong><br>Goals and Assists per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Goals + Assists/90"
+  >
+    G+A
+  </th>
+  <th
+    aria-label="Non-Penalty Goals/90"
+    data-stat="goals_pens_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Non-Penalty Goals/90</strong><br>Goals minus Penalty Kicks made per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Non-Penalty Goals/90"
+  >
+    G-PK
+  </th>
+  <th
+    aria-label="Non-Penalty Goals + Assists/90"
+    data-stat="goals_assists_pens_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Non-Penalty Goals + Assists/90</strong><br>Goals plus Assists minus Penalty Kicks made per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="Non-Penalty Goals + Assists/90"
+  >
+    G+A-PK
+  </th>
+  <th
+    aria-label="xG/90"
+    data-stat="xg_per90"
+    scope="col"
+    class="poptip hide_non_quals center group_start"
+    data-tip="<strong>xG/90</strong><br>Expected Goals per 90 minutes<br>xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="xG/90"
+  >
+    xG
+  </th>
+  <th
+    aria-label="xAG/90"
+    data-stat="xg_assist_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>xAG/90</strong><br>Expected Assisted Goals per 90 minutes<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="xAG/90"
+  >
+    xAG
+  </th>
+  <th
+    aria-label="xG + xAG/90"
+    data-stat="xg_xg_assist_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>xG + xAG/90</strong><br>Expected Goals plus Assisted Goals per 90 minutes<br>xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+  >
+    xG+xAG
+  </th>
+  <th
+    aria-label="npxG/90"
+    data-stat="npxg_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>npxG/90</strong><br>Non-Penalty Expected Goals per 90 minutes<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+    data-filter="1"
+    data-name="npxG/90"
+  >
+    npxG
+  </th>
+  <th
+    aria-label="npxG + xAG"
+    data-stat="npxg_xg_assist_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>npxG + xAG</strong><br>Non-Penalty Expected Goals plus Assisted Goals per 90 minutes<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Per 90 Minutes"
+  >
+    npxG+xAG
+  </th>
+</tr>
+<tr>
+  <th
+    aria-label="Player"
+    data-stat="player"
+    scope="col"
+    class="poptip sort_default_asc left"
+  >
+    Player
+  </th>
+  <th aria-label="Span" data-stat="span" scope="col" class="poptip center">
+    Span
+  </th>
+  <th
+    aria-label="Nation"
+    data-stat="nationality"
+    scope="col"
+    class="poptip sort_default_asc center"
+    data-tip="Nationality of the player.<br>First, we check our records in international play at senior level.<br>Then youth level.<br>Then citizenship presented on wikipedia.<br>Finally, we use their birthplace when available."
+  >
+    Nation
+  </th>
+  <th
+    aria-label="Position"
+    data-stat="position"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Position</strong><br>Position most commonly played by the player<br>GK - Goalkeepers<br>DF - Defenders<br>MF - Midfielders<br>FW - Forwards<br>FB - Fullbacks<br>LB - Left Backs<br>RB - Right Backs<br>CB - Center Backs<br>DM - Defensive Midfielders<br>CM - Central Midfielders<br>LM - Left Midfielders<br>RM - Right Midfielders<br>WM - Wide Midfielders<br>LW - Left Wingers<br>RW - Right Wingers<br>AM - Attacking Midfielders<br>"
+  >
+    Pos
+  </th>
+  <th
+    aria-label="Squad"
+    data-stat="team"
+    scope="col"
+    class="poptip sort_default_asc center"
+  >
+    Squad
+  </th>
+  <th
+    aria-label="90s Played"
+    data-stat="minutes_90s"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>90s Played</strong><br><strong>90s played</strong><br>Minutes played divided by 90"
+    data-over-header="Playing Time"
+  >
+    90s
+  </th>
+  <th
+    aria-label="Goals"
+    data-stat="goals"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Goals</strong><br>Goals scored or allowed"
+    data-over-header="Standard"
+  >
+    Gls
+  </th>
+  <th
+    aria-label="Shots Total"
+    data-stat="shots"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Shots Total</strong><br>Shots Total<br>Does not include penalty kicks"
+    data-over-header="Standard"
+  >
+    Sh
+  </th>
+  <th
+    aria-label="Shots on target"
+    data-stat="shots_on_target"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Shots on target</strong><br>Shots on target<br>Note: Shots on target do not include penalty kicks"
+    data-over-header="Standard"
+  >
+    SoT
+  </th>
+  <th
+    aria-label="Shots on target %"
+    data-stat="shots_on_target_pct"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Shots on target %</strong><br>Percentage of shots that are on target<br>Minimum .395 shots per squad game to qualify as a leader<br>Note: Shots on target do not include penalty kicks"
+    data-over-header="Standard"
+    data-filter="1"
+    data-name="Shots on target %"
+  >
+    SoT%
+  </th>
+  <th
+    aria-label="Shots Total/90"
+    data-stat="shots_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Shots Total/90</strong><br>Shots total per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Standard"
+    data-filter="1"
+    data-name="Shots Total/90"
+  >
+    Sh/90
+  </th>
+  <th
+    aria-label="Shots on target/90"
+    data-stat="shots_on_target_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Shots on target/90</strong><br>Shots on target per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader<br>Note: Shots on target do not include penalty kicks"
+    data-over-header="Standard"
+    data-filter="1"
+    data-name="Shots on target/90"
+  >
+    SoT/90
+  </th>
+  <th
+    aria-label="Goals/Shot"
+    data-stat="goals_per_shot"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Goals/Shot</strong><br>Goals per shot<br>Minimum .395 shots per squad game to qualify as a leader"
+    data-over-header="Standard"
+    data-filter="1"
+    data-name="Goals/Shot"
+  >
+    G/Sh
+  </th>
+  <th
+    aria-label="Goals/Shot on target"
+    data-stat="goals_per_shot_on_target"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Goals/Shot on target</strong><br>Goals per shot on target<br>Minimum .111 shots on target per squad game to qualify as a leader<br>Note: Shots on target do not include penalty kicks"
+    data-over-header="Standard"
+    data-filter="1"
+    data-name="Goals/Shot on target"
+  >
+    G/SoT
+  </th>
+  <th
+    aria-label="Average Shot Distance"
+    data-stat="average_shot_distance"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Average Shot Distance</strong><br>Average distance, in yards, from goal of all shots taken<br>Minimum .395 shots per squad game to qualify as a leader<br>Does not include penalty kicks"
+    data-over-header="Standard"
+    data-filter="1"
+    data-name="Average Shot Distance"
+  >
+    Dist
+  </th>
+  <th
+    aria-label="Shots from free kicks"
+    data-stat="shots_free_kicks"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Shots from free kicks</strong><br>Shots from free kicks"
+    data-over-header="Standard"
+  >
+    FK
+  </th>
+  <th
+    aria-label="Penalty Kicks Made"
+    data-stat="pens_made"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Penalty Kicks Made</strong><br>Penalty Kicks Made"
+    data-over-header="Standard"
+  >
+    PK
+  </th>
+  <th
+    aria-label="Penalty Kicks Attempted"
+    data-stat="pens_att"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Penalty Kicks Attempted</strong><br>Penalty Kicks Attempted"
+    data-over-header="Standard"
+  >
+    PKatt
+  </th>
+  <th
+    aria-label="xG"
+    data-stat="xg"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="Expected Goals<br>xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="xG"
+  >
+    xG
+  </th>
+  <th
+    aria-label="Non-Penalty xG"
+    data-stat="npxg"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Non-Penalty xG</strong><br><strong>Non-Penalty Expected Goals</strong><br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="Non-Penalty xG"
+  >
+    npxG
+  </th>
+  <th
+    aria-label="npxG/Sh"
+    data-stat="npxg_per_shot"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="Non-Penalty Expected Goals per shot<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum .395 shots per squad game to qualify as a leader"
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="npxG/Sh"
+  >
+    npxG/Sh
+  </th>
+  <th
+    aria-label="Goals - xG"
+    data-stat="xg_net"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Goals - xG</strong><br><strong>Goals minus Expected Goals</strong><br>xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="Goals - xG"
+  >
+    G-xG
+  </th>
+  <th
+    aria-label="Non-Penalty Goals - npxG"
+    data-stat="npxg_net"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Non-Penalty Goals - npxG</strong><br><strong>Non-Penalty Goals minus Non-Penalty Expected Goals</strong><br>xG totals include penalty kicks, but do not include penalty shootouts (unless otherwise noted).<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-over-header="Expected"
+    data-filter="1"
+    data-name="Non-Penalty Goals - npxG"
+  >
+    np:G-xG
+  </th>
+</tr>
+<tr>
+  <th
+    aria-label="Player"
+    data-stat="player"
+    scope="col"
+    class="poptip sort_default_asc left"
+  >
+    Player
+  </th>
+  <th aria-label="Span" data-stat="span" scope="col" class="poptip center">
+    Span
+  </th>
+  <th
+    aria-label="Nation"
+    data-stat="nationality"
+    scope="col"
+    class="poptip sort_default_asc center"
+    data-tip="Nationality of the player.<br>First, we check our records in international play at senior level.<br>Then youth level.<br>Then citizenship presented on wikipedia.<br>Finally, we use their birthplace when available."
+  >
+    Nation
+  </th>
+  <th
+    aria-label="Position"
+    data-stat="position"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Position</strong><br>Position most commonly played by the player<br>GK - Goalkeepers<br>DF - Defenders<br>MF - Midfielders<br>FW - Forwards<br>FB - Fullbacks<br>LB - Left Backs<br>RB - Right Backs<br>CB - Center Backs<br>DM - Defensive Midfielders<br>CM - Central Midfielders<br>LM - Left Midfielders<br>RM - Right Midfielders<br>WM - Wide Midfielders<br>LW - Left Wingers<br>RW - Right Wingers<br>AM - Attacking Midfielders<br>"
+  >
+    Pos
+  </th>
+  <th
+    aria-label="Squad"
+    data-stat="team"
+    scope="col"
+    class="poptip sort_default_asc center"
+  >
+    Squad
+  </th>
+  <th
+    aria-label="90s Played"
+    data-stat="minutes_90s"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>90s Played</strong><br><strong>90s played</strong><br>Minutes played divided by 90"
+    data-over-header="Playing Time"
+  >
+    90s
+  </th>
+  <th
+    aria-label="Passes Completed"
+    data-stat="passes_completed"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Passes Completed</strong><br>Passes Completed"
+    data-over-header="Total"
+  >
+    Cmp
+  </th>
+  <th
+    aria-label="Passes Attempted"
+    data-stat="passes"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes Attempted</strong><br>Passes Attempted"
+    data-over-header="Total"
+  >
+    Att
+  </th>
+  <th
+    aria-label="Pass Completion %"
+    data-stat="passes_pct"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Pass Completion %</strong><br>Pass Completion Percentage<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Total"
+    data-filter="1"
+    data-name="Pass Completion %"
+  >
+    Cmp%
+  </th>
+  <th
+    aria-label="Total Passing Distance"
+    data-stat="passes_total_distance"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Total Passing Distance</strong><br>Total distance, in yards, that completed passes have traveled in any direction"
+    data-over-header="Total"
+  >
+    TotDist
+  </th>
+  <th
+    aria-label="Progressive Passing Distance"
+    data-stat="passes_progressive_distance"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Progressive Passing Distance</strong><br>Progressive Distance<br>Total distance, in yards, that completed passes have traveled towards the opponent's goal. Note: Passes away from opponent's goal are counted as zero progressive yards."
+    data-over-header="Total"
+  >
+    PrgDist
+  </th>
+  <th
+    aria-label="Passes Completed (Short)"
+    data-stat="passes_completed_short"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Passes Completed (Short)</strong><br>Passes Completed<br>Passes between 5 and 15 yards"
+    data-over-header="Short"
+  >
+    Cmp
+  </th>
+  <th
+    aria-label="Passes Attempted (Short)"
+    data-stat="passes_short"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes Attempted (Short)</strong><br>Passes Attempted<br>Passes between 5 and 15 yards"
+    data-over-header="Short"
+  >
+    Att
+  </th>
+  <th
+    aria-label="Pass Completion % (Short)"
+    data-stat="passes_pct_short"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Pass Completion % (Short)</strong><br>Pass Completion Percentage<br>Passes between 5 and 15 yards<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Short"
+  >
+    Cmp%
+  </th>
+  <th
+    aria-label="Passes Completed (Medium)"
+    data-stat="passes_completed_medium"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Passes Completed (Medium)</strong><br>Passes Completed<br>Passes between 15 and 30 yards"
+    data-over-header="Medium"
+  >
+    Cmp
+  </th>
+  <th
+    aria-label="Passes Attempted (Medium)"
+    data-stat="passes_medium"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes Attempted (Medium)</strong><br>Passes Attempted<br>Passes between 15 and 30 yards"
+    data-over-header="Medium"
+  >
+    Att
+  </th>
+  <th
+    aria-label="Pass Completion % (Medium)"
+    data-stat="passes_pct_medium"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Pass Completion % (Medium)</strong><br>Pass Completion Percentage<br>Passes between 15 and 30 yards<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Medium"
+  >
+    Cmp%
+  </th>
+  <th
+    aria-label="Passes Completed (Long)"
+    data-stat="passes_completed_long"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Passes Completed (Long)</strong><br>Passes Completed<br>Passes longer than 30 yards"
+    data-over-header="Long"
+  >
+    Cmp
+  </th>
+  <th
+    aria-label="Passes Attempted (Long)"
+    data-stat="passes_long"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes Attempted (Long)</strong><br>Passes Attempted<br>Passes longer than 30 yards"
+    data-over-header="Long"
+  >
+    Att
+  </th>
+  <th
+    aria-label="Pass Completion % (Long)"
+    data-stat="passes_pct_long"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Pass Completion % (Long)</strong><br>Pass Completion Percentage<br>Passes longer than 30 yards<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="Long"
+  >
+    Cmp%
+  </th>
+  <th
+    aria-label="Assists"
+    data-stat="assists"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Assists</strong><br>Assists"
+  >
+    Ast
+  </th>
+  <th
+    aria-label="xAG"
+    data-stat="xg_assist"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Expected Assisted Goals</strong><br>xG which follows a pass that assists a shot<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-filter="1"
+    data-name="xAG"
+  >
+    xAG
+  </th>
+  <th
+    aria-label="Expected Assists"
+    data-stat="pass_xa"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Expected Assists</strong><br><strong>Expected Assists</strong><br>The likelihood each completed pass becomes a goal assists<br>given the pass type, phase of play, location and distance.<br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available.<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-filter="1"
+    data-name="Expected Assists"
+  >
+    xA
+  </th>
+  <th
+    aria-label="A-xAG"
+    data-stat="xg_assist_net"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Assists minus Expected Goals Assisted</strong><br>Provided by Opta.<br>An underline indicates there is a match that is missing data, but will be updated when available."
+    data-filter="1"
+    data-name="A-xAG"
+  >
+    A-xAG
+  </th>
+  <th
+    aria-label="Key Passes"
+    data-stat="assisted_shots"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Key Passes</strong><br>Passes that directly lead to a shot (assisted shots)"
+  >
+    KP
+  </th>
+  <th
+    aria-label="Passes into Final Third"
+    data-stat="passes_into_final_third"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes into Final Third</strong><br>Completed passes that enter the 1/3 of the pitch closest to the goal<br>Not including set pieces"
+  >
+    1/3
+  </th>
+  <th
+    aria-label="Passes into Penalty Area"
+    data-stat="passes_into_penalty_area"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes into Penalty Area</strong><br>Completed passes into the 18-yard box<br>Not including set pieces"
+  >
+    PPA
+  </th>
+  <th
+    aria-label="Crosses into Penalty Area"
+    data-stat="crosses_into_penalty_area"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Crosses into Penalty Area</strong><br>Completed crosses into the 18-yard box<br>Not including set pieces"
+  >
+    CrsPA
+  </th>
+  <th
+    aria-label="Progressive Passes"
+    data-stat="progressive_passes"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Progressive Passes</strong><br>Progressive Passes<br>Completed passes that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area. Excludes passes from the defending 40% of the pitch"
+  >
+    PrgP
+  </th>
+</tr>
+<tr>
+  <th
+    aria-label="Player"
+    data-stat="player"
+    scope="col"
+    class="poptip sort_default_asc left"
+  >
+    Player
+  </th>
+  <th aria-label="Span" data-stat="span" scope="col" class="poptip center">
+    Span
+  </th>
+  <th
+    aria-label="Nation"
+    data-stat="nationality"
+    scope="col"
+    class="poptip sort_default_asc center"
+    data-tip="Nationality of the player.<br>First, we check our records in international play at senior level.<br>Then youth level.<br>Then citizenship presented on wikipedia.<br>Finally, we use their birthplace when available."
+  >
+    Nation
+  </th>
+  <th
+    aria-label="Position"
+    data-stat="position"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Position</strong><br>Position most commonly played by the player<br>GK - Goalkeepers<br>DF - Defenders<br>MF - Midfielders<br>FW - Forwards<br>FB - Fullbacks<br>LB - Left Backs<br>RB - Right Backs<br>CB - Center Backs<br>DM - Defensive Midfielders<br>CM - Central Midfielders<br>LM - Left Midfielders<br>RM - Right Midfielders<br>WM - Wide Midfielders<br>LW - Left Wingers<br>RW - Right Wingers<br>AM - Attacking Midfielders<br>"
+  >
+    Pos
+  </th>
+  <th
+    aria-label="Squad"
+    data-stat="team"
+    scope="col"
+    class="poptip sort_default_asc center"
+  >
+    Squad
+  </th>
+  <th
+    aria-label="90s Played"
+    data-stat="minutes_90s"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>90s Played</strong><br><strong>90s played</strong><br>Minutes played divided by 90"
+    data-over-header="Playing Time"
+  >
+    90s
+  </th>
+  <th
+    aria-label="Passes Attempted"
+    data-stat="passes"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes Attempted</strong><br>Passes Attempted"
+    data-over-header="Total"
+  >
+    Att
+  </th>
+  <th
+    aria-label="Live-ball passes"
+    data-stat="passes_live"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Live-ball passes</strong><br>Live-ball passes"
+    data-over-header="Pass Types"
+  >
+    Live
+  </th>
+  <th
+    aria-label="Dead-ball passes"
+    data-stat="passes_dead"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Dead-ball passes</strong><br>Dead-ball passes<br>Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks"
+    data-over-header="Pass Types"
+  >
+    Dead
+  </th>
+  <th
+    aria-label="Passes from Free Kicks"
+    data-stat="passes_free_kicks"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes from Free Kicks</strong><br>Passes attempted from free kicks"
+    data-over-header="Pass Types"
+  >
+    FK
+  </th>
+  <th
+    aria-label="Through Balls"
+    data-stat="through_balls"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Through Balls</strong><br>Completed pass sent between back defenders into open space"
+    data-over-header="Pass Types"
+  >
+    TB
+  </th>
+  <th
+    aria-label="Switches"
+    data-stat="passes_switches"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Switches</strong><br>Passes that travel more than 40 yards of the width of the pitch"
+    data-over-header="Pass Types"
+  >
+    Sw
+  </th>
+  <th
+    aria-label="Crosses"
+    data-stat="crosses"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Crosses</strong><br>Crosses"
+    data-over-header="Pass Types"
+  >
+    Crs
+  </th>
+  <th
+    aria-label="Throw-Ins taken"
+    data-stat="throw_ins"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Throw-Ins taken</strong><br>Throw-Ins taken"
+    data-over-header="Pass Types"
+  >
+    TI
+  </th>
+  <th
+    aria-label="Corner Kicks"
+    data-stat="corner_kicks"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Corner Kicks</strong><br>Corner Kicks"
+    data-over-header="Pass Types"
+  >
+    CK
+  </th>
+  <th
+    aria-label="Inswinging Corner Kicks"
+    data-stat="corner_kicks_in"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Inswinging Corner Kicks</strong><br>Inswinging Corner Kicks"
+    data-over-header="Corner Kicks"
+  >
+    In
+  </th>
+  <th
+    aria-label="Outswinging Corner Kicks"
+    data-stat="corner_kicks_out"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Outswinging Corner Kicks</strong><br>Outswinging Corner Kicks"
+    data-over-header="Corner Kicks"
+  >
+    Out
+  </th>
+  <th
+    aria-label="Straight Corner Kicks"
+    data-stat="corner_kicks_straight"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Straight Corner Kicks</strong><br>Straight Corner Kicks"
+    data-over-header="Corner Kicks"
+  >
+    Str
+  </th>
+  <th
+    aria-label="Passes Completed"
+    data-stat="passes_completed"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Passes Completed</strong><br>Passes Completed"
+    data-over-header="Outcomes"
+  >
+    Cmp
+  </th>
+  <th
+    aria-label="Passes Offside"
+    data-stat="passes_offsides"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes Offside</strong><br>Offsides"
+    data-over-header="Outcomes"
+  >
+    Off
+  </th>
+  <th
+    aria-label="Passes Blocked"
+    data-stat="passes_blocked"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Passes Blocked</strong><br>Blocked by the opponent who was standing it the path"
+    data-over-header="Outcomes"
+  >
+    Blocks
+  </th>
+</tr>
+<tr>
+  <th
+    aria-label="Player"
+    data-stat="player"
+    scope="col"
+    class="poptip sort_default_asc left"
+  >
+    Player
+  </th>
+  <th aria-label="Span" data-stat="span" scope="col" class="poptip center">
+    Span
+  </th>
+  <th
+    aria-label="Nation"
+    data-stat="nationality"
+    scope="col"
+    class="poptip sort_default_asc center"
+    data-tip="Nationality of the player.<br>First, we check our records in international play at senior level.<br>Then youth level.<br>Then citizenship presented on wikipedia.<br>Finally, we use their birthplace when available."
+  >
+    Nation
+  </th>
+  <th
+    aria-label="Position"
+    data-stat="position"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>Position</strong><br>Position most commonly played by the player<br>GK - Goalkeepers<br>DF - Defenders<br>MF - Midfielders<br>FW - Forwards<br>FB - Fullbacks<br>LB - Left Backs<br>RB - Right Backs<br>CB - Center Backs<br>DM - Defensive Midfielders<br>CM - Central Midfielders<br>LM - Left Midfielders<br>RM - Right Midfielders<br>WM - Wide Midfielders<br>LW - Left Wingers<br>RW - Right Wingers<br>AM - Attacking Midfielders<br>"
+  >
+    Pos
+  </th>
+  <th
+    aria-label="Squad"
+    data-stat="team"
+    scope="col"
+    class="poptip sort_default_asc center"
+  >
+    Squad
+  </th>
+  <th
+    aria-label="90s Played"
+    data-stat="minutes_90s"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>90s Played</strong><br><strong>90s played</strong><br>Minutes played divided by 90"
+    data-over-header="Playing Time"
+  >
+    90s
+  </th>
+  <th
+    aria-label="Shot-Creating Actions"
+    data-stat="sca"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Shot-Creating Actions</strong><br>Shot-Creating Actions<br>The two offensive actions directly leading to a shot, such as passes, take-ons and drawing fouls. Note: A single player can receive credit for multiple actions and the shot-taker can also receive credit."
+    data-over-header="SCA"
+  >
+    SCA
+  </th>
+  <th
+    aria-label="Shot-Creating Actions/90"
+    data-stat="sca_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Shot-Creating Actions/90</strong><br>Shot-Creating Actions per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="SCA"
+    data-filter="1"
+    data-name="Shot-Creating Actions/90"
+  >
+    SCA90
+  </th>
+  <th
+    aria-label="SCA (PassLive)"
+    data-stat="sca_passes_live"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>SCA (PassLive)</strong><br>Completed live-ball passes that lead to a shot attempt"
+    data-over-header="SCA Types"
+  >
+    PassLive
+  </th>
+  <th
+    aria-label="SCA (PassDead)"
+    data-stat="sca_passes_dead"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>SCA (PassDead)</strong><br>Completed dead-ball passes that lead to a shot attempt.<br>Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks"
+    data-over-header="SCA Types"
+  >
+    PassDead
+  </th>
+  <th
+    aria-label="SCA (TO)"
+    data-stat="sca_take_ons"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>SCA (TO)</strong><br>Successful take-ons that lead to a shot attempt"
+    data-over-header="SCA Types"
+  >
+    TO
+  </th>
+  <th
+    aria-label="SCA (Sh)"
+    data-stat="sca_shots"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>SCA (Sh)</strong><br>Shots that lead to another shot attempt"
+    data-over-header="SCA Types"
+  >
+    Sh
+  </th>
+  <th
+    aria-label="SCA (Fld)"
+    data-stat="sca_fouled"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>SCA (Fld)</strong><br>Fouls drawn that lead to a shot attempt"
+    data-over-header="SCA Types"
+  >
+    Fld
+  </th>
+  <th
+    aria-label="SCA (Def)"
+    data-stat="sca_defense"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>SCA (Def)</strong><br>Defensive actions that lead to a shot attempt"
+    data-over-header="SCA Types"
+  >
+    Def
+  </th>
+  <th
+    aria-label="Goal-Creating Actions"
+    data-stat="gca"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>Goal-Creating Actions</strong><br>Goal-Creating Actions<br>The two offensive actions directly leading to a goal, such as passes, take-ons and drawing fouls. Note: A single player can receive credit for multiple actions and the shot-taker can also receive credit."
+    data-over-header="GCA"
+  >
+    GCA
+  </th>
+  <th
+    aria-label="Goal-Creating Actions/90"
+    data-stat="gca_per90"
+    scope="col"
+    class="poptip hide_non_quals center"
+    data-tip="<strong>Goal-Creating Actions/90</strong><br>Goal-Creating Actions per 90 minutes<br>Minimum 30 minutes played per squad game to qualify as a leader"
+    data-over-header="GCA"
+    data-filter="1"
+    data-name="Goal-Creating Actions/90"
+  >
+    GCA90
+  </th>
+  <th
+    aria-label="GCA (PassLive)"
+    data-stat="gca_passes_live"
+    scope="col"
+    class="poptip center group_start"
+    data-tip="<strong>GCA (PassLive)</strong><br>Completed live-ball passes that lead to a goal"
+    data-over-header="GCA Types"
+  >
+    PassLive
+  </th>
+  <th
+    aria-label="GCA (PassDead)"
+    data-stat="gca_passes_dead"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>GCA (PassDead)</strong><br>Completed dead-ball passes that lead to a goal. Includes free kicks, corner kicks, kick offs, throw-ins and goal kicks"
+    data-over-header="GCA Types"
+  >
+    PassDead
+  </th>
+  <th
+    aria-label="GCA (TO)"
+    data-stat="gca_take_ons"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>GCA (TO)</strong><br>Successful take-ons that lead to a goal"
+    data-over-header="GCA Types"
+  >
+    TO
+  </th>
+  <th
+    aria-label="GCA (Sh)"
+    data-stat="gca_shots"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>GCA (Sh)</strong><br>Shots that lead to another goal-scoring shot"
+    data-over-header="GCA Types"
+  >
+    Sh
+  </th>
+  <th
+    aria-label="GCA (Fld)"
+    data-stat="gca_fouled"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>GCA (Fld)</strong><br>Fouls drawn that lead to a goal"
+    data-over-header="GCA Types"
+  >
+    Fld
+  </th>
+  <th
+    aria-label="GCA (Def)"
+    data-stat="gca_defense"
+    scope="col"
+    class="poptip center"
+    data-tip="<strong>GCA (Def)</strong><br>Defensive actions that lead to a goal"
+    data-over-header="GCA Types"
+  >
+    Def
+  </th>
+</tr>
