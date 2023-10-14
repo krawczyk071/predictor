@@ -160,5 +160,6 @@ cython_debug/
 #.idea/
 
 soccerdata
-data
+
 data/WhoScored/
+data/ws2223epl_events2e.csv
