@@ -1,0 +1,429 @@
+,home_team,away_team,game_id,h,a
+0,Leicester,Everton,1641031,14,31
+1,Arsenal,Chelsea,1641025,13,15
+2,Liverpool,Fulham,1640925,26,170
+3,Manchester City,West Ham,1640927,167,29
+4,Brighton,Manchester United,1640921,211,32
+5,Bournemouth,Chelsea,1641035,183,15
+6,Manchester City,Leeds,1641039,167,19
+7,Tottenham,Crystal Palace,1641042,30,162
+8,Wolves,Aston Villa,1641044,161,24
+9,Liverpool,Brentford,1641038,26,189
+10,Newcastle,Arsenal,1641040,23,13
+11,West Ham,Manchester United,1641043,29,32
+12,Fulham,Leicester,1641037,170,14
+13,Brighton,Everton,1641036,211,31
+14,Nottingham Forest,Southampton,1641041,174,18
+15,Leeds,Newcastle,1641051,19,23
+16,Chelsea,Nottingham Forest,1641048,15,174
+17,Crystal Palace,Bournemouth,1641049,162,183
+18,Manchester United,Wolves,1641053,32,161
+19,Aston Villa,Tottenham,1641046,24,30
+20,Southampton,Fulham,1640984,18,170
+21,Brentford,West Ham,1641047,189,29
+22,Everton,Manchester City,1641050,31,167
+23,Arsenal,Brighton,1641045,13,211
+24,Leicester,Liverpool,1641052,14,26
+25,Newcastle,Brighton,1640970,23,211
+26,Tottenham,Brentford,1640997,30,189
+27,Wolves,Everton,1641001,161,31
+28,Bournemouth,Manchester United,1640985,183,32
+29,Fulham,Crystal Palace,1640987,170,162
+30,Liverpool,Aston Villa,1640989,26,24
+31,Nottingham Forest,Arsenal,1640995,174,13
+32,West Ham,Leeds,1640999,29,19
+33,Brighton,Southampton,1640986,211,18
+34,Manchester City,Chelsea,1640991,167,15
+35,Newcastle,Leicester,1640993,23,14
+36,Brighton,Manchester City,1640994,211,167
+37,Manchester United,Chelsea,1641004,32,15
+38,Aston Villa,Brighton,1641005,24,211
+39,Brentford,Manchester City,1641007,189,167
+40,Chelsea,Newcastle,1641009,15,23
+41,Crystal Palace,Nottingham Forest,1641011,162,174
+42,Everton,Bournemouth,1641013,31,183
+43,Leeds,Tottenham,1641015,19,30
+44,Leicester,West Ham,1641017,14,29
+45,Manchester United,Fulham,1641019,32,170
+46,Southampton,Liverpool,1641021,18,26
+47,Arsenal,Wolves,1641003,13,161
+48,Leicester,Everton,1641031,14,31
+49,Arsenal,Chelsea,1641025,13,15
+50,Liverpool,Fulham,1640925,26,170
+51,Manchester City,West Ham,1640927,167,29
+52,Brighton,Manchester United,1640921,211,32
+53,Bournemouth,Chelsea,1641035,183,15
+54,Manchester City,Leeds,1641039,167,19
+55,Tottenham,Crystal Palace,1641042,30,162
+56,Wolves,Aston Villa,1641044,161,24
+57,Liverpool,Brentford,1641038,26,189
+58,Newcastle,Arsenal,1641040,23,13
+59,West Ham,Manchester United,1641043,29,32
+60,Fulham,Leicester,1641037,170,14
+61,Brighton,Everton,1641036,211,31
+62,Nottingham Forest,Southampton,1641041,174,18
+63,Leeds,Newcastle,1641051,19,23
+64,Chelsea,Nottingham Forest,1641048,15,174
+65,Crystal Palace,Bournemouth,1641049,162,183
+66,Manchester United,Wolves,1641053,32,161
+67,Aston Villa,Tottenham,1641046,24,30
+68,Southampton,Fulham,1640984,18,170
+69,Brentford,West Ham,1641047,189,29
+70,Everton,Manchester City,1641050,31,167
+71,Arsenal,Brighton,1641045,13,211
+72,Leicester,Liverpool,1641052,14,26
+73,Newcastle,Brighton,1640970,23,211
+74,Tottenham,Brentford,1640997,30,189
+75,Wolves,Everton,1641001,161,31
+76,Bournemouth,Manchester United,1640985,183,32
+77,Fulham,Crystal Palace,1640987,170,162
+78,Liverpool,Aston Villa,1640989,26,24
+79,Nottingham Forest,Arsenal,1640995,174,13
+80,West Ham,Leeds,1640999,29,19
+81,Brighton,Southampton,1640986,211,18
+82,Manchester City,Chelsea,1640991,167,15
+83,Newcastle,Leicester,1640993,23,14
+84,Brighton,Manchester City,1640994,211,167
+85,Manchester United,Chelsea,1641004,32,15
+86,Aston Villa,Brighton,1641005,24,211
+87,Brentford,Manchester City,1641007,189,167
+88,Chelsea,Newcastle,1641009,15,23
+89,Crystal Palace,Nottingham Forest,1641011,162,174
+90,Everton,Bournemouth,1641013,31,183
+91,Leeds,Tottenham,1641015,19,30
+92,Leicester,West Ham,1641017,14,29
+93,Manchester United,Fulham,1641019,32,170
+94,Southampton,Liverpool,1641021,18,26
+95,Arsenal,Wolves,1641003,13,161
+96,Manchester City,Liverpool,1640947,167,26
+97,Crystal Palace,Leicester,1640943,162,14
+98,Nottingham Forest,Wolves,1640951,174,161
+99,Arsenal,Leeds,1640935,13,19
+100,Bournemouth,Fulham,1640937,183,170
+101,Brighton,Brentford,1640939,211,189
+102,Chelsea,Aston Villa,1640941,15,24
+103,West Ham,Southampton,1640953,29,18
+104,Newcastle,Manchester United,1640949,23,32
+105,Everton,Tottenham,1640945,31,30
+106,Bournemouth,Brighton,1640735,183,211
+107,Leeds,Nottingham Forest,1640738,19,174
+108,Leicester,Aston Villa,1640739,14,24
+109,Chelsea,Liverpool,1640747,15,26
+110,Manchester United,Brentford,1640968,32,189
+111,West Ham,Newcastle,1640743,29,23
+112,Manchester United,Everton,1640967,32,31
+113,Leicester,Bournemouth,1640963,14,183
+114,Tottenham,Brighton,1640971,30,211
+115,Wolves,Chelsea,1640973,161,15
+116,Aston Villa,Nottingham Forest,1640955,24,174
+117,Brentford,Newcastle,1640957,189,23
+118,Fulham,West Ham,1640959,170,29
+119,Southampton,Manchester City,1640969,18,167
+120,Leeds,Crystal Palace,1640961,19,162
+121,Liverpool,Arsenal,1640965,26,13
+122,Aston Villa,Newcastle,1640974,24,23
+123,Chelsea,Brighton,1640975,15,211
+124,Everton,Fulham,1640976,31,170
+125,Southampton,Crystal Palace,1640980,18,162
+126,Wolves,Brentford,1640983,161,189
+127,Tottenham,Bournemouth,1640981,30,183
+128,Manchester City,Leicester,1640978,167,14
+129,West Ham,Arsenal,1640982,29,13
+130,Nottingham Forest,Manchester United,1640979,174,32
+131,Leeds,Liverpool,1640977,19,26
+132,Arsenal,Southampton,1640988,13,18
+133,Fulham,Leeds,1640998,170,19
+134,Leicester,Wolves,1641000,14,161
+135,Liverpool,Nottingham Forest,1641002,26,174
+136,Brentford,Aston Villa,1640992,189,24
+137,Crystal Palace,Everton,1640996,162,31
+138,Newcastle,Tottenham,1641006,23,30
+139,Bournemouth,West Ham,1640990,183,29
+140,Wolves,Crystal Palace,1641018,161,162
+141,Aston Villa,Fulham,1641020,24,170
+142,Leeds,Leicester,1641010,19,14
+143,Nottingham Forest,Brighton,1641012,174,211
+144,Chelsea,Brentford,1641022,15,189
+145,West Ham,Liverpool,1641016,29,26
+146,Manchester City,Arsenal,1641024,167,13
+147,Southampton,Bournemouth,1641023,18,183
+148,Everton,Newcastle,1641008,31,23
+149,Tottenham,Manchester United,1641014,30,32
+150,Crystal Palace,West Ham,1641029,162,29
+151,Brentford,Nottingham Forest,1641027,189,174
+152,Brighton,Wolves,1641028,211,161
+153,Bournemouth,Leeds,1641026,183,19
+154,Fulham,Manchester City,1641030,170,167
+155,Manchester United,Aston Villa,1641033,32,24
+156,Newcastle,Southampton,1641034,23,18
+157,Liverpool,Tottenham,1641032,26,30
+158,Arsenal,Everton,1640734,13,31
+159,Liverpool,Wolves,1640740,26,161
+160,Manchester City,Newcastle,1640887,167,23
+161,Wolves,Tottenham,1640893,161,30
+162,Arsenal,Bournemouth,1640875,13,183
+163,Aston Villa,Crystal Palace,1640877,24,162
+164,Brighton,West Ham,1640881,211,29
+165,Chelsea,Leeds,1640883,15,19
+166,Southampton,Leicester,1640891,18,14
+167,Nottingham Forest,Everton,1640889,174,31
+168,Liverpool,Manchester United,1640885,26,32
+169,Brentford,Fulham,1640879,189,170
+170,Bournemouth,Liverpool,1640895,183,26
+171,Leeds,Brighton,1640903,19,211
+172,Leicester,Chelsea,1640905,14,15
+173,Everton,Brentford,1640899,31,189
+174,Tottenham,Nottingham Forest,1640911,30,174
+175,Crystal Palace,Manchester City,1640897,162,167
+176,Manchester United,Southampton,1640907,32,18
+177,West Ham,Aston Villa,1640913,29,24
+178,Fulham,Arsenal,1640901,170,13
+179,Newcastle,Wolves,1640909,23,161
+180,Southampton,Brentford,1640742,18,189
+181,Brighton,Crystal Palace,1640746,211,162
+182,Nottingham Forest,Newcastle,1640929,174,23
+183,Southampton,Tottenham,1640931,18,30
+184,Wolves,Leeds,1640933,161,19
+185,Aston Villa,Bournemouth,1640917,24,183
+186,Brentford,Leicester,1640919,189,14
+187,Chelsea,Everton,1640923,15,31
+188,Arsenal,Crystal Palace,1640915,13,162
+189,Chelsea,Fulham,1640902,15,170
+190,Everton,Arsenal,1640904,31,13
+191,Manchester United,Crystal Palace,1640906,32,162
+192,Aston Villa,Leicester,1640896,24,14
+193,Brentford,Southampton,1640898,189,18
+194,Brighton,Bournemouth,1640900,211,183
+195,Wolves,Liverpool,1640914,161,26
+196,Newcastle,West Ham,1640908,23,29
+197,Nottingham Forest,Leeds,1640910,174,19
+198,Tottenham,Manchester City,1640912,30,167
+199,Manchester United,Leeds,1640749,32,19
+200,West Ham,Chelsea,1640934,29,15
+201,Arsenal,Brentford,1640916,13,189
+202,Crystal Palace,Brighton,1640920,162,211
+203,Fulham,Nottingham Forest,1640922,170,174
+204,Leicester,Tottenham,1640926,14,30
+205,Southampton,Wolves,1640932,18,161
+206,Bournemouth,Newcastle,1640918,183,23
+207,Leeds,Manchester United,1640924,19,32
+208,Manchester City,Aston Villa,1640930,167,24
+209,Liverpool,Everton,1640928,26,31
+210,Arsenal,Manchester City,1640784,13,167
+211,Aston Villa,Arsenal,1640936,24,13
+212,Brentford,Crystal Palace,1640938,189,162
+213,Brighton,Fulham,1640940,211,170
+214,Chelsea,Southampton,1640942,15,18
+215,Everton,Leeds,1640944,31,19
+216,Nottingham Forest,Manchester City,1640950,174,167
+217,Wolves,Bournemouth,1640954,161,183
+218,Newcastle,Liverpool,1640948,23,26
+219,Manchester United,Leicester,1640946,32,14
+220,Tottenham,West Ham,1640952,30,29
+221,Fulham,Wolves,1640962,170,161
+222,Leeds,Southampton,1640964,19,18
+223,Leicester,Arsenal,1640966,14,13
+224,Everton,Aston Villa,1640960,31,24
+225,West Ham,Nottingham Forest,1640874,29,174
+226,Bournemouth,Manchester City,1640956,183,167
+227,Crystal Palace,Liverpool,1640958,162,26
+228,Tottenham,Chelsea,1640972,30,15
+229,Tottenham,Aston Villa,1640851,30,24
+230,Nottingham Forest,Chelsea,1640850,174,15
+231,Brentford,Liverpool,1640856,189,26
+232,Everton,Brighton,1640859,31,211
+233,Arsenal,Newcastle,1640854,13,23
+234,Leicester,Fulham,1640861,14,170
+235,Manchester United,Bournemouth,1640862,32,183
+236,Southampton,Nottingham Forest,1640863,18,174
+237,Leeds,West Ham,1640860,19,29
+238,Aston Villa,Wolves,1640855,24,161
+239,Crystal Palace,Tottenham,1640858,162,30
+240,Chelsea,Manchester City,1640857,15,167
+241,Fulham,Chelsea,1640737,170,15
+242,Aston Villa,Leeds,1640864,24,19
+243,Manchester United,Manchester City,1640869,32,167
+244,Nottingham Forest,Leicester,1640871,174,14
+245,Wolves,West Ham,1640873,161,29
+246,Everton,Southampton,1640868,31,18
+247,Brighton,Liverpool,1640866,211,26
+248,Brentford,Bournemouth,1640865,189,183
+249,Chelsea,Crystal Palace,1640867,15,162
+250,Newcastle,Fulham,1640870,23,170
+251,Tottenham,Arsenal,1640872,30,13
+252,Crystal Palace,Manchester United,1640736,162,32
+253,Manchester City,Tottenham,1640741,167,30
+254,Liverpool,Chelsea,1640888,26,15
+255,Leicester,Brighton,1640886,14,211
+256,Southampton,Aston Villa,1640892,18,24
+257,West Ham,Everton,1640894,29,31
+258,Bournemouth,Nottingham Forest,1640878,183,174
+259,Crystal Palace,Newcastle,1640880,162,23
+260,Leeds,Brentford,1640884,19,189
+261,Manchester City,Wolves,1640890,167,161
+262,Arsenal,Manchester United,1640876,13,32
+263,Fulham,Tottenham,1640882,170,30
+264,Brentford,Tottenham,1640836,189,30
+265,Crystal Palace,Fulham,1640838,162,170
+266,Everton,Wolves,1640839,31,161
+267,Leicester,Newcastle,1640841,14,23
+268,Southampton,Brighton,1640843,18,211
+269,Aston Villa,Liverpool,1640835,24,26
+270,Arsenal,West Ham,1640834,13,29
+271,Chelsea,Bournemouth,1640837,15,183
+272,Manchester United,Nottingham Forest,1640842,32,174
+273,Leeds,Manchester City,1640840,19,167
+274,West Ham,Brentford,1640852,29,189
+275,Liverpool,Leicester,1640847,26,14
+276,Wolves,Manchester United,1640853,161,32
+277,Fulham,Southampton,1640846,170,18
+278,Manchester City,Everton,1640848,167,31
+279,Newcastle,Leeds,1640849,23,19
+280,Bournemouth,Crystal Palace,1640844,183,162
+281,Brighton,Arsenal,1640845,211,13
+282,Leeds,Bournemouth,1640817,19,183
+283,Manchester City,Fulham,1640818,167,170
+284,Nottingham Forest,Brentford,1640819,174,189
+285,Wolves,Brighton,1640823,161,211
+286,Everton,Leicester,1640816,31,14
+287,Chelsea,Arsenal,1640815,15,13
+288,Aston Villa,Manchester United,1640814,24,32
+289,West Ham,Crystal Palace,1640822,29,162
+290,Southampton,Newcastle,1640820,18,23
+291,Tottenham,Liverpool,1640821,30,26
+292,Manchester City,Brentford,1640828,167,189
+293,Liverpool,Southampton,1640827,26,18
+294,Bournemouth,Everton,1640824,183,31
+295,Nottingham Forest,Crystal Palace,1640830,174,162
+296,Tottenham,Leeds,1640831,30,19
+297,West Ham,Leicester,1640832,29,14
+298,Newcastle,Chelsea,1640829,23,15
+299,Wolves,Arsenal,1640833,161,13
+300,Brighton,Aston Villa,1640825,211,24
+301,Fulham,Manchester United,1640826,170,32
+302,Arsenal,Tottenham,1640754,13,30
+303,Bournemouth,Brentford,1640755,183,189
+304,Crystal Palace,Chelsea,1640756,162,15
+305,Fulham,Newcastle,1640757,170,23
+306,Liverpool,Brighton,1640760,26,211
+307,Southampton,Everton,1640762,18,31
+308,West Ham,Wolves,1640763,29,161
+309,Manchester City,Manchester United,1640761,167,32
+310,Leeds,Aston Villa,1640758,19,24
+311,Leicester,Nottingham Forest,1640759,14,174
+312,Bournemouth,Leicester,1640765,183,14
+313,Chelsea,Wolves,1640767,15,161
+314,Manchester City,Southampton,1640770,167,18
+315,Newcastle,Brentford,1640771,23,189
+316,Brighton,Tottenham,1640766,211,30
+317,Crystal Palace,Leeds,1640768,162,19
+318,West Ham,Fulham,1640773,29,170
+319,Arsenal,Liverpool,1640764,13,26
+320,Everton,Manchester United,1640769,31,32
+321,Nottingham Forest,Aston Villa,1640772,174,24
+322,Brentford,Brighton,1640775,189,211
+323,Leicester,Crystal Palace,1640778,14,162
+324,Fulham,Bournemouth,1640776,170,183
+325,Wolves,Nottingham Forest,1640783,161,174
+326,Tottenham,Everton,1640782,30,31
+327,Manchester United,Newcastle,1640780,32,23
+328,Southampton,West Ham,1640781,18,29
+329,Leeds,Arsenal,1640777,19,13
+330,Aston Villa,Chelsea,1640774,24,15
+331,Liverpool,Manchester City,1640779,26,167
+332,Brighton,Nottingham Forest,1640787,211,174
+333,Crystal Palace,Wolves,1640790,162,161
+334,Newcastle,Everton,1640791,23,31
+335,Liverpool,West Ham,1640792,26,29
+336,Bournemouth,Southampton,1640785,183,18
+337,Brentford,Chelsea,1640786,189,15
+338,Manchester United,Tottenham,1640793,32,30
+339,Fulham,Aston Villa,1640788,170,24
+340,Leicester,Leeds,1640789,14,19
+341,Nottingham Forest,Liverpool,1640799,174,26
+342,Everton,Crystal Palace,1640796,31,162
+343,Manchester City,Brighton,1640798,167,211
+344,Chelsea,Manchester United,1640795,15,32
+345,Aston Villa,Brentford,1640794,24,189
+346,Leeds,Fulham,1640797,19,170
+347,Wolves,Leicester,1640803,161,14
+348,Southampton,Arsenal,1640800,18,13
+349,Tottenham,Newcastle,1640801,30,23
+350,West Ham,Bournemouth,1640802,29,183
+351,Leicester,Manchester City,1640810,14,167
+352,Newcastle,Aston Villa,1640813,23,24
+353,Bournemouth,Tottenham,1640805,183,30
+354,Brentford,Wolves,1640806,189,161
+355,Brighton,Chelsea,1640807,211,15
+356,Crystal Palace,Southampton,1640808,162,18
+357,Fulham,Everton,1640809,170,31
+358,Liverpool,Leeds,1640811,26,19
+359,Arsenal,Nottingham Forest,1640804,13,174
+360,Manchester United,West Ham,1640812,32,29
+361,Leicester,Manchester United,1640718,14,32
+362,Everton,Liverpool,1640728,31,26
+363,Chelsea,West Ham,1640727,15,29
+364,Newcastle,Crystal Palace,1640730,23,162
+365,Nottingham Forest,Bournemouth,1640731,174,183
+366,Tottenham,Fulham,1640732,30,170
+367,Wolves,Southampton,1640733,161,18
+368,Brentford,Leeds,1640725,189,19
+369,Aston Villa,Manchester City,1640724,24,167
+370,Brighton,Leicester,1640726,211,14
+371,Manchester United,Arsenal,1640729,32,13
+372,Aston Villa,Southampton,1640744,24,18
+373,Nottingham Forest,Fulham,1640751,174,170
+374,Wolves,Manchester City,1640753,161,167
+375,Newcastle,Bournemouth,1640750,23,183
+376,Tottenham,Leicester,1640752,30,14
+377,Brentford,Arsenal,1640745,189,13
+378,Everton,West Ham,1640748,31,29
+379,Crystal Palace,Arsenal,1640674,162,13
+380,Fulham,Liverpool,1640675,170,26
+381,Bournemouth,Aston Villa,1640676,183,24
+382,Leeds,Wolves,1640677,19,161
+383,Newcastle,Nottingham Forest,1640679,23,174
+384,Tottenham,Southampton,1640680,30,18
+385,Everton,Chelsea,1640681,31,15
+386,Manchester United,Brighton,1640682,32,211
+387,Leicester,Brentford,1640678,14,189
+388,West Ham,Manchester City,1640683,29,167
+389,Aston Villa,Everton,1640685,24,31
+390,Brighton,Newcastle,1640687,211,23
+391,Manchester City,Bournemouth,1640690,167,183
+392,Southampton,Leeds,1640692,18,19
+393,Wolves,Fulham,1640693,161,170
+394,Arsenal,Leicester,1640684,13,14
+395,Brentford,Manchester United,1640686,189,32
+396,Nottingham Forest,West Ham,1640691,174,29
+397,Chelsea,Tottenham,1640688,15,30
+398,Liverpool,Crystal Palace,1640689,26,162
+399,Tottenham,Wolves,1640702,30,161
+400,Crystal Palace,Aston Villa,1640695,162,24
+401,Everton,Nottingham Forest,1640696,31,174
+402,Fulham,Brentford,1640697,170,189
+403,Leicester,Southampton,1640699,14,18
+404,Bournemouth,Arsenal,1640694,183,13
+405,Leeds,Chelsea,1640698,19,15
+406,West Ham,Brighton,1640703,29,211
+407,Newcastle,Manchester City,1640701,23,167
+408,Manchester United,Liverpool,1640700,32,26
+409,Southampton,Manchester United,1640712,18,32
+410,Brentford,Everton,1640706,189,31
+411,Brighton,Leeds,1640707,211,19
+412,Chelsea,Leicester,1640708,15,14
+413,Liverpool,Bournemouth,1640709,26,183
+414,Manchester City,Crystal Palace,1640710,167,162
+415,Arsenal,Fulham,1640704,13,170
+416,Aston Villa,West Ham,1640705,24,29
+417,Wolves,Newcastle,1640713,161,23
+418,Nottingham Forest,Tottenham,1640711,174,30
+419,Fulham,Brighton,1640716,170,211
+420,Crystal Palace,Brentford,1640720,162,189
+421,Southampton,Chelsea,1640721,18,15
+422,Leeds,Everton,1640717,19,31
+423,Manchester City,Nottingham Forest,1640723,167,174
+424,Arsenal,Aston Villa,1640714,13,24
+425,Bournemouth,Wolves,1640715,183,161
+426,West Ham,Tottenham,1640719,29,30
+427,Liverpool,Newcastle,1640722,26,23
