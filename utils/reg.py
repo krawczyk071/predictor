@@ -15,6 +15,21 @@ def reg_prep(dfnr, to_pred_cols_lst):
     return X, y, x_labels, y_labels
 
 
+def reg_prep_scaled(dfnr, to_pred_cols_lst):
+    # Create arrays for features and target variable
+    df_to_pred = dfnr[to_pred_cols_lst]
+    df_wo_y = dfnr.drop(to_pred_cols_lst, axis="columns")
+
+    scaler_x = MinMaxScaler()
+    scaler_y = MinMaxScaler()
+    X = scaler_x.fit_transform(df_wo_y)
+    y = scaler_y.fit_transform(df_to_pred)
+
+    y_labels = df_to_pred.columns
+    x_labels = df_wo_y.columns
+    return X, y, x_labels, y_labels, scaler_x, scaler_y
+
+
 def reg_prep_split(X, y, test_size=0.3):
     # Create training and test sets
     X_train, X_test, y_train, y_test = train_test_split(
@@ -45,18 +60,3 @@ def importants(labels, coefs):
     df1["b"] = coefs
     df1 = df1.sort_values("b", key=lambda x: -abs(x))[df1.b.abs() > 0.0]
     return df1
-
-
-def reg_prep_scaled(dfnr, to_pred_cols_lst):
-    # Create arrays for features and target variable
-    df_to_pred = dfnr[to_pred_cols_lst]
-    df_wo_y = dfnr.drop(to_pred_cols_lst, axis="columns")
-
-    scaler_x = MinMaxScaler()
-    scaler_y = MinMaxScaler()
-    X = scaler_x.fit_transform(df_wo_y)
-    y = scaler_y.fit_transform(df_to_pred)
-
-    y_labels = df_to_pred.columns
-    x_labels = df_wo_y.columns
-    return X, y, x_labels, y_labels, scaler_x, scaler_y
