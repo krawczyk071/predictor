@@ -1,0 +1,761 @@
+,team,date,time,round,day,venue,result,gf,ga,opponent,target,venue_code,key,y_pred,y_prob
+0,Arsenal,2022-08-05,20:00:00,Matchweek 1,Fri,Away,W,2,0,Crystal Palace,1,0,2022-08-05 Arsenal-Crystal Palace,0,0.06411850649377976
+1,Arsenal,2022-08-13,15:00:00,Matchweek 2,Sat,Home,W,4,2,Leicester City,1,1,2022-08-13 Arsenal-Leicester City,0,0.21372416791106413
+2,Arsenal,2022-08-20,17:30:00,Matchweek 3,Sat,Away,W,3,0,Bournemouth,1,0,2022-08-20 Arsenal-Bournemouth,0,0.0445622870441804
+3,Arsenal,2022-08-27,17:30:00,Matchweek 4,Sat,Home,W,2,1,Fulham,1,1,2022-08-27 Arsenal-Fulham,0,0.01161912055084841
+4,Arsenal,2022-08-31,19:30:00,Matchweek 5,Wed,Home,W,2,1,Aston Villa,1,1,2022-08-31 Arsenal-Aston Villa,0,0.1524274116135804
+5,Arsenal,2022-09-04,16:30:00,Matchweek 6,Sun,Away,L,1,3,Manchester Utd,0,0,2022-09-04 Arsenal-Manchester Utd,0,0.043362795230563654
+6,Arsenal,2022-09-18,12:00:00,Matchweek 8,Sun,Away,W,3,0,Brentford,1,0,2022-09-18 Arsenal-Brentford,0,0.23553510867048977
+7,Arsenal,2022-10-01,12:30:00,Matchweek 9,Sat,Home,W,3,1,Tottenham,1,1,2022-10-01 Arsenal-Tottenham,0,0.07206116638474142
+8,Arsenal,2022-10-09,16:30:00,Matchweek 10,Sun,Home,W,3,2,Liverpool,1,1,2022-10-09 Arsenal-Liverpool,0,0.18751092157555707
+9,Arsenal,2022-10-16,14:00:00,Matchweek 11,Sun,Away,W,1,0,Leeds United,1,0,2022-10-16 Arsenal-Leeds United,0,0.054971522150863414
+10,Arsenal,2022-10-23,14:00:00,Matchweek 13,Sun,Away,D,1,1,Southampton,0,0,2022-10-23 Arsenal-Southampton,0,0.1173713195343475
+11,Arsenal,2022-10-30,14:00:00,Matchweek 14,Sun,Home,W,5,0,Nott'ham Forest,1,1,2022-10-30 Arsenal-Nott'ham Forest,0,0.03243023320461419
+12,Arsenal,2022-11-06,12:00:00,Matchweek 15,Sun,Away,W,1,0,Chelsea,1,0,2022-11-06 Arsenal-Chelsea,0,0.044653874730216606
+13,Arsenal,2022-11-12,19:45:00,Matchweek 16,Sat,Away,W,2,0,Wolves,1,0,2022-11-12 Arsenal-Wolves,0,0.011643826162218443
+14,Arsenal,2022-12-26,20:00:00,Matchweek 17,Mon,Home,W,3,1,West Ham,1,1,2022-12-26 Arsenal-West Ham,0,0.040814547940137766
+15,Arsenal,2022-12-31,17:30:00,Matchweek 18,Sat,Away,W,4,2,Brighton,1,0,2022-12-31 Arsenal-Brighton,0,0.14443760104639164
+16,Arsenal,2023-01-03,19:45:00,Matchweek 19,Tue,Home,D,0,0,Newcastle Utd,0,1,2023-01-03 Arsenal-Newcastle Utd,0,0.03653255881151694
+17,Arsenal,2023-01-15,16:30:00,Matchweek 20,Sun,Away,W,2,0,Tottenham,1,0,2023-01-15 Arsenal-Tottenham,0,0.009466642680695296
+18,Arsenal,2023-01-22,16:30:00,Matchweek 21,Sun,Home,W,3,2,Manchester Utd,1,1,2023-01-22 Arsenal-Manchester Utd,0,0.01180919450498142
+19,Arsenal,2023-02-04,12:30:00,Matchweek 22,Sat,Away,L,0,1,Everton,0,0,2023-02-04 Arsenal-Everton,0,0.04526658777086391
+20,Arsenal,2023-02-11,15:00:00,Matchweek 23,Sat,Home,D,1,1,Brentford,0,1,2023-02-11 Arsenal-Brentford,0,0.09087391412705896
+21,Arsenal,2023-02-15,19:30:00,Matchweek 12,Wed,Home,L,1,3,Manchester City,0,1,2023-02-15 Arsenal-Manchester City,0,0.28396533779773975
+22,Arsenal,2023-02-18,12:30:00,Matchweek 24,Sat,Away,W,4,2,Aston Villa,1,0,2023-02-18 Arsenal-Aston Villa,0,0.11398825341372888
+23,Arsenal,2023-02-25,15:00:00,Matchweek 25,Sat,Away,W,1,0,Leicester City,1,0,2023-02-25 Arsenal-Leicester City,0,0.33793718671707695
+24,Arsenal,2023-03-01,19:45:00,Matchweek 7,Wed,Home,W,4,0,Everton,1,1,2023-03-01 Arsenal-Everton,0,0.24553096434693578
+25,Arsenal,2023-03-04,15:00:00,Matchweek 26,Sat,Home,W,3,2,Bournemouth,1,1,2023-03-04 Arsenal-Bournemouth,0,0.07580732974441977
+26,Arsenal,2023-03-12,14:00:00,Matchweek 27,Sun,Away,W,3,0,Fulham,1,0,2023-03-12 Arsenal-Fulham,0,0.06737981180525253
+27,Arsenal,2023-03-19,14:00:00,Matchweek 28,Sun,Home,W,4,1,Crystal Palace,1,1,2023-03-19 Arsenal-Crystal Palace,0,0.2227835559736934
+28,Arsenal,2023-04-01,15:00:00,Matchweek 29,Sat,Home,W,4,1,Leeds United,1,1,2023-04-01 Arsenal-Leeds United,0,0.018668492523666223
+29,Arsenal,2023-04-09,16:30:00,Matchweek 30,Sun,Away,D,2,2,Liverpool,0,0,2023-04-09 Arsenal-Liverpool,0,0.07017927825579848
+30,Arsenal,2023-04-16,14:00:00,Matchweek 31,Sun,Away,D,2,2,West Ham,0,0,2023-04-16 Arsenal-West Ham,0,0.038678715183585045
+31,Arsenal,2023-04-21,20:00:00,Matchweek 32,Fri,Home,D,3,3,Southampton,0,1,2023-04-21 Arsenal-Southampton,0,0.01003934195446691
+32,Arsenal,2023-04-26,20:00:00,Matchweek 33,Wed,Away,L,1,4,Manchester City,0,0,2023-04-26 Arsenal-Manchester City,0,0.06009823058629612
+33,Arsenal,2023-05-02,20:00:00,Matchweek 34,Tue,Home,W,3,1,Chelsea,1,1,2023-05-02 Arsenal-Chelsea,0,0.20235169062071556
+34,Arsenal,2023-05-07,16:30:00,Matchweek 35,Sun,Away,W,2,0,Newcastle Utd,1,0,2023-05-07 Arsenal-Newcastle Utd,0,0.052580796216184465
+35,Arsenal,2023-05-14,16:30:00,Matchweek 36,Sun,Home,L,0,3,Brighton,0,1,2023-05-14 Arsenal-Brighton,0,0.1804567127423942
+36,Arsenal,2023-05-20,17:30:00,Matchweek 37,Sat,Away,L,0,1,Nott'ham Forest,0,0,2023-05-20 Arsenal-Nott'ham Forest,0,0.10910762640666628
+37,Arsenal,2023-05-28,16:30:00,Matchweek 38,Sun,Home,W,5,0,Wolves,1,1,2023-05-28 Arsenal-Wolves,0,0.029944046096064096
+38,Aston Villa,2022-08-06,15:00:00,Matchweek 1,Sat,Away,L,0,2,Bournemouth,0,0,2022-08-06 Aston Villa-Bournemouth,1,0.7204286421246666
+39,Aston Villa,2022-08-13,12:30:00,Matchweek 2,Sat,Home,W,2,1,Everton,1,1,2022-08-13 Aston Villa-Everton,0,0.3937573159380923
+40,Aston Villa,2022-08-20,15:00:00,Matchweek 3,Sat,Away,L,1,3,Crystal Palace,0,0,2022-08-20 Aston Villa-Crystal Palace,0,0.12557354982412577
+41,Aston Villa,2022-08-28,14:00:00,Matchweek 4,Sun,Home,L,0,1,West Ham,0,1,2022-08-28 Aston Villa-West Ham,0,0.034931470587105114
+42,Aston Villa,2022-08-31,19:30:00,Matchweek 5,Wed,Away,L,1,2,Arsenal,0,0,2022-08-31 Aston Villa-Arsenal,0,0.12247298213070346
+43,Aston Villa,2022-09-03,17:30:00,Matchweek 6,Sat,Home,D,1,1,Manchester City,0,1,2022-09-03 Aston Villa-Manchester City,0,0.3563864293388506
+44,Aston Villa,2022-09-16,20:00:00,Matchweek 8,Fri,Home,W,1,0,Southampton,1,1,2022-09-16 Aston Villa-Southampton,0,0.48682529849638634
+45,Aston Villa,2022-10-02,16:30:00,Matchweek 9,Sun,Away,D,0,0,Leeds United,0,0,2022-10-02 Aston Villa-Leeds United,0,0.1929669925853851
+46,Aston Villa,2022-10-10,20:00:00,Matchweek 10,Mon,Away,D,1,1,Nott'ham Forest,0,0,2022-10-10 Aston Villa-Nott'ham Forest,0,0.1518976119816085
+47,Aston Villa,2022-10-16,14:00:00,Matchweek 11,Sun,Home,L,0,2,Chelsea,0,1,2022-10-16 Aston Villa-Chelsea,0,0.4154062339935199
+48,Aston Villa,2022-10-20,19:30:00,Matchweek 12,Thu,Away,L,0,3,Fulham,0,0,2022-10-20 Aston Villa-Fulham,0,0.2905000038752654
+49,Aston Villa,2022-10-23,14:00:00,Matchweek 13,Sun,Home,W,4,0,Brentford,1,1,2022-10-23 Aston Villa-Brentford,0,0.09354563357092611
+50,Aston Villa,2022-10-29,15:00:00,Matchweek 14,Sat,Away,L,0,4,Newcastle Utd,0,0,2022-10-29 Aston Villa-Newcastle Utd,0,0.03500398949509844
+51,Aston Villa,2022-11-06,14:00:00,Matchweek 15,Sun,Home,W,3,1,Manchester Utd,1,1,2022-11-06 Aston Villa-Manchester Utd,0,0.1258097134545726
+52,Aston Villa,2022-11-13,14:00:00,Matchweek 16,Sun,Away,W,2,1,Brighton,1,0,2022-11-13 Aston Villa-Brighton,0,0.34201977245401105
+53,Aston Villa,2022-12-26,17:30:00,Matchweek 17,Mon,Home,L,1,3,Liverpool,0,1,2022-12-26 Aston Villa-Liverpool,0,0.11583870652222546
+54,Aston Villa,2023-01-01,14:00:00,Matchweek 18,Sun,Away,W,2,0,Tottenham,1,0,2023-01-01 Aston Villa-Tottenham,0,0.10454356470506367
+55,Aston Villa,2023-01-04,20:00:00,Matchweek 19,Wed,Home,D,1,1,Wolves,0,1,2023-01-04 Aston Villa-Wolves,0,0.028585209823653437
+56,Aston Villa,2023-01-13,20:00:00,Matchweek 20,Fri,Home,W,2,1,Leeds United,1,1,2023-01-13 Aston Villa-Leeds United,0,0.035489211498998245
+57,Aston Villa,2023-01-21,15:00:00,Matchweek 21,Sat,Away,W,1,0,Southampton,1,0,2023-01-21 Aston Villa-Southampton,0,0.12738751163083323
+58,Aston Villa,2023-02-04,15:00:00,Matchweek 22,Sat,Home,L,2,4,Leicester City,0,1,2023-02-04 Aston Villa-Leicester City,0,0.235338977321221
+59,Aston Villa,2023-02-12,16:30:00,Matchweek 23,Sun,Away,L,1,3,Manchester City,0,0,2023-02-12 Aston Villa-Manchester City,0,0.5497668485454447
+60,Aston Villa,2023-02-18,12:30:00,Matchweek 24,Sat,Home,L,2,4,Arsenal,0,1,2023-02-18 Aston Villa-Arsenal,0,0.2837308968679745
+61,Aston Villa,2023-02-25,15:00:00,Matchweek 25,Sat,Away,W,2,0,Everton,1,0,2023-02-25 Aston Villa-Everton,1,0.6111395319251787
+62,Aston Villa,2023-03-04,15:00:00,Matchweek 26,Sat,Home,W,1,0,Crystal Palace,1,1,2023-03-04 Aston Villa-Crystal Palace,0,0.2016327918267888
+63,Aston Villa,2023-03-12,14:00:00,Matchweek 27,Sun,Away,D,1,1,West Ham,0,0,2023-03-12 Aston Villa-West Ham,0,0.5005034845356859
+64,Aston Villa,2023-03-18,15:00:00,Matchweek 28,Sat,Home,W,3,0,Bournemouth,1,1,2023-03-18 Aston Villa-Bournemouth,0,0.4688122753731401
+65,Aston Villa,2023-04-01,17:30:00,Matchweek 29,Sat,Away,W,2,0,Chelsea,1,0,2023-04-01 Aston Villa-Chelsea,0,0.18197144327153672
+66,Aston Villa,2023-04-04,19:45:00,Matchweek 7,Tue,Away,W,2,1,Leicester City,1,0,2023-04-04 Aston Villa-Leicester City,0,0.18856927056776887
+67,Aston Villa,2023-04-08,15:00:00,Matchweek 30,Sat,Home,W,2,0,Nott'ham Forest,1,1,2023-04-08 Aston Villa-Nott'ham Forest,0,0.05533273859152151
+68,Aston Villa,2023-04-15,12:30:00,Matchweek 31,Sat,Home,W,3,0,Newcastle Utd,1,1,2023-04-15 Aston Villa-Newcastle Utd,0,0.0302791607506577
+69,Aston Villa,2023-04-22,15:00:00,Matchweek 32,Sat,Away,D,1,1,Brentford,0,0,2023-04-22 Aston Villa-Brentford,0,0.11022801851854144
+70,Aston Villa,2023-04-25,19:45:00,Matchweek 33,Tue,Home,W,1,0,Fulham,1,1,2023-04-25 Aston Villa-Fulham,0,0.4385483855750198
+71,Aston Villa,2023-04-30,14:00:00,Matchweek 34,Sun,Away,L,0,1,Manchester Utd,0,0,2023-04-30 Aston Villa-Manchester Utd,0,0.1644903682098692
+72,Aston Villa,2023-05-06,15:00:00,Matchweek 35,Sat,Away,L,0,1,Wolves,0,0,2023-05-06 Aston Villa-Wolves,0,0.14594252801274732
+73,Aston Villa,2023-05-13,15:00:00,Matchweek 36,Sat,Home,W,2,1,Tottenham,1,1,2023-05-13 Aston Villa-Tottenham,0,0.404042044201665
+74,Aston Villa,2023-05-20,15:00:00,Matchweek 37,Sat,Away,D,1,1,Liverpool,0,0,2023-05-20 Aston Villa-Liverpool,0,0.08679446411161597
+75,Aston Villa,2023-05-28,16:30:00,Matchweek 38,Sun,Home,W,2,1,Brighton,1,1,2023-05-28 Aston Villa-Brighton,0,0.2738285975183763
+76,Bournemouth,2022-08-06,15:00:00,Matchweek 1,Sat,Home,W,2,0,Aston Villa,1,1,2022-08-06 Bournemouth-Aston Villa,1,0.7910249489020748
+77,Bournemouth,2022-08-13,15:00:00,Matchweek 2,Sat,Away,L,0,4,Manchester City,0,0,2022-08-13 Bournemouth-Manchester City,1,0.9375702080060455
+78,Bournemouth,2022-08-20,17:30:00,Matchweek 3,Sat,Home,L,0,3,Arsenal,0,1,2022-08-20 Bournemouth-Arsenal,0,0.5514446848061242
+79,Bournemouth,2022-08-27,15:00:00,Matchweek 4,Sat,Away,L,0,9,Liverpool,0,0,2022-08-27 Bournemouth-Liverpool,1,0.8298612075246992
+80,Bournemouth,2022-08-31,19:30:00,Matchweek 5,Wed,Home,D,0,0,Wolves,0,1,2022-08-31 Bournemouth-Wolves,0,0.4485435595740093
+81,Bournemouth,2022-09-03,15:00:00,Matchweek 6,Sat,Away,W,3,2,Nott'ham Forest,1,0,2022-09-03 Bournemouth-Nott'ham Forest,1,0.7634300122515151
+82,Bournemouth,2022-09-17,15:00:00,Matchweek 8,Sat,Away,D,1,1,Newcastle Utd,0,0,2022-09-17 Bournemouth-Newcastle Utd,1,0.8468296994650647
+83,Bournemouth,2022-10-01,15:00:00,Matchweek 9,Sat,Home,D,0,0,Brentford,0,1,2022-10-01 Bournemouth-Brentford,0,0.5822008856620973
+84,Bournemouth,2022-10-08,15:00:00,Matchweek 10,Sat,Home,W,2,1,Leicester City,1,1,2022-10-08 Bournemouth-Leicester City,1,0.805495132334923
+85,Bournemouth,2022-10-15,15:00:00,Matchweek 11,Sat,Away,D,2,2,Fulham,0,0,2022-10-15 Bournemouth-Fulham,0,0.5107147494066213
+86,Bournemouth,2022-10-19,19:30:00,Matchweek 12,Wed,Home,L,0,1,Southampton,0,1,2022-10-19 Bournemouth-Southampton,0,0.3755613910575119
+87,Bournemouth,2022-10-24,20:00:00,Matchweek 13,Mon,Away,L,0,2,West Ham,0,0,2022-10-24 Bournemouth-West Ham,1,0.7046839652968184
+88,Bournemouth,2022-10-29,15:00:00,Matchweek 14,Sat,Home,L,2,3,Tottenham,0,1,2022-10-29 Bournemouth-Tottenham,0,0.174509051666857
+89,Bournemouth,2022-11-05,15:00:00,Matchweek 15,Sat,Away,L,3,4,Leeds United,0,0,2022-11-05 Bournemouth-Leeds United,0,0.45614615357659954
+90,Bournemouth,2022-11-12,15:00:00,Matchweek 16,Sat,Home,W,3,0,Everton,1,1,2022-11-12 Bournemouth-Everton,1,0.7518221017884712
+91,Bournemouth,2022-12-27,17:30:00,Matchweek 17,Tue,Away,L,0,2,Chelsea,0,0,2022-12-27 Bournemouth-Chelsea,0,0.4329609823847484
+92,Bournemouth,2022-12-31,15:00:00,Matchweek 18,Sat,Home,L,0,2,Crystal Palace,0,1,2022-12-31 Bournemouth-Crystal Palace,0,0.40490478927033
+93,Bournemouth,2023-01-03,20:00:00,Matchweek 19,Tue,Away,L,0,3,Manchester Utd,0,0,2023-01-03 Bournemouth-Manchester Utd,0,0.146389531661405
+94,Bournemouth,2023-01-14,17:30:00,Matchweek 20,Sat,Away,L,0,2,Brentford,0,0,2023-01-14 Bournemouth-Brentford,0,0.17657423334637726
+95,Bournemouth,2023-01-21,15:00:00,Matchweek 21,Sat,Home,D,1,1,Nott'ham Forest,0,1,2023-01-21 Bournemouth-Nott'ham Forest,0,0.4596882816189721
+96,Bournemouth,2023-02-04,15:00:00,Matchweek 22,Sat,Away,L,0,1,Brighton,0,0,2023-02-04 Bournemouth-Brighton,1,0.8767912596112628
+97,Bournemouth,2023-02-11,17:30:00,Matchweek 23,Sat,Home,D,1,1,Newcastle Utd,0,1,2023-02-11 Bournemouth-Newcastle Utd,1,0.6420457882044799
+98,Bournemouth,2023-02-18,15:00:00,Matchweek 24,Sat,Away,W,1,0,Wolves,1,0,2023-02-18 Bournemouth-Wolves,1,0.9015675953015819
+99,Bournemouth,2023-02-25,17:30:00,Matchweek 25,Sat,Home,L,1,4,Manchester City,0,1,2023-02-25 Bournemouth-Manchester City,1,0.6977550955638547
+100,Bournemouth,2023-03-04,15:00:00,Matchweek 26,Sat,Away,L,2,3,Arsenal,0,0,2023-03-04 Bournemouth-Arsenal,1,0.853794102202207
+101,Bournemouth,2023-03-11,12:30:00,Matchweek 27,Sat,Home,W,1,0,Liverpool,1,1,2023-03-11 Bournemouth-Liverpool,0,0.5954494424159393
+102,Bournemouth,2023-03-18,15:00:00,Matchweek 28,Sat,Away,L,0,3,Aston Villa,0,0,2023-03-18 Bournemouth-Aston Villa,1,0.8372281618818245
+103,Bournemouth,2023-04-01,15:00:00,Matchweek 29,Sat,Home,W,2,1,Fulham,1,1,2023-04-01 Bournemouth-Fulham,0,0.5645410982113122
+104,Bournemouth,2023-04-04,19:45:00,Matchweek 7,Tue,Home,L,0,2,Brighton,0,1,2023-04-04 Bournemouth-Brighton,0,0.575255539761815
+105,Bournemouth,2023-04-08,15:00:00,Matchweek 30,Sat,Away,W,1,0,Leicester City,1,0,2023-04-08 Bournemouth-Leicester City,0,0.254489855092633
+106,Bournemouth,2023-04-15,15:00:00,Matchweek 31,Sat,Away,W,3,2,Tottenham,1,0,2023-04-15 Bournemouth-Tottenham,0,0.15395811499955345
+107,Bournemouth,2023-04-23,14:00:00,Matchweek 32,Sun,Home,L,0,4,West Ham,0,1,2023-04-23 Bournemouth-West Ham,0,0.41927412857110335
+108,Bournemouth,2023-04-27,19:45:00,Matchweek 33,Thu,Away,W,1,0,Southampton,1,0,2023-04-27 Bournemouth-Southampton,0,0.5343135738226915
+109,Bournemouth,2023-04-30,14:00:00,Matchweek 34,Sun,Home,W,4,1,Leeds United,1,1,2023-04-30 Bournemouth-Leeds United,1,0.8198903517103463
+110,Bournemouth,2023-05-06,15:00:00,Matchweek 35,Sat,Home,L,1,3,Chelsea,0,1,2023-05-06 Bournemouth-Chelsea,1,0.7980271057390483
+111,Bournemouth,2023-05-13,15:00:00,Matchweek 36,Sat,Away,L,0,2,Crystal Palace,0,0,2023-05-13 Bournemouth-Crystal Palace,0,0.49896866450891064
+112,Bournemouth,2023-05-20,15:00:00,Matchweek 37,Sat,Home,L,0,1,Manchester Utd,0,1,2023-05-20 Bournemouth-Manchester Utd,0,0.35646097714372915
+113,Bournemouth,2023-05-28,16:30:00,Matchweek 38,Sun,Away,L,0,1,Everton,0,0,2023-05-28 Bournemouth-Everton,1,0.687267740354435
+114,Brentford,2022-08-07,14:00:00,Matchweek 1,Sun,Away,D,2,2,Leicester City,0,0,2022-08-07 Brentford-Leicester City,0,0.4953803749871885
+115,Brentford,2022-08-13,17:30:00,Matchweek 2,Sat,Home,W,4,0,Manchester Utd,1,1,2022-08-13 Brentford-Manchester Utd,1,0.7957036829319953
+116,Brentford,2022-08-20,15:00:00,Matchweek 3,Sat,Away,L,2,3,Fulham,0,0,2022-08-20 Brentford-Fulham,0,0.558493509127682
+117,Brentford,2022-08-27,15:00:00,Matchweek 4,Sat,Home,D,1,1,Everton,0,1,2022-08-27 Brentford-Everton,0,0.2417545601002076
+118,Brentford,2022-08-30,19:30:00,Matchweek 5,Tue,Away,D,1,1,Crystal Palace,0,0,2022-08-30 Brentford-Crystal Palace,0,0.17834364544859857
+119,Brentford,2022-09-03,15:00:00,Matchweek 6,Sat,Home,W,5,2,Leeds United,1,1,2022-09-03 Brentford-Leeds United,0,0.051870327492012966
+120,Brentford,2022-09-18,12:00:00,Matchweek 8,Sun,Home,L,0,3,Arsenal,0,1,2022-09-18 Brentford-Arsenal,0,0.26546028156465473
+121,Brentford,2022-10-01,15:00:00,Matchweek 9,Sat,Away,D,0,0,Bournemouth,0,0,2022-10-01 Brentford-Bournemouth,0,0.589126505153573
+122,Brentford,2022-10-08,15:00:00,Matchweek 10,Sat,Away,L,1,5,Newcastle Utd,0,0,2022-10-08 Brentford-Newcastle Utd,0,0.21303486610273978
+123,Brentford,2022-10-14,20:00:00,Matchweek 11,Fri,Home,W,2,0,Brighton,1,1,2022-10-14 Brentford-Brighton,0,0.5178439957036226
+124,Brentford,2022-10-19,19:30:00,Matchweek 12,Wed,Home,D,0,0,Chelsea,0,1,2022-10-19 Brentford-Chelsea,0,0.38227802422523444
+125,Brentford,2022-10-23,14:00:00,Matchweek 13,Sun,Away,L,0,4,Aston Villa,0,0,2022-10-23 Brentford-Aston Villa,0,0.13493345156327227
+126,Brentford,2022-10-29,15:00:00,Matchweek 14,Sat,Home,D,1,1,Wolves,0,1,2022-10-29 Brentford-Wolves,0,0.05197611810565815
+127,Brentford,2022-11-05,15:00:00,Matchweek 15,Sat,Away,D,2,2,Nott'ham Forest,0,0,2022-11-05 Brentford-Nott'ham Forest,0,0.17865877572419142
+128,Brentford,2022-11-12,12:30:00,Matchweek 16,Sat,Away,W,2,1,Manchester City,1,0,2022-11-12 Brentford-Manchester City,0,0.43998085567122003
+129,Brentford,2022-12-26,12:30:00,Matchweek 17,Mon,Home,D,2,2,Tottenham,0,1,2022-12-26 Brentford-Tottenham,0,0.1652911987738773
+130,Brentford,2022-12-30,19:45:00,Matchweek 18,Fri,Away,W,2,0,West Ham,1,0,2022-12-30 Brentford-West Ham,0,0.04258244508240434
+131,Brentford,2023-01-02,17:30:00,Matchweek 19,Mon,Home,W,3,1,Liverpool,1,1,2023-01-02 Brentford-Liverpool,0,0.14999208673788048
+132,Brentford,2023-01-14,17:30:00,Matchweek 20,Sat,Home,W,2,0,Bournemouth,1,1,2023-01-14 Brentford-Bournemouth,0,0.1807623125963414
+133,Brentford,2023-01-22,14:00:00,Matchweek 21,Sun,Away,D,0,0,Leeds United,0,0,2023-01-22 Brentford-Leeds United,0,0.052683761854807984
+134,Brentford,2023-02-04,15:00:00,Matchweek 22,Sat,Home,W,3,0,Southampton,1,1,2023-02-04 Brentford-Southampton,0,0.3174882099938683
+135,Brentford,2023-02-11,15:00:00,Matchweek 23,Sat,Away,D,1,1,Arsenal,0,0,2023-02-11 Brentford-Arsenal,1,0.6485781820553054
+136,Brentford,2023-02-18,15:00:00,Matchweek 24,Sat,Home,D,1,1,Crystal Palace,0,1,2023-02-18 Brentford-Crystal Palace,1,0.7037399521000857
+137,Brentford,2023-03-06,20:00:00,Matchweek 26,Mon,Home,W,3,2,Fulham,1,1,2023-03-06 Brentford-Fulham,0,0.3744991589504061
+138,Brentford,2023-03-11,15:00:00,Matchweek 27,Sat,Away,L,0,1,Everton,0,0,2023-03-11 Brentford-Everton,0,0.2762671714916946
+139,Brentford,2023-03-15,19:30:00,Matchweek 7,Wed,Away,W,2,0,Southampton,1,0,2023-03-15 Brentford-Southampton,1,0.6023054636867797
+140,Brentford,2023-03-18,15:00:00,Matchweek 28,Sat,Home,D,1,1,Leicester City,0,1,2023-03-18 Brentford-Leicester City,0,0.5715440221470892
+141,Brentford,2023-04-01,15:00:00,Matchweek 29,Sat,Away,D,3,3,Brighton,0,0,2023-04-01 Brentford-Brighton,0,0.25162187542111597
+142,Brentford,2023-04-05,20:00:00,Matchweek 25,Wed,Away,L,0,1,Manchester Utd,0,0,2023-04-05 Brentford-Manchester Utd,0,0.25994257928675313
+143,Brentford,2023-04-08,15:00:00,Matchweek 30,Sat,Home,L,1,2,Newcastle Utd,0,1,2023-04-08 Brentford-Newcastle Utd,0,0.08133079112781814
+144,Brentford,2023-04-15,15:00:00,Matchweek 31,Sat,Away,L,0,2,Wolves,0,0,2023-04-15 Brentford-Wolves,0,0.04506738580355922
+145,Brentford,2023-04-22,15:00:00,Matchweek 32,Sat,Home,D,1,1,Aston Villa,0,1,2023-04-22 Brentford-Aston Villa,0,0.15771251526335056
+146,Brentford,2023-04-26,19:45:00,Matchweek 33,Wed,Away,W,2,0,Chelsea,1,0,2023-04-26 Brentford-Chelsea,0,0.2293255764923542
+147,Brentford,2023-04-29,15:00:00,Matchweek 34,Sat,Home,W,2,1,Nott'ham Forest,1,1,2023-04-29 Brentford-Nott'ham Forest,0,0.5414077272804617
+148,Brentford,2023-05-06,17:30:00,Matchweek 35,Sat,Away,L,0,1,Liverpool,0,0,2023-05-06 Brentford-Liverpool,0,0.5061035468999309
+149,Brentford,2023-05-14,14:00:00,Matchweek 36,Sun,Home,W,2,0,West Ham,1,1,2023-05-14 Brentford-West Ham,0,0.20526302426873058
+150,Brentford,2023-05-20,12:30:00,Matchweek 37,Sat,Away,W,3,1,Tottenham,1,0,2023-05-20 Brentford-Tottenham,0,0.12560923949524908
+151,Brentford,2023-05-28,16:30:00,Matchweek 38,Sun,Home,W,1,0,Manchester City,1,1,2023-05-28 Brentford-Manchester City,0,0.3630346103407809
+152,Brighton,2022-08-07,14:00:00,Matchweek 1,Sun,Away,W,2,1,Manchester Utd,1,0,2022-08-07 Brighton-Manchester Utd,0,0.3642764130233194
+153,Brighton,2022-08-13,15:00:00,Matchweek 2,Sat,Home,D,0,0,Newcastle Utd,0,1,2022-08-13 Brighton-Newcastle Utd,1,0.6945087254797299
+154,Brighton,2022-08-21,14:00:00,Matchweek 3,Sun,Away,W,2,0,West Ham,1,0,2022-08-21 Brighton-West Ham,0,0.15690276528042038
+155,Brighton,2022-08-27,15:00:00,Matchweek 4,Sat,Home,W,1,0,Leeds United,1,1,2022-08-27 Brighton-Leeds United,0,0.42474569175172555
+156,Brighton,2022-08-30,19:30:00,Matchweek 5,Tue,Away,L,1,2,Fulham,0,0,2022-08-30 Brighton-Fulham,0,0.03094481057046516
+157,Brighton,2022-09-04,14:00:00,Matchweek 6,Sun,Home,W,5,2,Leicester City,1,1,2022-09-04 Brighton-Leicester City,0,0.11244743882680491
+158,Brighton,2022-10-01,15:00:00,Matchweek 9,Sat,Away,D,3,3,Liverpool,0,0,2022-10-01 Brighton-Liverpool,0,0.32818882573478436
+159,Brighton,2022-10-08,17:30:00,Matchweek 10,Sat,Home,L,0,1,Tottenham,0,1,2022-10-08 Brighton-Tottenham,0,0.10963033747868847
+160,Brighton,2022-10-14,20:00:00,Matchweek 11,Fri,Away,L,0,2,Brentford,0,0,2022-10-14 Brighton-Brentford,0,0.13644924296497654
+161,Brighton,2022-10-18,19:30:00,Matchweek 12,Tue,Home,D,0,0,Nott'ham Forest,0,1,2022-10-18 Brighton-Nott'ham Forest,0,0.3853347041627757
+162,Brighton,2022-10-22,15:00:00,Matchweek 13,Sat,Away,L,1,3,Manchester City,0,0,2022-10-22 Brighton-Manchester City,0,0.2653660414350951
+163,Brighton,2022-10-29,15:00:00,Matchweek 14,Sat,Home,W,4,1,Chelsea,1,1,2022-10-29 Brighton-Chelsea,0,0.08344788614469377
+164,Brighton,2022-11-05,15:00:00,Matchweek 15,Sat,Away,W,3,2,Wolves,1,0,2022-11-05 Brighton-Wolves,0,0.11266209701998563
+165,Brighton,2022-11-13,14:00:00,Matchweek 16,Sun,Home,L,1,2,Aston Villa,0,1,2022-11-13 Brighton-Aston Villa,0,0.03100931897448146
+166,Brighton,2022-12-26,15:00:00,Matchweek 17,Mon,Away,W,3,1,Southampton,1,0,2022-12-26 Brighton-Southampton,0,0.314403594994354
+167,Brighton,2022-12-31,17:30:00,Matchweek 18,Sat,Home,L,2,4,Arsenal,0,1,2022-12-31 Brighton-Arsenal,0,0.10360960035152962
+168,Brighton,2023-01-03,19:45:00,Matchweek 19,Tue,Away,W,4,1,Everton,1,0,2023-01-03 Brighton-Everton,0,0.02530384546583592
+169,Brighton,2023-01-14,15:00:00,Matchweek 20,Sat,Home,W,3,0,Liverpool,1,1,2023-01-14 Brighton-Liverpool,0,0.09338094923130949
+170,Brighton,2023-01-21,15:00:00,Matchweek 21,Sat,Away,D,2,2,Leicester City,0,0,2023-01-21 Brighton-Leicester City,0,0.03144097138911785
+171,Brighton,2023-02-04,15:00:00,Matchweek 22,Sat,Home,W,1,0,Bournemouth,1,1,2023-02-04 Brighton-Bournemouth,0,0.11409652941980242
+172,Brighton,2023-02-11,15:00:00,Matchweek 23,Sat,Away,D,1,1,Crystal Palace,0,0,2023-02-11 Brighton-Crystal Palace,0,0.5185972710680672
+173,Brighton,2023-02-18,15:00:00,Matchweek 24,Sat,Home,L,0,1,Fulham,0,1,2023-02-18 Brighton-Fulham,0,0.2135411253585818
+174,Brighton,2023-03-04,15:00:00,Matchweek 26,Sat,Home,W,4,0,West Ham,1,1,2023-03-04 Brighton-West Ham,0,0.5809804226307854
+175,Brighton,2023-03-11,15:00:00,Matchweek 27,Sat,Away,D,2,2,Leeds United,0,0,2023-03-11 Brighton-Leeds United,0,0.2589688279747489
+176,Brighton,2023-03-15,19:30:00,Matchweek 8,Wed,Home,W,1,0,Crystal Palace,1,1,2023-03-15 Brighton-Crystal Palace,0,0.46921614546497414
+177,Brighton,2023-04-01,15:00:00,Matchweek 29,Sat,Home,D,3,3,Brentford,0,1,2023-04-01 Brighton-Brentford,0,0.1822129718201073
+178,Brighton,2023-04-04,19:45:00,Matchweek 7,Tue,Away,W,2,0,Bournemouth,1,0,2023-04-04 Brighton-Bournemouth,0,0.1640561397073506
+179,Brighton,2023-04-08,15:00:00,Matchweek 30,Sat,Away,L,1,2,Tottenham,0,0,2023-04-08 Brighton-Tottenham,0,0.4377697531875724
+180,Brighton,2023-04-15,15:00:00,Matchweek 31,Sat,Away,W,2,1,Chelsea,1,0,2023-04-15 Brighton-Chelsea,0,0.0491362697997995
+181,Brighton,2023-04-26,19:30:00,Matchweek 33,Wed,Away,L,1,3,Nott'ham Forest,0,0,2023-04-26 Brighton-Nott'ham Forest,0,0.17013950411476733
+182,Brighton,2023-04-29,15:00:00,Matchweek 34,Sat,Home,W,6,0,Wolves,1,1,2023-04-29 Brighton-Wolves,0,0.09852522892408898
+183,Brighton,2023-05-04,20:00:00,Matchweek 28,Thu,Home,W,1,0,Manchester Utd,1,1,2023-05-04 Brighton-Manchester Utd,0,0.02680871015453247
+184,Brighton,2023-05-08,17:30:00,Matchweek 35,Mon,Home,L,1,5,Everton,0,1,2023-05-08 Brighton-Everton,0,0.1479847552285935
+185,Brighton,2023-05-14,16:30:00,Matchweek 36,Sun,Away,W,3,0,Arsenal,1,0,2023-05-14 Brighton-Arsenal,0,0.40797070547421665
+186,Brighton,2023-05-18,19:30:00,Matchweek 25,Thu,Away,L,1,4,Newcastle Utd,0,0,2023-05-18 Brighton-Newcastle Utd,0,0.3742664943937901
+187,Brighton,2023-05-21,14:00:00,Matchweek 37,Sun,Home,W,3,1,Southampton,1,1,2023-05-21 Brighton-Southampton,0,0.13100625180193815
+188,Brighton,2023-05-24,20:00:00,Matchweek 32,Wed,Home,D,1,1,Manchester City,0,1,2023-05-24 Brighton-Manchester City,0,0.24962954584929758
+189,Brighton,2023-05-28,16:30:00,Matchweek 38,Sun,Away,L,1,2,Aston Villa,0,0,2023-05-28 Brighton-Aston Villa,0,0.0773632721555692
+190,Chelsea,2022-08-06,17:30:00,Matchweek 1,Sat,Away,W,1,0,Everton,1,0,2022-08-06 Chelsea-Everton,0,0.4334223121653083
+191,Chelsea,2022-08-14,16:30:00,Matchweek 2,Sun,Home,D,2,2,Tottenham,0,1,2022-08-14 Chelsea-Tottenham,1,0.7521725048072471
+192,Chelsea,2022-08-21,14:00:00,Matchweek 3,Sun,Away,L,0,3,Leeds United,0,0,2022-08-21 Chelsea-Leeds United,0,0.49640697745788503
+193,Chelsea,2022-08-27,15:00:00,Matchweek 4,Sat,Home,W,2,1,Leicester City,1,1,2022-08-27 Chelsea-Leicester City,0,0.19900787037416603
+194,Chelsea,2022-08-30,19:45:00,Matchweek 5,Tue,Away,L,1,2,Southampton,0,0,2022-08-30 Chelsea-Southampton,0,0.040888166531406436
+195,Chelsea,2022-09-03,15:00:00,Matchweek 6,Sat,Home,W,2,1,West Ham,1,1,2022-09-03 Chelsea-West Ham,0,0.1446699374518576
+196,Chelsea,2022-10-01,15:00:00,Matchweek 9,Sat,Away,W,2,1,Crystal Palace,1,0,2022-10-01 Chelsea-Crystal Palace,0,0.39473806026516
+197,Chelsea,2022-10-08,15:00:00,Matchweek 10,Sat,Home,W,3,0,Wolves,1,1,2022-10-08 Chelsea-Wolves,0,0.14117398081922256
+198,Chelsea,2022-10-16,14:00:00,Matchweek 11,Sun,Away,W,2,0,Aston Villa,1,0,2022-10-16 Chelsea-Aston Villa,0,0.5277048340414947
+199,Chelsea,2022-10-19,19:30:00,Matchweek 12,Wed,Away,D,0,0,Brentford,0,0,2022-10-19 Chelsea-Brentford,0,0.2197366938993653
+200,Chelsea,2022-10-22,17:30:00,Matchweek 13,Sat,Home,D,1,1,Manchester Utd,0,1,2022-10-22 Chelsea-Manchester Utd,0,0.32534551718692845
+201,Chelsea,2022-10-29,15:00:00,Matchweek 14,Sat,Away,L,1,4,Brighton,0,0,2022-10-29 Chelsea-Brighton,0,0.10837508312076155
+202,Chelsea,2022-11-06,12:00:00,Matchweek 15,Sun,Home,L,0,1,Arsenal,0,1,2022-11-06 Chelsea-Arsenal,0,0.14493606249966412
+203,Chelsea,2022-11-12,17:30:00,Matchweek 16,Sat,Away,L,0,1,Newcastle Utd,0,0,2022-11-12 Chelsea-Newcastle Utd,0,0.04097252672229188
+204,Chelsea,2022-12-27,17:30:00,Matchweek 17,Tue,Home,W,2,0,Bournemouth,1,1,2022-12-27 Chelsea-Bournemouth,0,0.37973754367770357
+205,Chelsea,2023-01-01,16:30:00,Matchweek 18,Sun,Away,D,1,1,Nott'ham Forest,0,0,2023-01-01 Chelsea-Nott'ham Forest,0,0.13368100699964372
+206,Chelsea,2023-01-05,20:00:00,Matchweek 19,Thu,Home,L,0,1,Manchester City,0,1,2023-01-05 Chelsea-Manchester City,0,0.12088396974117242
+207,Chelsea,2023-01-12,20:00:00,Matchweek 7,Thu,Away,L,1,2,Fulham,0,0,2023-01-12 Chelsea-Fulham,0,0.033497271175749875
+208,Chelsea,2023-01-15,14:00:00,Matchweek 20,Sun,Home,W,1,0,Crystal Palace,1,1,2023-01-15 Chelsea-Crystal Palace,0,0.041536922799865164
+209,Chelsea,2023-01-21,12:30:00,Matchweek 21,Sat,Away,D,0,0,Liverpool,0,0,2023-01-21 Chelsea-Liverpool,0,0.14671347078606659
+210,Chelsea,2023-02-03,20:00:00,Matchweek 22,Fri,Home,D,0,0,Fulham,0,1,2023-02-03 Chelsea-Fulham,0,0.589856618926296
+211,Chelsea,2023-02-11,12:30:00,Matchweek 23,Sat,Away,D,1,1,West Ham,0,0,2023-02-11 Chelsea-West Ham,0,0.26604900711504564
+212,Chelsea,2023-02-18,15:00:00,Matchweek 24,Sat,Home,L,0,1,Southampton,0,1,2023-02-18 Chelsea-Southampton,0,0.3181285227503801
+213,Chelsea,2023-02-26,13:30:00,Matchweek 25,Sun,Away,L,0,2,Tottenham,0,0,2023-02-26 Chelsea-Tottenham,1,0.6492510359329949
+214,Chelsea,2023-03-04,15:00:00,Matchweek 26,Sat,Home,W,1,0,Leeds United,1,1,2023-03-04 Chelsea-Leeds United,0,0.22926315528248647
+215,Chelsea,2023-03-11,15:00:00,Matchweek 27,Sat,Away,W,3,1,Leicester City,1,0,2023-03-11 Chelsea-Leicester City,0,0.5413200256238451
+216,Chelsea,2023-03-18,17:30:00,Matchweek 28,Sat,Home,D,2,2,Everton,0,1,2023-03-18 Chelsea-Everton,0,0.5096815147415318
+217,Chelsea,2023-04-01,17:30:00,Matchweek 29,Sat,Home,L,0,2,Aston Villa,0,1,2023-04-01 Chelsea-Aston Villa,0,0.2076081681800043
+218,Chelsea,2023-04-04,20:00:00,Matchweek 8,Tue,Home,D,0,0,Liverpool,0,1,2023-04-04 Chelsea-Liverpool,0,0.21489133836511223
+219,Chelsea,2023-04-08,15:00:00,Matchweek 30,Sat,Away,L,0,1,Wolves,0,0,2023-04-08 Chelsea-Wolves,0,0.06453572300480488
+220,Chelsea,2023-04-15,15:00:00,Matchweek 31,Sat,Home,L,1,2,Brighton,0,1,2023-04-15 Chelsea-Brighton,0,0.12733057658170024
+221,Chelsea,2023-04-26,19:45:00,Matchweek 33,Wed,Home,L,0,2,Brentford,0,1,2023-04-26 Chelsea-Brentford,0,0.03547168018695161
+222,Chelsea,2023-05-02,20:00:00,Matchweek 34,Tue,Away,L,1,3,Arsenal,0,0,2023-05-02 Chelsea-Arsenal,0,0.18823099874784935
+223,Chelsea,2023-05-06,15:00:00,Matchweek 35,Sat,Away,W,3,1,Bournemouth,1,0,2023-05-06 Chelsea-Bournemouth,0,0.47915921113611476
+224,Chelsea,2023-05-13,15:00:00,Matchweek 36,Sat,Home,D,2,2,Nott'ham Forest,0,1,2023-05-13 Chelsea-Nott'ham Forest,0,0.16754298773699247
+225,Chelsea,2023-05-21,16:00:00,Matchweek 37,Sun,Away,L,0,1,Manchester City,0,0,2023-05-21 Chelsea-Manchester City,0,0.4439843291218757
+226,Chelsea,2023-05-25,20:00:00,Matchweek 32,Thu,Away,L,1,4,Manchester Utd,0,0,2023-05-25 Chelsea-Manchester Utd,0,0.10067253798613604
+227,Chelsea,2023-05-28,16:30:00,Matchweek 38,Sun,Home,D,1,1,Newcastle Utd,0,1,2023-05-28 Chelsea-Newcastle Utd,0,0.30754118332993896
+228,Crystal Palace,2022-08-05,20:00:00,Matchweek 1,Fri,Home,L,0,2,Arsenal,0,1,2022-08-05 Crystal Palace-Arsenal,0,0.570378354431678
+229,Crystal Palace,2022-08-15,20:00:00,Matchweek 2,Mon,Away,D,1,1,Liverpool,0,0,2022-08-15 Crystal Palace-Liverpool,1,0.840443200422813
+230,Crystal Palace,2022-08-20,15:00:00,Matchweek 3,Sat,Home,W,3,1,Aston Villa,1,1,2022-08-20 Crystal Palace-Aston Villa,0,0.3012799806683113
+231,Crystal Palace,2022-08-27,15:00:00,Matchweek 4,Sat,Away,L,2,4,Manchester City,0,0,2022-08-27 Crystal Palace-Manchester City,1,0.6310966404027862
+232,Crystal Palace,2022-08-30,19:30:00,Matchweek 5,Tue,Home,D,1,1,Brentford,0,1,2022-08-30 Crystal Palace-Brentford,0,0.2269286059742156
+233,Crystal Palace,2022-09-03,15:00:00,Matchweek 6,Sat,Away,D,0,0,Newcastle Utd,0,0,2022-09-03 Crystal Palace-Newcastle Utd,0,0.06888974572651024
+234,Crystal Palace,2022-10-01,15:00:00,Matchweek 9,Sat,Home,L,1,2,Chelsea,0,1,2022-10-01 Crystal Palace-Chelsea,0,0.2219607004417316
+235,Crystal Palace,2022-10-09,14:00:00,Matchweek 10,Sun,Home,W,2,1,Leeds United,1,1,2022-10-09 Crystal Palace-Leeds United,0,0.5309249046025155
+236,Crystal Palace,2022-10-15,12:30:00,Matchweek 11,Sat,Away,D,0,0,Leicester City,0,0,2022-10-15 Crystal Palace-Leicester City,0,0.32829540613651037
+237,Crystal Palace,2022-10-18,20:15:00,Matchweek 12,Tue,Home,W,2,1,Wolves,1,1,2022-10-18 Crystal Palace-Wolves,1,0.6597610570033838
+238,Crystal Palace,2022-10-22,15:00:00,Matchweek 13,Sat,Away,L,0,3,Everton,0,0,2022-10-22 Crystal Palace-Everton,0,0.2679881217835577
+239,Crystal Palace,2022-10-29,15:00:00,Matchweek 14,Sat,Home,W,1,0,Southampton,1,1,2022-10-29 Crystal Palace-Southampton,0,0.5922513826729602
+240,Crystal Palace,2022-11-06,14:00:00,Matchweek 15,Sun,Away,W,2,1,West Ham,1,0,2022-11-06 Crystal Palace-West Ham,0,0.22730583555939393
+241,Crystal Palace,2022-11-12,15:00:00,Matchweek 16,Sat,Away,L,0,1,Nott'ham Forest,0,0,2022-11-12 Crystal Palace-Nott'ham Forest,0,0.0690277206620305
+242,Crystal Palace,2022-12-26,15:00:00,Matchweek 17,Mon,Home,L,0,3,Fulham,0,1,2022-12-26 Crystal Palace-Fulham,0,0.2112345049311293
+243,Crystal Palace,2022-12-31,15:00:00,Matchweek 18,Sat,Away,W,2,0,Bournemouth,1,0,2022-12-31 Crystal Palace-Bournemouth,0,0.5151539238731536
+244,Crystal Palace,2023-01-04,20:00:00,Matchweek 19,Wed,Home,L,0,4,Tottenham,0,1,2023-01-04 Crystal Palace-Tottenham,0,0.056736736306472885
+245,Crystal Palace,2023-01-15,14:00:00,Matchweek 20,Sun,Away,L,0,1,Chelsea,0,0,2023-01-15 Crystal Palace-Chelsea,0,0.19266448168440783
+246,Crystal Palace,2023-01-18,20:00:00,Matchweek 7,Wed,Home,D,1,1,Manchester Utd,0,1,2023-01-18 Crystal Palace-Manchester Utd,0,0.22982187599642978
+247,Crystal Palace,2023-01-21,17:30:00,Matchweek 21,Sat,Home,D,0,0,Newcastle Utd,0,1,2023-01-21 Crystal Palace-Newcastle Utd,0,0.06995038875190393
+248,Crystal Palace,2023-02-04,15:00:00,Matchweek 22,Sat,Away,L,1,2,Manchester Utd,0,0,2023-02-04 Crystal Palace-Manchester Utd,1,0.7139546971707202
+249,Crystal Palace,2023-02-11,15:00:00,Matchweek 23,Sat,Home,D,1,1,Brighton,0,1,2023-02-11 Crystal Palace-Brighton,0,0.38616412866441185
+250,Crystal Palace,2023-02-18,15:00:00,Matchweek 24,Sat,Away,D,1,1,Brentford,0,0,2023-02-18 Crystal Palace-Brentford,1,0.7626105267521882
+251,Crystal Palace,2023-02-25,19:45:00,Matchweek 25,Sat,Home,D,0,0,Liverpool,0,1,2023-02-25 Crystal Palace-Liverpool,0,0.4474228110765916
+252,Crystal Palace,2023-03-04,15:00:00,Matchweek 26,Sat,Away,L,0,1,Aston Villa,0,0,2023-03-04 Crystal Palace-Aston Villa,0,0.3404746190774628
+253,Crystal Palace,2023-03-11,17:30:00,Matchweek 27,Sat,Home,L,0,1,Manchester City,0,1,2023-03-11 Crystal Palace-Manchester City,1,0.671936033012728
+254,Crystal Palace,2023-03-15,19:30:00,Matchweek 8,Wed,Away,L,0,1,Brighton,0,0,2023-03-15 Crystal Palace-Brighton,1,0.6433714625549782
+255,Crystal Palace,2023-03-19,14:00:00,Matchweek 28,Sun,Away,L,1,4,Arsenal,0,0,2023-03-19 Crystal Palace-Arsenal,0,0.31257530362949515
+256,Crystal Palace,2023-04-01,15:00:00,Matchweek 29,Sat,Home,W,2,1,Leicester City,1,1,2023-04-01 Crystal Palace-Leicester City,0,0.3220442630389484
+257,Crystal Palace,2023-04-09,14:00:00,Matchweek 30,Sun,Away,W,5,1,Leeds United,1,0,2023-04-09 Crystal Palace-Leeds United,0,0.10692647989220194
+258,Crystal Palace,2023-04-15,15:00:00,Matchweek 31,Sat,Away,W,2,0,Southampton,1,0,2023-04-15 Crystal Palace-Southampton,0,0.059995904756136385
+259,Crystal Palace,2023-04-22,15:00:00,Matchweek 32,Sat,Home,D,0,0,Everton,0,1,2023-04-22 Crystal Palace-Everton,0,0.20205922734529966
+260,Crystal Palace,2023-04-25,19:30:00,Matchweek 33,Tue,Away,L,0,2,Wolves,0,0,2023-04-25 Crystal Palace-Wolves,0,0.28694883323245557
+261,Crystal Palace,2023-04-29,12:30:00,Matchweek 34,Sat,Home,W,4,3,West Ham,1,1,2023-04-29 Crystal Palace-West Ham,1,0.614883077336425
+262,Crystal Palace,2023-05-06,15:00:00,Matchweek 35,Sat,Away,L,0,1,Tottenham,0,0,2023-05-06 Crystal Palace-Tottenham,0,0.5808562624442133
+263,Crystal Palace,2023-05-13,15:00:00,Matchweek 36,Sat,Home,W,2,0,Bournemouth,1,1,2023-05-13 Crystal Palace-Bournemouth,0,0.2588709693308306
+264,Crystal Palace,2023-05-20,15:00:00,Matchweek 37,Sat,Away,D,2,2,Fulham,0,0,2023-05-20 Crystal Palace-Fulham,0,0.16267233083620308
+265,Crystal Palace,2023-05-28,16:30:00,Matchweek 38,Sun,Home,D,1,1,Nott'ham Forest,0,1,2023-05-28 Crystal Palace-Nott'ham Forest,0,0.4352793618858026
+266,Everton,2022-08-06,17:30:00,Matchweek 1,Sat,Home,L,0,1,Chelsea,0,1,2022-08-06 Everton-Chelsea,1,0.7906694827235731
+267,Everton,2022-08-13,12:30:00,Matchweek 2,Sat,Away,L,1,2,Aston Villa,0,0,2022-08-13 Everton-Aston Villa,1,0.9374443020630657
+268,Everton,2022-08-20,15:00:00,Matchweek 3,Sat,Home,D,1,1,Nott'ham Forest,0,1,2022-08-20 Everton-Nott'ham Forest,1,0.8295575676915355
+269,Everton,2022-08-27,15:00:00,Matchweek 4,Sat,Away,D,1,1,Brentford,0,0,2022-08-27 Everton-Brentford,0,0.5509130566904434
+270,Everton,2022-08-30,20:00:00,Matchweek 5,Tue,Away,D,1,1,Leeds United,0,0,2022-08-30 Everton-Leeds United,0,0.4550801078657807
+271,Everton,2022-09-03,12:30:00,Matchweek 6,Sat,Home,D,0,0,Liverpool,0,1,2022-09-03 Everton-Liverpool,0,0.17389075830021714
+272,Everton,2022-09-18,14:15:00,Matchweek 8,Sun,Home,W,1,0,West Ham,1,1,2022-09-18 Everton-West Ham,1,0.7630416680988726
+273,Everton,2022-10-01,15:00:00,Matchweek 9,Sat,Away,W,2,1,Southampton,1,0,2022-10-01 Everton-Southampton,0,0.44801205160747753
+274,Everton,2022-10-09,19:00:00,Matchweek 10,Sun,Home,L,1,2,Manchester Utd,0,1,2022-10-09 Everton-Manchester Utd,0,0.5816780573893822
+275,Everton,2022-10-15,17:30:00,Matchweek 11,Sat,Away,L,0,2,Tottenham,0,0,2022-10-15 Everton-Tottenham,1,0.8465507430018694
+276,Everton,2022-10-19,19:30:00,Matchweek 12,Wed,Away,L,0,1,Newcastle Utd,0,0,2022-10-19 Everton-Newcastle Utd,0,0.5101777269003247
+277,Everton,2022-10-22,15:00:00,Matchweek 13,Sat,Home,W,3,0,Crystal Palace,1,1,2022-10-22 Everton-Crystal Palace,1,0.805158217160009
+278,Everton,2022-10-29,17:30:00,Matchweek 14,Sat,Away,D,0,0,Fulham,0,0,2022-10-29 Everton-Fulham,0,0.3750575465549554
+279,Everton,2022-11-05,17:30:00,Matchweek 15,Sat,Home,L,0,2,Leicester City,0,1,2022-11-05 Everton-Leicester City,1,0.7042365462628631
+280,Everton,2022-11-12,15:00:00,Matchweek 16,Sat,Away,L,0,3,Bournemouth,0,0,2022-11-12 Everton-Bournemouth,1,0.7514209070349309
+281,Everton,2022-12-26,15:00:00,Matchweek 17,Mon,Home,L,1,2,Wolves,0,1,2022-12-26 Everton-Wolves,0,0.43243345974601866
+282,Everton,2022-12-31,15:00:00,Matchweek 18,Sat,Away,D,1,1,Manchester City,0,0,2022-12-31 Everton-Manchester City,0,0.40438707207874436
+283,Everton,2023-01-03,19:45:00,Matchweek 19,Tue,Home,L,1,4,Brighton,0,1,2023-01-03 Everton-Brighton,0,0.146121193887354
+284,Everton,2023-01-14,15:00:00,Matchweek 20,Sat,Home,L,1,2,Southampton,0,1,2023-01-14 Everton-Southampton,0,0.17626199086301853
+285,Everton,2023-01-21,15:00:00,Matchweek 21,Sat,Away,L,0,2,West Ham,0,0,2023-01-21 Everton-West Ham,0,0.45915456323797005
+286,Everton,2023-02-04,12:30:00,Matchweek 22,Sat,Home,W,1,0,Arsenal,1,1,2023-02-04 Everton-Arsenal,1,0.6415517414695981
+287,Everton,2023-02-13,20:00:00,Matchweek 23,Mon,Away,L,0,2,Liverpool,0,0,2023-02-13 Everton-Liverpool,1,0.8765589155922318
+288,Everton,2023-02-18,15:00:00,Matchweek 24,Sat,Home,W,1,0,Leeds United,1,1,2023-02-18 Everton-Leeds United,1,0.9013767184337158
+289,Everton,2023-02-25,15:00:00,Matchweek 25,Sat,Home,L,0,2,Aston Villa,0,1,2023-02-25 Everton-Aston Villa,1,0.6973016881962728
+290,Everton,2023-03-01,19:45:00,Matchweek 7,Wed,Away,L,0,4,Arsenal,0,0,2023-03-01 Everton-Arsenal,0,0.5949316582656442
+291,Everton,2023-03-05,14:00:00,Matchweek 26,Sun,Away,D,2,2,Nott'ham Forest,0,0,2023-03-05 Everton-Nott'ham Forest,1,0.8535256355605948
+292,Everton,2023-03-11,15:00:00,Matchweek 27,Sat,Home,W,1,0,Brentford,1,1,2023-03-11 Everton-Brentford,1,0.8369350861142902
+293,Everton,2023-03-18,17:30:00,Matchweek 28,Sat,Away,D,2,2,Chelsea,0,0,2023-03-18 Everton-Chelsea,0,0.5640127199518382
+294,Everton,2023-04-03,20:00:00,Matchweek 29,Mon,Home,D,1,1,Tottenham,0,1,2023-04-03 Everton-Tottenham,0,0.25408234636222016
+295,Everton,2023-04-08,12:30:00,Matchweek 30,Sat,Away,L,0,2,Manchester Utd,0,0,2023-04-08 Everton-Manchester Utd,0,0.5747303687603135
+296,Everton,2023-04-15,15:00:00,Matchweek 31,Sat,Home,L,1,3,Fulham,0,1,2023-04-15 Everton-Fulham,0,0.4187509669634677
+297,Everton,2023-04-22,15:00:00,Matchweek 32,Sat,Away,D,0,0,Crystal Palace,0,0,2023-04-22 Everton-Crystal Palace,0,0.1536784014098075
+298,Everton,2023-04-27,19:45:00,Matchweek 33,Thu,Home,L,1,4,Newcastle Utd,0,1,2023-04-27 Everton-Newcastle Utd,1,0.8195727861658687
+299,Everton,2023-05-01,20:00:00,Matchweek 34,Mon,Away,D,2,2,Leicester City,0,0,2023-05-01 Everton-Leicester City,0,0.5337788078378142
+300,Everton,2023-05-08,17:30:00,Matchweek 35,Mon,Away,W,5,1,Brighton,1,0,2023-05-08 Everton-Brighton,0,0.4984314111238878
+301,Everton,2023-05-14,14:00:00,Matchweek 36,Sun,Home,L,0,3,Manchester City,0,1,2023-05-14 Everton-Manchester City,1,0.7976805038423914
+302,Everton,2023-05-20,15:00:00,Matchweek 37,Sat,Away,D,1,1,Wolves,0,0,2023-05-20 Everton-Wolves,0,0.3559681496861429
+303,Everton,2023-05-28,16:30:00,Matchweek 38,Sun,Home,W,1,0,Bournemouth,1,1,2023-05-28 Everton-Bournemouth,1,0.6868056622199509
+304,Fulham,2022-08-06,12:30:00,Matchweek 1,Sat,Home,D,2,2,Liverpool,0,1,2022-08-06 Fulham-Liverpool,1,0.8057893300324521
+305,Fulham,2022-08-13,15:00:00,Matchweek 2,Sat,Away,D,0,0,Wolves,0,0,2022-08-13 Fulham-Wolves,0,0.5111842399649836
+306,Fulham,2022-08-20,15:00:00,Matchweek 3,Sat,Home,W,3,2,Brentford,1,1,2022-08-20 Fulham-Brentford,0,0.2535323814109668
+307,Fulham,2022-08-27,17:30:00,Matchweek 4,Sat,Away,L,1,2,Arsenal,0,0,2022-08-27 Fulham-Arsenal,0,0.574020460164443
+308,Fulham,2022-08-30,19:30:00,Matchweek 5,Tue,Home,W,2,1,Brighton,1,1,2022-08-30 Fulham-Brighton,0,0.055069210107583845
+309,Fulham,2022-09-03,15:00:00,Matchweek 6,Sat,Away,L,1,2,Tottenham,0,0,2022-09-03 Fulham-Tottenham,0,0.187797335574446
+310,Fulham,2022-09-16,20:00:00,Matchweek 8,Fri,Away,W,3,2,Nott'ham Forest,1,0,2022-09-16 Fulham-Nott'ham Forest,0,0.18348276744965528
+311,Fulham,2022-10-01,15:00:00,Matchweek 9,Sat,Home,L,1,4,Newcastle Utd,0,1,2022-10-01 Fulham-Newcastle Utd,0,0.47133325885369326
+312,Fulham,2022-10-09,14:00:00,Matchweek 10,Sun,Away,L,1,3,West Ham,0,0,2022-10-09 Fulham-West Ham,0,0.2779696198003024
+313,Fulham,2022-10-15,15:00:00,Matchweek 11,Sat,Home,D,2,2,Bournemouth,0,1,2022-10-15 Fulham-Bournemouth,1,0.6043393601143737
+314,Fulham,2022-10-20,19:30:00,Matchweek 12,Thu,Home,W,3,0,Aston Villa,1,1,2022-10-20 Fulham-Aston Villa,0,0.22382653941715486
+315,Fulham,2022-10-23,14:00:00,Matchweek 13,Sun,Away,W,3,2,Leeds United,1,0,2022-10-23 Fulham-Leeds United,0,0.533606694134426
+316,Fulham,2022-10-29,17:30:00,Matchweek 14,Sat,Home,D,0,0,Everton,0,1,2022-10-29 Fulham-Everton,0,0.39731461248977146
+317,Fulham,2022-11-05,15:00:00,Matchweek 15,Sat,Away,L,1,2,Manchester City,0,0,2022-11-05 Fulham-Manchester City,0,0.14248508025730106
+318,Fulham,2022-11-13,16:30:00,Matchweek 16,Sun,Home,L,1,2,Manchester Utd,0,1,2022-11-13 Fulham-Manchester Utd,0,0.05518114520125791
+319,Fulham,2022-12-26,15:00:00,Matchweek 17,Mon,Away,W,3,0,Crystal Palace,1,0,2022-12-26 Fulham-Crystal Palace,0,0.18812534572096576
+320,Fulham,2022-12-31,15:00:00,Matchweek 18,Sat,Home,W,2,1,Southampton,1,1,2022-12-31 Fulham-Southampton,0,0.1582323275468146
+321,Fulham,2023-01-03,19:45:00,Matchweek 19,Tue,Away,W,1,0,Leicester City,1,0,2023-01-03 Fulham-Leicester City,0,0.04523586512335807
+322,Fulham,2023-01-12,20:00:00,Matchweek 7,Thu,Home,W,2,1,Chelsea,1,1,2023-01-12 Fulham-Chelsea,0,0.1903145158665792
+323,Fulham,2023-01-15,14:00:00,Matchweek 20,Sun,Away,L,0,1,Newcastle Utd,0,0,2023-01-15 Fulham-Newcastle Utd,0,0.05592985036390789
+324,Fulham,2023-01-23,20:00:00,Matchweek 21,Mon,Home,L,0,1,Tottenham,0,1,2023-01-23 Fulham-Tottenham,0,0.33134332390594323
+325,Fulham,2023-02-03,20:00:00,Matchweek 22,Fri,Away,D,0,0,Chelsea,0,0,2023-02-03 Fulham-Chelsea,1,0.662849543342397
+326,Fulham,2023-02-11,15:00:00,Matchweek 23,Sat,Home,W,2,0,Nott'ham Forest,1,1,2023-02-11 Fulham-Nott'ham Forest,1,0.7167495000329113
+327,Fulham,2023-02-18,15:00:00,Matchweek 24,Sat,Away,W,1,0,Brighton,1,0,2023-02-18 Fulham-Brighton,0,0.3894226640967721
+328,Fulham,2023-02-24,20:00:00,Matchweek 25,Fri,Home,D,1,1,Wolves,0,1,2023-02-24 Fulham-Wolves,0,0.28908534255518953
+329,Fulham,2023-03-06,20:00:00,Matchweek 26,Mon,Away,L,2,3,Brentford,0,0,2023-03-06 Fulham-Brentford,1,0.6173473013292509
+330,Fulham,2023-03-12,14:00:00,Matchweek 27,Sun,Home,L,0,3,Arsenal,0,1,2023-03-12 Fulham-Arsenal,0,0.26371322310270606
+331,Fulham,2023-04-01,15:00:00,Matchweek 29,Sat,Away,L,1,2,Bournemouth,0,0,2023-04-01 Fulham-Bournemouth,0,0.5869514486070536
+332,Fulham,2023-04-08,15:00:00,Matchweek 30,Sat,Home,L,0,1,West Ham,0,1,2023-04-08 Fulham-West Ham,0,0.27228829012391664
+333,Fulham,2023-04-15,15:00:00,Matchweek 31,Sat,Away,W,3,1,Everton,1,0,2023-04-15 Fulham-Everton,0,0.08618137830112016
+334,Fulham,2023-04-22,12:30:00,Matchweek 32,Sat,Home,W,2,1,Leeds United,1,1,2023-04-22 Fulham-Leeds United,0,0.047867907129576774
+335,Fulham,2023-04-25,19:45:00,Matchweek 33,Tue,Away,L,0,1,Aston Villa,0,0,2023-04-25 Fulham-Aston Villa,0,0.16629392106544247
+336,Fulham,2023-04-30,14:00:00,Matchweek 34,Sun,Home,L,1,2,Manchester City,0,1,2023-04-30 Fulham-Manchester City,0,0.5570589995179545
+337,Fulham,2023-05-03,20:00:00,Matchweek 28,Wed,Away,L,0,1,Liverpool,0,0,2023-05-03 Fulham-Liverpool,0,0.24069009067438213
+338,Fulham,2023-05-08,15:00:00,Matchweek 35,Mon,Home,W,5,3,Leicester City,1,1,2023-05-08 Fulham-Leicester City,0,0.5218956999408215
+339,Fulham,2023-05-13,15:00:00,Matchweek 36,Sat,Away,W,2,0,Southampton,1,0,2023-05-13 Fulham-Southampton,0,0.2157689438805829
+340,Fulham,2023-05-20,15:00:00,Matchweek 37,Sat,Home,D,2,2,Crystal Palace,0,1,2023-05-20 Fulham-Crystal Palace,0,0.3777771830056882
+341,Fulham,2023-05-28,16:30:00,Matchweek 38,Sun,Away,L,1,2,Manchester Utd,0,0,2023-05-28 Fulham-Manchester Utd,0,0.1327190935316538
+342,Leeds United,2022-08-06,15:00:00,Matchweek 1,Sat,Home,W,2,1,Wolves,1,1,2022-08-06 Leeds United-Wolves,1,0.8231982181784296
+343,Leeds United,2022-08-13,15:00:00,Matchweek 2,Sat,Away,D,2,2,Southampton,0,0,2022-08-13 Leeds United-Southampton,1,0.9486464543908637
+344,Leeds United,2022-08-21,14:00:00,Matchweek 3,Sun,Home,W,3,0,Chelsea,1,1,2022-08-21 Leeds United-Chelsea,1,0.6019418347129198
+345,Leeds United,2022-08-27,15:00:00,Matchweek 4,Sat,Away,L,0,1,Brighton,0,0,2022-08-27 Leeds United-Brighton,1,0.85713521897267
+346,Leeds United,2022-08-30,20:00:00,Matchweek 5,Tue,Home,D,1,1,Everton,0,1,2022-08-30 Leeds United-Everton,0,0.20601794908159954
+347,Leeds United,2022-09-03,15:00:00,Matchweek 6,Sat,Away,L,2,5,Brentford,0,0,2022-09-03 Leeds United-Brentford,0,0.5072587028922567
+348,Leeds United,2022-10-02,16:30:00,Matchweek 9,Sun,Home,D,0,0,Aston Villa,0,1,2022-10-02 Leeds United-Aston Villa,1,0.7987709646672448
+349,Leeds United,2022-10-09,14:00:00,Matchweek 10,Sun,Away,L,1,2,Crystal Palace,0,0,2022-10-09 Leeds United-Crystal Palace,0,0.5001240258400151
+350,Leeds United,2022-10-16,14:00:00,Matchweek 11,Sun,Home,L,0,1,Arsenal,0,1,2022-10-16 Leeds United-Arsenal,1,0.8718037880722364
+351,Leeds United,2022-10-20,20:15:00,Matchweek 12,Thu,Away,L,0,2,Leicester City,0,0,2022-10-20 Leeds United-Leicester City,1,0.6315490414816378
+352,Leeds United,2022-10-23,14:00:00,Matchweek 13,Sun,Home,L,2,3,Fulham,0,1,2022-10-23 Leeds United-Fulham,0,0.5621564939244015
+353,Leeds United,2022-10-29,19:45:00,Matchweek 14,Sat,Away,W,2,1,Liverpool,1,0,2022-10-29 Leeds United-Liverpool,1,0.8359027619511878
+354,Leeds United,2022-11-05,15:00:00,Matchweek 15,Sat,Home,W,4,3,Bournemouth,1,1,2022-11-05 Leeds United-Bournemouth,1,0.7458796894797008
+355,Leeds United,2022-11-12,15:00:00,Matchweek 16,Sat,Away,L,3,4,Tottenham,0,0,2022-11-12 Leeds United-Tottenham,0,0.42522067489107024
+356,Leeds United,2022-12-28,20:00:00,Matchweek 17,Wed,Home,L,1,3,Manchester City,0,1,2022-12-28 Leeds United-Manchester City,0,0.20636969751315012
+357,Leeds United,2022-12-31,15:00:00,Matchweek 18,Sat,Away,D,0,0,Newcastle Utd,0,0,2022-12-31 Leeds United-Newcastle Utd,0,0.5077958381453878
+358,Leeds United,2023-01-04,19:45:00,Matchweek 19,Wed,Home,D,2,2,West Ham,0,1,2023-01-04 Leeds United-West Ham,0,0.48432330345478247
+359,Leeds United,2023-01-13,20:00:00,Matchweek 20,Fri,Away,L,1,2,Aston Villa,0,0,2023-01-13 Leeds United-Aston Villa,1,0.7884165467660772
+360,Leeds United,2023-01-22,14:00:00,Matchweek 21,Sun,Home,D,0,0,Brentford,0,1,2023-01-22 Leeds United-Brentford,0,0.5113619280772796
+361,Leeds United,2023-02-05,14:00:00,Matchweek 22,Sun,Away,L,0,1,Nott'ham Forest,0,0,2023-02-05 Leeds United-Nott'ham Forest,0,0.20871659347967614
+362,Leeds United,2023-02-08,20:00:00,Matchweek 8,Wed,Away,D,2,2,Manchester Utd,0,0,2023-02-08 Leeds United-Manchester Utd,1,0.8974716429580584
+363,Leeds United,2023-02-12,14:00:00,Matchweek 23,Sun,Home,L,0,2,Manchester Utd,0,1,2023-02-12 Leeds United-Manchester Utd,1,0.6881120500697487
+364,Leeds United,2023-02-18,15:00:00,Matchweek 24,Sat,Away,L,0,1,Everton,0,0,2023-02-18 Leeds United-Everton,1,0.73956015289777
+365,Leeds United,2023-02-25,15:00:00,Matchweek 25,Sat,Home,W,1,0,Southampton,1,1,2023-02-25 Leeds United-Southampton,1,0.9184759843571546
+366,Leeds United,2023-03-04,15:00:00,Matchweek 26,Sat,Away,L,0,1,Chelsea,0,0,2023-03-04 Leeds United-Chelsea,1,0.8777965249856493
+367,Leeds United,2023-03-11,15:00:00,Matchweek 27,Sat,Home,D,2,2,Brighton,0,1,2023-03-11 Leeds United-Brighton,1,0.6441891041782989
+368,Leeds United,2023-03-18,15:00:00,Matchweek 28,Sat,Away,W,4,2,Wolves,1,0,2023-03-18 Leeds United-Wolves,1,0.8635154454438086
+369,Leeds United,2023-04-01,15:00:00,Matchweek 29,Sat,Away,L,1,4,Arsenal,0,0,2023-04-01 Leeds United-Arsenal,1,0.614594321276188
+370,Leeds United,2023-04-04,19:45:00,Matchweek 7,Tue,Home,W,2,1,Nott'ham Forest,1,1,2023-04-04 Leeds United-Nott'ham Forest,1,0.6248955034221502
+371,Leeds United,2023-04-09,14:00:00,Matchweek 30,Sun,Home,L,1,5,Crystal Palace,0,1,2023-04-09 Leeds United-Crystal Palace,0,0.2957217348894058
+372,Leeds United,2023-04-17,20:00:00,Matchweek 31,Mon,Home,L,1,6,Liverpool,0,1,2023-04-17 Leeds United-Liverpool,0,0.4703596149420201
+373,Leeds United,2023-04-22,12:30:00,Matchweek 32,Sat,Away,L,1,2,Fulham,0,0,2023-04-22 Leeds United-Fulham,0,0.18289802783879533
+374,Leeds United,2023-04-25,20:00:00,Matchweek 33,Tue,Home,D,1,1,Leicester City,0,1,2023-04-25 Leeds United-Leicester City,1,0.8484708799806643
+375,Leeds United,2023-04-30,14:00:00,Matchweek 34,Sun,Away,L,1,4,Bournemouth,0,0,2023-04-30 Leeds United-Bournemouth,0,0.5852889238807804
+376,Leeds United,2023-05-06,15:00:00,Matchweek 35,Sat,Away,L,1,2,Manchester City,0,0,2023-05-06 Leeds United-Manchester City,0,0.5505585720125633
+377,Leeds United,2023-05-13,12:30:00,Matchweek 36,Sat,Home,D,2,2,Newcastle Utd,0,1,2023-05-13 Leeds United-Newcastle Utd,1,0.8293549013399053
+378,Leeds United,2023-05-21,13:30:00,Matchweek 37,Sun,Away,L,1,3,West Ham,0,0,2023-05-21 Leeds United-West Ham,0,0.4052336708772716
+379,Leeds United,2023-05-28,16:30:00,Matchweek 38,Sun,Home,L,1,4,Tottenham,0,1,2023-05-28 Leeds United-Tottenham,1,0.7299619770676481
+380,Leicester City,2022-08-07,14:00:00,Matchweek 1,Sun,Home,D,2,2,Brentford,0,1,2022-08-07 Leicester City-Brentford,1,0.936602251978096
+381,Leicester City,2022-08-13,15:00:00,Matchweek 2,Sat,Away,L,2,4,Arsenal,0,0,2022-08-13 Leicester City-Arsenal,1,0.7882978973281884
+382,Leicester City,2022-08-20,15:00:00,Matchweek 3,Sat,Home,L,1,2,Southampton,0,1,2022-08-20 Leicester City-Southampton,1,0.8275304565426705
+383,Leicester City,2022-08-27,15:00:00,Matchweek 4,Sat,Away,L,1,2,Chelsea,0,0,2022-08-27 Leicester City-Chelsea,0,0.5473801244737598
+384,Leicester City,2022-09-01,20:00:00,Matchweek 5,Thu,Home,L,0,1,Manchester Utd,0,1,2022-09-01 Leicester City-Manchester Utd,0,0.45154381348527034
+385,Leicester City,2022-09-04,14:00:00,Matchweek 6,Sun,Away,L,2,5,Brighton,0,0,2022-09-04 Leicester City-Brighton,0,0.17185041187960373
+386,Leicester City,2022-09-17,17:30:00,Matchweek 8,Sat,Away,L,2,6,Tottenham,0,0,2022-09-17 Leicester City-Tottenham,0,0.44448588021458124
+387,Leicester City,2022-10-03,20:00:00,Matchweek 9,Mon,Home,W,4,0,Nott'ham Forest,1,1,2022-10-03 Leicester City-Nott'ham Forest,1,0.7604519076733763
+388,Leicester City,2022-10-08,15:00:00,Matchweek 10,Sat,Away,L,1,2,Bournemouth,0,0,2022-10-08 Leicester City-Bournemouth,1,0.8446878971719517
+389,Leicester City,2022-10-15,12:30:00,Matchweek 11,Sat,Home,D,0,0,Crystal Palace,0,1,2022-10-15 Leicester City-Crystal Palace,0,0.5782018476406242
+390,Leicester City,2022-10-20,20:15:00,Matchweek 12,Thu,Home,W,2,0,Leeds United,1,1,2022-10-20 Leicester City-Leeds United,1,0.8029098629076683
+391,Leicester City,2022-10-23,14:00:00,Matchweek 13,Sun,Away,W,4,0,Wolves,1,0,2022-10-23 Leicester City-Wolves,0,0.5066113332095584
+392,Leicester City,2022-10-29,12:30:00,Matchweek 14,Sat,Home,L,0,1,Manchester City,0,1,2022-10-29 Leicester City-Manchester City,0,0.3717188993995464
+393,Leicester City,2022-11-05,17:30:00,Matchweek 15,Sat,Away,W,2,0,Everton,1,0,2022-11-05 Leicester City-Everton,1,0.7012557192193407
+394,Leicester City,2022-11-12,15:00:00,Matchweek 16,Sat,Away,W,2,0,West Ham,1,0,2022-11-12 Leicester City-West Ham,0,0.4520760798529493
+395,Leicester City,2022-12-26,15:00:00,Matchweek 17,Mon,Home,L,0,3,Newcastle Utd,0,1,2022-12-26 Leicester City-Newcastle Utd,0,0.17215647267549947
+396,Leicester City,2022-12-30,20:00:00,Matchweek 18,Fri,Away,L,1,2,Liverpool,0,0,2022-12-30 Leicester City-Liverpool,0,0.42893462250989806
+397,Leicester City,2023-01-03,19:45:00,Matchweek 19,Tue,Home,L,0,1,Fulham,0,1,2023-01-03 Leicester City-Fulham,1,0.74874596149568
+398,Leicester City,2023-01-14,15:00:00,Matchweek 20,Sat,Away,L,0,2,Nott'ham Forest,0,0,2023-01-14 Leicester City-Nott'ham Forest,0,0.14434974708825132
+399,Leicester City,2023-01-21,15:00:00,Matchweek 21,Sat,Home,D,2,2,Brighton,0,1,2023-01-21 Leicester City-Brighton,0,0.4009548495415063
+400,Leicester City,2023-02-04,15:00:00,Matchweek 22,Sat,Away,W,4,2,Aston Villa,1,0,2023-02-04 Leicester City-Aston Villa,1,0.8750065754170406
+401,Leicester City,2023-02-11,15:00:00,Matchweek 23,Sat,Home,W,4,1,Tottenham,1,1,2023-02-11 Leicester City-Tottenham,1,0.6382636609350599
+402,Leicester City,2023-02-19,14:00:00,Matchweek 24,Sun,Away,L,0,3,Manchester Utd,0,0,2023-02-19 Leicester City-Manchester Utd,1,0.6942813100067166
+403,Leicester City,2023-02-25,15:00:00,Matchweek 25,Sat,Home,L,0,1,Arsenal,0,1,2023-02-25 Leicester City-Arsenal,1,0.9001009069681148
+404,Leicester City,2023-03-04,17:30:00,Matchweek 26,Sat,Away,L,0,1,Southampton,0,0,2023-03-04 Leicester City-Southampton,0,0.5914882361370786
+405,Leicester City,2023-03-11,15:00:00,Matchweek 27,Sat,Home,L,1,3,Chelsea,0,1,2023-03-11 Leicester City-Chelsea,1,0.8517326336101543
+406,Leicester City,2023-03-18,15:00:00,Matchweek 28,Sat,Away,D,1,1,Brentford,0,0,2023-03-18 Leicester City-Brentford,0,0.5605006288277796
+407,Leicester City,2023-04-01,15:00:00,Matchweek 29,Sat,Away,L,1,2,Crystal Palace,0,0,2023-04-01 Leicester City-Crystal Palace,1,0.8349782630995363
+408,Leicester City,2023-04-04,19:45:00,Matchweek 7,Tue,Home,L,1,2,Aston Villa,0,1,2023-04-04 Leicester City-Aston Villa,0,0.25138739927171583
+409,Leicester City,2023-04-08,15:00:00,Matchweek 30,Sat,Home,L,0,1,Bournemouth,0,1,2023-04-08 Leicester City-Bournemouth,0,0.571238981209945
+410,Leicester City,2023-04-15,17:30:00,Matchweek 31,Sat,Away,L,1,3,Manchester City,0,0,2023-04-15 Leicester City-Manchester City,0,0.15183162836651773
+411,Leicester City,2023-04-22,15:00:00,Matchweek 32,Sat,Home,W,2,1,Wolves,1,1,2023-04-22 Leicester City-Wolves,0,0.4152818333339528
+412,Leicester City,2023-04-25,20:00:00,Matchweek 33,Tue,Away,D,1,1,Leeds United,0,0,2023-04-25 Leicester City-Leeds United,1,0.817453055334623
+413,Leicester City,2023-05-01,20:00:00,Matchweek 34,Mon,Home,D,2,2,Everton,0,1,2023-05-01 Leicester City-Everton,0,0.5302260230409377
+414,Leicester City,2023-05-08,15:00:00,Matchweek 35,Mon,Away,L,3,5,Fulham,0,0,2023-05-08 Leicester City-Fulham,1,0.7953677916628422
+415,Leicester City,2023-05-15,20:00:00,Matchweek 36,Mon,Home,L,0,3,Liverpool,0,1,2023-05-15 Leicester City-Liverpool,0,0.4948641722222338
+416,Leicester City,2023-05-22,20:00:00,Matchweek 37,Mon,Away,D,0,0,Newcastle Utd,0,0,2023-05-22 Leicester City-Newcastle Utd,1,0.683728055263902
+417,Leicester City,2023-05-28,16:30:00,Matchweek 38,Sun,Home,W,2,1,West Ham,1,1,2023-05-28 Leicester City-West Ham,0,0.35270352695142054
+418,Liverpool,2022-08-06,12:30:00,Matchweek 1,Sat,Away,D,2,2,Fulham,0,0,2022-08-06 Liverpool-Fulham,1,0.6384963424884266
+419,Liverpool,2022-08-15,20:00:00,Matchweek 2,Mon,Home,D,1,1,Crystal Palace,0,1,2022-08-15 Liverpool-Crystal Palace,0,0.30804168040728236
+420,Liverpool,2022-08-22,20:00:00,Matchweek 3,Mon,Away,L,1,2,Manchester Utd,0,0,2022-08-22 Liverpool-Manchester Utd,0,0.3645287742043545
+421,Liverpool,2022-08-27,15:00:00,Matchweek 4,Sat,Home,W,9,0,Bournemouth,1,1,2022-08-27 Liverpool-Bournemouth,0,0.1263200081771409
+422,Liverpool,2022-08-31,20:00:00,Matchweek 5,Wed,Home,W,2,1,Newcastle Utd,1,1,2022-08-31 Liverpool-Newcastle Utd,0,0.024208243765675368
+423,Liverpool,2022-09-03,12:30:00,Matchweek 6,Sat,Away,D,0,0,Everton,0,0,2022-09-03 Liverpool-Everton,0,0.08960874334370948
+424,Liverpool,2022-10-01,15:00:00,Matchweek 9,Sat,Home,D,3,3,Brighton,0,1,2022-10-01 Liverpool-Brighton,0,0.2751141881791159
+425,Liverpool,2022-10-09,16:30:00,Matchweek 10,Sun,Away,L,2,3,Arsenal,0,0,2022-10-09 Liverpool-Arsenal,0,0.08730752723678445
+426,Liverpool,2022-10-16,16:30:00,Matchweek 11,Sun,Home,W,1,0,Manchester City,1,1,2022-10-16 Liverpool-Manchester City,0,0.14080857071264677
+427,Liverpool,2022-10-19,19:30:00,Matchweek 12,Wed,Home,W,1,0,West Ham,1,1,2022-10-19 Liverpool-West Ham,0,0.3940174423012559
+428,Liverpool,2022-10-22,12:30:00,Matchweek 13,Sat,Away,L,0,1,Nott'ham Forest,0,0,2022-10-22 Liverpool-Nott'ham Forest,0,0.10933617957629475
+429,Liverpool,2022-10-29,19:45:00,Matchweek 14,Sat,Home,L,1,2,Leeds United,0,1,2022-10-29 Liverpool-Leeds United,0,0.32752395599778755
+430,Liverpool,2022-11-06,16:30:00,Matchweek 15,Sun,Away,W,2,1,Tottenham,1,0,2022-11-06 Liverpool-Tottenham,0,0.06606076793507161
+431,Liverpool,2022-11-12,15:00:00,Matchweek 16,Sat,Home,W,3,1,Southampton,1,1,2022-11-12 Liverpool-Southampton,0,0.21913711877968944
+432,Liverpool,2022-12-26,17:30:00,Matchweek 17,Mon,Away,W,3,1,Aston Villa,1,0,2022-12-26 Liverpool-Aston Villa,0,0.08978421364377066
+433,Liverpool,2022-12-30,20:00:00,Matchweek 18,Fri,Home,W,2,1,Leicester City,1,1,2022-12-30 Liverpool-Leicester City,0,0.02425906049148908
+434,Liverpool,2023-01-02,17:30:00,Matchweek 19,Mon,Away,L,1,3,Brentford,0,0,2023-01-02 Liverpool-Brentford,0,0.2626866005785532
+435,Liverpool,2023-01-14,15:00:00,Matchweek 20,Sat,Away,L,0,3,Brighton,0,0,2023-01-14 Liverpool-Brighton,0,0.0823992718054285
+436,Liverpool,2023-01-21,12:30:00,Matchweek 21,Sat,Home,D,0,0,Chelsea,0,1,2023-01-21 Liverpool-Chelsea,0,0.019770241713042036
+437,Liverpool,2023-02-04,15:00:00,Matchweek 22,Sat,Away,L,0,3,Wolves,0,0,2023-02-04 Liverpool-Wolves,0,0.0740914920388272
+438,Liverpool,2023-02-13,20:00:00,Matchweek 23,Mon,Home,W,2,0,Everton,1,1,2023-02-13 Liverpool-Everton,0,0.024599134128929365
+439,Liverpool,2023-02-18,17:30:00,Matchweek 24,Sat,Away,W,2,0,Newcastle Utd,1,0,2023-02-18 Liverpool-Newcastle Utd,0,0.09095721943928127
+440,Liverpool,2023-02-25,19:45:00,Matchweek 25,Sat,Away,D,0,0,Crystal Palace,0,0,2023-02-25 Liverpool-Crystal Palace,0,0.2135304242742689
+441,Liverpool,2023-03-01,20:00:00,Matchweek 7,Wed,Home,W,2,0,Wolves,1,1,2023-03-01 Liverpool-Wolves,0,0.5185813629993602
+442,Liverpool,2023-03-05,16:30:00,Matchweek 26,Sun,Home,W,7,0,Manchester Utd,1,1,2023-03-05 Liverpool-Manchester Utd,0,0.4071569201464687
+443,Liverpool,2023-03-11,12:30:00,Matchweek 27,Sat,Away,L,0,1,Bournemouth,0,0,2023-03-11 Liverpool-Bournemouth,0,0.14756030989607896
+444,Liverpool,2023-04-01,12:30:00,Matchweek 29,Sat,Away,L,1,4,Manchester City,0,0,2023-04-01 Liverpool-Manchester City,0,0.13229787251721017
+445,Liverpool,2023-04-04,20:00:00,Matchweek 8,Tue,Away,D,0,0,Chelsea,0,0,2023-04-04 Liverpool-Chelsea,0,0.37691621277478055
+446,Liverpool,2023-04-09,16:30:00,Matchweek 30,Sun,Home,D,2,2,Arsenal,0,1,2023-04-09 Liverpool-Arsenal,0,0.13739716583770067
+447,Liverpool,2023-04-17,20:00:00,Matchweek 31,Mon,Away,W,6,1,Leeds United,1,0,2023-04-17 Liverpool-Leeds United,0,0.03859722617405703
+448,Liverpool,2023-04-22,15:00:00,Matchweek 32,Sat,Home,W,3,2,Nott'ham Forest,1,1,2023-04-22 Liverpool-Nott'ham Forest,0,0.020953087678656696
+449,Liverpool,2023-04-26,19:45:00,Matchweek 33,Wed,Away,W,2,1,West Ham,1,0,2023-04-26 Liverpool-West Ham,0,0.07826486496927995
+450,Liverpool,2023-04-30,16:30:00,Matchweek 34,Sun,Home,W,4,3,Tottenham,1,1,2023-04-30 Liverpool-Tottenham,0,0.34869044898680934
+451,Liverpool,2023-05-03,20:00:00,Matchweek 28,Wed,Home,W,1,0,Fulham,1,1,2023-05-03 Liverpool-Fulham,0,0.11889512295399687
+452,Liverpool,2023-05-06,17:30:00,Matchweek 35,Sat,Home,W,1,0,Brentford,1,1,2023-05-06 Liverpool-Brentford,0,0.10484342445805374
+453,Liverpool,2023-05-15,20:00:00,Matchweek 36,Mon,Away,W,3,0,Leicester City,1,0,2023-05-15 Liverpool-Leicester City,0,0.31725919654215456
+454,Liverpool,2023-05-20,15:00:00,Matchweek 37,Sat,Home,D,1,1,Aston Villa,0,1,2023-05-20 Liverpool-Aston Villa,0,0.20537565063912663
+455,Liverpool,2023-05-28,16:30:00,Matchweek 38,Sun,Away,D,4,4,Southampton,0,0,2023-05-28 Liverpool-Southampton,0,0.061159341823283274
+456,Manchester City,2022-08-07,16:30:00,Matchweek 1,Sun,Away,W,2,0,West Ham,1,0,2022-08-07 Manchester City-West Ham,0,0.5784631845260315
+457,Manchester City,2022-08-13,15:00:00,Matchweek 2,Sat,Home,W,4,0,Bournemouth,1,1,2022-08-13 Manchester City-Bournemouth,0,0.2569910897748817
+458,Manchester City,2022-08-21,16:30:00,Matchweek 3,Sun,Away,D,3,3,Newcastle Utd,0,0,2022-08-21 Manchester City-Newcastle Utd,0,0.3082875630238586
+459,Manchester City,2022-08-27,15:00:00,Matchweek 4,Sat,Home,W,4,2,Crystal Palace,1,1,2022-08-27 Manchester City-Crystal Palace,0,0.10099008384213244
+460,Manchester City,2022-08-31,19:30:00,Matchweek 5,Wed,Home,W,6,0,Nott'ham Forest,1,1,2022-08-31 Manchester City-Nott'ham Forest,0,0.018910767023364566
+461,Manchester City,2022-09-03,17:30:00,Matchweek 6,Sat,Away,D,1,1,Aston Villa,0,0,2022-09-03 Manchester City-Aston Villa,0,0.0710416511260581
+462,Manchester City,2022-09-17,12:30:00,Matchweek 8,Sat,Away,W,3,0,Wolves,1,0,2022-09-17 Manchester City-Wolves,0,0.06918101766296492
+463,Manchester City,2022-10-02,14:00:00,Matchweek 9,Sun,Home,W,6,3,Manchester Utd,1,1,2022-10-02 Manchester City-Manchester Utd,0,0.22772465578780124
+464,Manchester City,2022-10-08,15:00:00,Matchweek 10,Sat,Home,W,4,0,Southampton,1,1,2022-10-08 Manchester City-Southampton,0,0.11294896521727117
+465,Manchester City,2022-10-16,16:30:00,Matchweek 11,Sun,Away,L,0,1,Liverpool,0,0,2022-10-16 Manchester City-Liverpool,0,0.3356295172597015
+466,Manchester City,2022-10-22,15:00:00,Matchweek 13,Sat,Home,W,3,1,Brighton,1,1,2022-10-22 Manchester City-Brighton,0,0.2745255960231767
+467,Manchester City,2022-10-29,12:30:00,Matchweek 14,Sat,Away,W,1,0,Leicester City,1,0,2022-10-29 Manchester City-Leicester City,0,0.08707247338216119
+468,Manchester City,2022-11-05,15:00:00,Matchweek 15,Sat,Home,W,2,1,Fulham,1,1,2022-11-05 Manchester City-Fulham,0,0.05209366581222712
+469,Manchester City,2022-11-12,12:30:00,Matchweek 16,Sat,Home,L,1,2,Brentford,0,1,2022-11-12 Manchester City-Brentford,0,0.17900872716700894
+470,Manchester City,2022-12-28,20:00:00,Matchweek 17,Wed,Away,W,3,1,Leeds United,1,0,2022-12-28 Manchester City-Leeds United,0,0.0189506795162336
+471,Manchester City,2022-12-31,15:00:00,Matchweek 18,Sat,Home,D,1,1,Everton,0,1,2022-12-31 Manchester City-Everton,0,0.07118360648333169
+472,Manchester City,2023-01-05,20:00:00,Matchweek 19,Thu,Away,W,1,0,Chelsea,1,0,2023-01-05 Manchester City-Chelsea,0,0.06521898045226228
+473,Manchester City,2023-01-14,12:30:00,Matchweek 20,Sat,Away,L,1,2,Manchester Utd,0,0,2023-01-14 Manchester City-Manchester Utd,0,0.2167975331020989
+474,Manchester City,2023-01-19,20:00:00,Matchweek 7,Thu,Home,W,4,2,Tottenham,1,1,2023-01-19 Manchester City-Tottenham,0,0.05853288322302394
+475,Manchester City,2023-01-22,14:00:00,Matchweek 21,Sun,Home,W,3,0,Wolves,1,1,2023-01-22 Manchester City-Wolves,0,0.015428575103730328
+476,Manchester City,2023-02-05,16:30:00,Matchweek 22,Sun,Away,L,0,1,Tottenham,0,0,2023-02-05 Manchester City-Tottenham,0,0.07213285873337832
+477,Manchester City,2023-02-12,16:30:00,Matchweek 23,Sun,Home,W,3,1,Aston Villa,1,1,2023-02-12 Manchester City-Aston Villa,0,0.019217803703154318
+478,Manchester City,2023-02-15,19:30:00,Matchweek 12,Wed,Away,W,3,1,Arsenal,1,0,2023-02-15 Manchester City-Arsenal,0,0.3940326567658084
+479,Manchester City,2023-02-18,15:00:00,Matchweek 24,Sat,Away,D,1,1,Nott'ham Forest,0,0,2023-02-18 Manchester City-Nott'ham Forest,0,0.14081627987398831
+480,Manchester City,2023-02-25,17:30:00,Matchweek 25,Sat,Away,W,4,1,Bournemouth,1,0,2023-02-25 Manchester City-Bournemouth,0,0.11854916159472481
+481,Manchester City,2023-03-04,12:30:00,Matchweek 26,Sat,Home,W,2,0,Newcastle Utd,1,1,2023-03-04 Manchester City-Newcastle Utd,0,0.3479398756138985
+482,Manchester City,2023-03-11,17:30:00,Matchweek 27,Sat,Away,W,1,0,Crystal Palace,1,0,2023-03-11 Manchester City-Crystal Palace,0,0.3197253897891748
+483,Manchester City,2023-04-01,12:30:00,Matchweek 29,Sat,Home,W,4,1,Liverpool,1,1,2023-04-01 Manchester City-Liverpool,0,0.10591457086903963
+484,Manchester City,2023-04-08,17:30:00,Matchweek 30,Sat,Away,W,4,1,Southampton,1,0,2023-04-08 Manchester City-Southampton,0,0.030248624039164212
+485,Manchester City,2023-04-15,17:30:00,Matchweek 31,Sat,Home,W,3,1,Leicester City,1,1,2023-04-15 Manchester City-Leicester City,0,0.110126009506457
+486,Manchester City,2023-04-26,20:00:00,Matchweek 33,Wed,Home,W,4,1,Arsenal,1,1,2023-04-26 Manchester City-Arsenal,0,0.016355995152277075
+487,Manchester City,2023-04-30,14:00:00,Matchweek 34,Sun,Away,W,2,1,Fulham,1,0,2023-04-30 Manchester City-Fulham,0,0.061888459439945774
+488,Manchester City,2023-05-03,20:00:00,Matchweek 28,Wed,Home,W,3,0,West Ham,1,1,2023-05-03 Manchester City-West Ham,0,0.09489234295252208
+489,Manchester City,2023-05-06,15:00:00,Matchweek 35,Sat,Home,W,2,1,Leeds United,1,1,2023-05-06 Manchester City-Leeds United,0,0.2937632256949025
+490,Manchester City,2023-05-14,14:00:00,Matchweek 36,Sun,Away,W,3,0,Everton,1,0,2023-05-14 Manchester City-Everton,0,0.26526663076823026
+491,Manchester City,2023-05-21,16:00:00,Matchweek 37,Sun,Home,W,1,0,Chelsea,1,1,2023-05-21 Manchester City-Chelsea,0,0.08340888755891257
+492,Manchester City,2023-05-24,20:00:00,Matchweek 32,Wed,Away,D,1,1,Brighton,0,0,2023-05-24 Manchester City-Brighton,0,0.16722758247569025
+493,Manchester City,2023-05-28,16:30:00,Matchweek 38,Sun,Away,L,0,1,Brentford,0,0,2023-05-28 Manchester City-Brentford,0,0.04817508378825727
+494,Manchester Utd,2022-08-07,14:00:00,Matchweek 1,Sun,Home,L,1,2,Brighton,0,1,2022-08-07 Manchester Utd-Brighton,0,0.3516998096993378
+495,Manchester Utd,2022-08-13,17:30:00,Matchweek 2,Sat,Away,L,0,4,Brentford,0,0,2022-08-13 Manchester Utd-Brentford,1,0.6827759720390711
+496,Manchester Utd,2022-08-22,20:00:00,Matchweek 3,Mon,Home,W,2,1,Liverpool,1,1,2022-08-22 Manchester Utd-Liverpool,0,0.41143252399449987
+497,Manchester Utd,2022-08-27,12:30:00,Matchweek 4,Sat,Away,W,1,0,Southampton,1,0,2022-08-27 Manchester Utd-Southampton,0,0.14979867391396187
+498,Manchester Utd,2022-09-01,20:00:00,Matchweek 5,Thu,Away,W,1,0,Leicester City,1,0,2022-09-01 Manchester Utd-Leicester City,0,0.02934522017224887
+499,Manchester Utd,2022-09-04,16:30:00,Matchweek 6,Sun,Home,W,3,1,Arsenal,1,1,2022-09-04 Manchester Utd-Arsenal,0,0.10710046166532354
+500,Manchester Utd,2022-10-02,14:00:00,Matchweek 9,Sun,Away,L,3,6,Manchester City,0,0,2022-10-02 Manchester Utd-Manchester City,0,0.3162383640839783
+501,Manchester Utd,2022-10-09,19:00:00,Matchweek 10,Sun,Away,W,2,1,Everton,1,0,2022-10-09 Manchester Utd-Everton,0,0.1044015590060162
+502,Manchester Utd,2022-10-16,14:00:00,Matchweek 11,Sun,Home,D,0,0,Newcastle Utd,0,1,2022-10-16 Manchester Utd-Newcastle Utd,0,0.16646707516375397
+503,Manchester Utd,2022-10-19,20:15:00,Matchweek 12,Wed,Home,W,2,0,Tottenham,1,1,2022-10-19 Manchester Utd-Tottenham,0,0.4420759233889848
+504,Manchester Utd,2022-10-22,17:30:00,Matchweek 13,Sat,Away,D,1,1,Chelsea,0,0,2022-10-22 Manchester Utd-Chelsea,0,0.37245702020466626
+505,Manchester Utd,2022-10-30,16:15:00,Matchweek 14,Sun,Home,W,1,0,West Ham,1,1,2022-10-30 Manchester Utd-West Ham,0,0.13012829086061312
+506,Manchester Utd,2022-11-06,14:00:00,Matchweek 15,Sun,Away,L,1,3,Aston Villa,0,0,2022-11-06 Manchester Utd-Aston Villa,0,0.25483542710187423
+507,Manchester Utd,2022-11-13,16:30:00,Matchweek 16,Sun,Away,W,2,1,Fulham,1,0,2022-11-13 Manchester Utd-Fulham,0,0.079356570747483
+508,Manchester Utd,2022-12-27,20:00:00,Matchweek 17,Tue,Home,W,3,0,Nott'ham Forest,1,1,2022-12-27 Manchester Utd-Nott'ham Forest,0,0.10730614672910793
+509,Manchester Utd,2022-12-31,12:30:00,Matchweek 18,Sat,Away,W,1,0,Wolves,1,0,2022-12-31 Manchester Utd-Wolves,0,0.029406495214783824
+510,Manchester Utd,2023-01-03,20:00:00,Matchweek 19,Tue,Home,W,3,0,Bournemouth,1,1,2023-01-03 Manchester Utd-Bournemouth,0,0.3027289058017734
+511,Manchester Utd,2023-01-14,12:30:00,Matchweek 20,Sat,Home,W,2,1,Manchester City,1,1,2023-01-14 Manchester Utd-Manchester City,0,0.09863616715161423
+512,Manchester Utd,2023-01-18,20:00:00,Matchweek 7,Wed,Away,D,1,1,Crystal Palace,0,0,2023-01-18 Manchester Utd-Crystal Palace,0,0.02398862800157096
+513,Manchester Utd,2023-01-22,16:30:00,Matchweek 21,Sun,Away,L,2,3,Arsenal,0,0,2023-01-22 Manchester Utd-Arsenal,0,0.08884984135477754
+514,Manchester Utd,2023-02-04,15:00:00,Matchweek 22,Sat,Home,W,2,1,Crystal Palace,1,1,2023-02-04 Manchester Utd-Crystal Palace,0,0.10868073851449932
+515,Manchester Utd,2023-02-08,20:00:00,Matchweek 8,Wed,Home,D,2,2,Leeds United,0,1,2023-02-08 Manchester Utd-Leeds United,0,0.029816522722248877
+516,Manchester Utd,2023-02-12,14:00:00,Matchweek 23,Sun,Away,W,2,0,Leeds United,1,0,2023-02-12 Manchester Utd-Leeds United,0,0.20449462071566218
+517,Manchester Utd,2023-02-19,14:00:00,Matchweek 24,Sun,Home,W,3,0,Leicester City,1,1,2023-02-19 Manchester Utd-Leicester City,0,0.5049244584845607
+518,Manchester Utd,2023-03-05,16:30:00,Matchweek 26,Sun,Away,L,0,7,Liverpool,0,0,2023-03-05 Manchester Utd-Liverpool,0,0.5676021136167433
+519,Manchester Utd,2023-03-12,14:00:00,Matchweek 27,Sun,Home,D,0,0,Southampton,0,1,2023-03-12 Manchester Utd-Southampton,0,0.24860616723779252
+520,Manchester Utd,2023-04-02,16:30:00,Matchweek 29,Sun,Away,L,0,2,Newcastle Utd,0,0,2023-04-02 Manchester Utd-Newcastle Utd,0,0.1566883580588767
+521,Manchester Utd,2023-04-05,20:00:00,Matchweek 25,Wed,Home,W,1,0,Brentford,1,1,2023-04-05 Manchester Utd-Brentford,0,0.4243494971204536
+522,Manchester Utd,2023-04-08,12:30:00,Matchweek 30,Sat,Home,W,2,0,Everton,1,1,2023-04-08 Manchester Utd-Everton,0,0.04664159150948395
+523,Manchester Utd,2023-04-16,16:30:00,Matchweek 31,Sun,Away,W,2,0,Nott'ham Forest,1,0,2023-04-16 Manchester Utd-Nott'ham Forest,0,0.1625516432296259
+524,Manchester Utd,2023-04-27,20:15:00,Matchweek 33,Thu,Away,D,2,2,Tottenham,0,0,2023-04-27 Manchester Utd-Tottenham,0,0.09377032336750919
+525,Manchester Utd,2023-04-30,14:00:00,Matchweek 34,Sun,Home,W,1,0,Aston Villa,1,1,2023-04-30 Manchester Utd-Aston Villa,0,0.025417314080970727
+526,Manchester Utd,2023-05-04,20:00:00,Matchweek 28,Thu,Away,L,0,1,Brighton,0,0,2023-05-04 Manchester Utd-Brighton,0,0.14121681250476112
+527,Manchester Utd,2023-05-07,19:00:00,Matchweek 35,Sun,Away,L,0,1,West Ham,0,0,2023-05-07 Manchester Utd-West Ham,0,0.39482245566558016
+528,Manchester Utd,2023-05-13,15:00:00,Matchweek 36,Sat,Home,W,2,0,Wolves,1,1,2023-05-13 Manchester Utd-Wolves,0,0.12490097464620423
+529,Manchester Utd,2023-05-20,15:00:00,Matchweek 37,Sat,Away,W,1,0,Bournemouth,1,0,2023-05-20 Manchester Utd-Bournemouth,0,0.3615411356948629
+530,Manchester Utd,2023-05-25,20:00:00,Matchweek 32,Thu,Home,W,4,1,Chelsea,1,1,2023-05-25 Manchester Utd-Chelsea,0,0.23951980418927135
+531,Manchester Utd,2023-05-28,16:30:00,Matchweek 38,Sun,Home,W,2,1,Fulham,1,1,2023-05-28 Manchester Utd-Fulham,0,0.07354633776115065
+532,Newcastle Utd,2022-08-06,15:00:00,Matchweek 1,Sat,Home,W,2,0,Nott'ham Forest,1,1,2022-08-06 Newcastle Utd-Nott'ham Forest,1,0.7096089474267416
+533,Newcastle Utd,2022-08-13,15:00:00,Matchweek 2,Sat,Away,D,0,0,Brighton,0,0,2022-08-13 Newcastle Utd-Brighton,0,0.3811549714472554
+534,Newcastle Utd,2022-08-21,16:30:00,Matchweek 3,Sun,Home,D,3,3,Manchester City,0,1,2022-08-21 Newcastle Utd-Manchester City,0,0.16669221834633435
+535,Newcastle Utd,2022-08-28,14:00:00,Matchweek 4,Sun,Away,D,1,1,Wolves,0,0,2022-08-28 Newcastle Utd-Wolves,0,0.44247594687113384
+536,Newcastle Utd,2022-08-31,20:00:00,Matchweek 5,Wed,Away,L,1,2,Liverpool,0,0,2022-08-31 Newcastle Utd-Liverpool,0,0.033184839739929216
+537,Newcastle Utd,2022-09-03,15:00:00,Matchweek 6,Sat,Home,D,0,0,Crystal Palace,0,1,2022-09-03 Newcastle Utd-Crystal Palace,0,0.11985755348084177
+538,Newcastle Utd,2022-09-17,15:00:00,Matchweek 8,Sat,Home,D,1,1,Bournemouth,0,1,2022-09-17 Newcastle Utd-Bournemouth,0,0.11687925620525413
+539,Newcastle Utd,2022-10-01,15:00:00,Matchweek 9,Sat,Away,W,4,1,Fulham,1,0,2022-10-01 Newcastle Utd-Fulham,0,0.34430087523179015
+540,Newcastle Utd,2022-10-08,15:00:00,Matchweek 10,Sat,Home,W,5,1,Brentford,1,1,2022-10-08 Newcastle Utd-Brentford,0,0.47357109385169077
+541,Newcastle Utd,2022-10-16,14:00:00,Matchweek 11,Sun,Away,D,0,0,Manchester Utd,0,0,2022-10-16 Newcastle Utd-Manchester Utd,0,0.1848317390011845
+542,Newcastle Utd,2022-10-19,19:30:00,Matchweek 12,Wed,Home,W,1,0,Everton,1,1,2022-10-19 Newcastle Utd-Everton,0,0.14518231460197403
+543,Newcastle Utd,2022-10-23,16:30:00,Matchweek 13,Sun,Away,W,2,1,Tottenham,1,0,2022-10-23 Newcastle Utd-Tottenham,0,0.40257111102988236
+544,Newcastle Utd,2022-10-29,15:00:00,Matchweek 14,Sat,Home,W,4,0,Aston Villa,1,1,2022-10-29 Newcastle Utd-Aston Villa,0,0.08913890319660192
+545,Newcastle Utd,2022-11-06,14:00:00,Matchweek 15,Sun,Away,W,4,1,Southampton,1,0,2022-11-06 Newcastle Utd-Southampton,0,0.2796778496934811
+546,Newcastle Utd,2022-11-12,17:30:00,Matchweek 16,Sat,Home,W,1,0,Chelsea,1,1,2022-11-12 Newcastle Utd-Chelsea,0,0.03325385752867559
+547,Newcastle Utd,2022-12-26,15:00:00,Matchweek 17,Mon,Away,W,3,0,Leicester City,1,0,2022-12-26 Newcastle Utd-Leicester City,0,0.12008444343794757
+548,Newcastle Utd,2022-12-31,15:00:00,Matchweek 18,Sat,Home,D,0,0,Leeds United,0,1,2022-12-31 Newcastle Utd-Leeds United,0,0.3301714831112429
+549,Newcastle Utd,2023-01-03,19:45:00,Matchweek 19,Tue,Away,D,0,0,Arsenal,0,0,2023-01-03 Newcastle Utd-Arsenal,0,0.1105098300005845
+550,Newcastle Utd,2023-01-15,14:00:00,Matchweek 20,Sun,Home,W,1,0,Fulham,1,1,2023-01-15 Newcastle Utd-Fulham,0,0.027146976251325228
+551,Newcastle Utd,2023-01-21,17:30:00,Matchweek 21,Sat,Away,D,0,0,Crystal Palace,0,0,2023-01-21 Newcastle Utd-Crystal Palace,0,0.09967571597984028
+552,Newcastle Utd,2023-02-04,17:30:00,Matchweek 22,Sat,Home,D,1,1,West Ham,0,1,2023-02-04 Newcastle Utd-West Ham,0,0.12160042778674213
+553,Newcastle Utd,2023-02-11,17:30:00,Matchweek 23,Sat,Away,D,1,1,Bournemouth,0,0,2023-02-11 Newcastle Utd-Bournemouth,0,0.03371566698579687
+554,Newcastle Utd,2023-02-18,17:30:00,Matchweek 24,Sat,Home,L,0,2,Liverpool,0,1,2023-02-18 Newcastle Utd-Liverpool,0,0.5365908369140048
+555,Newcastle Utd,2023-03-04,12:30:00,Matchweek 26,Sat,Away,L,0,2,Manchester City,0,0,2023-03-04 Newcastle Utd-Manchester City,0,0.22591743611976617
+556,Newcastle Utd,2023-03-12,16:30:00,Matchweek 27,Sun,Home,W,2,1,Wolves,1,1,2023-03-12 Newcastle Utd-Wolves,0,0.2730638624934026
+557,Newcastle Utd,2023-03-17,20:00:00,Matchweek 28,Fri,Away,W,2,1,Nott'ham Forest,1,0,2023-03-17 Newcastle Utd-Nott'ham Forest,0,0.5984477305555784
+558,Newcastle Utd,2023-04-02,16:30:00,Matchweek 29,Sun,Home,W,2,0,Manchester Utd,1,1,2023-04-02 Newcastle Utd-Manchester Utd,0,0.48723045272719084
+559,Newcastle Utd,2023-04-05,20:00:00,Matchweek 7,Wed,Away,W,5,1,West Ham,1,0,2023-04-05 Newcastle Utd-West Ham,0,0.19321966820828265
+560,Newcastle Utd,2023-04-08,15:00:00,Matchweek 30,Sat,Away,W,2,1,Brentford,1,0,2023-04-08 Newcastle Utd-Brentford,0,0.05262163299448826
+561,Newcastle Utd,2023-04-15,12:30:00,Matchweek 31,Sat,Away,L,0,3,Aston Villa,0,0,2023-04-15 Newcastle Utd-Aston Villa,0,0.1805779347708146
+562,Newcastle Utd,2023-04-23,14:00:00,Matchweek 32,Sun,Home,W,6,1,Tottenham,1,1,2023-04-23 Newcastle Utd-Tottenham,0,0.10512655924503454
+563,Newcastle Utd,2023-04-27,19:45:00,Matchweek 33,Thu,Away,W,4,1,Everton,1,0,2023-04-27 Newcastle Utd-Everton,0,0.02875822105789674
+564,Newcastle Utd,2023-04-30,14:00:00,Matchweek 34,Sun,Home,W,3,1,Southampton,1,1,2023-04-30 Newcastle Utd-Southampton,0,0.42551869134129705
+565,Newcastle Utd,2023-05-07,16:30:00,Matchweek 35,Sun,Home,L,0,2,Arsenal,0,1,2023-05-07 Newcastle Utd-Arsenal,0,0.15732162329089383
+566,Newcastle Utd,2023-05-13,12:30:00,Matchweek 36,Sat,Away,D,2,2,Leeds United,0,0,2023-05-13 Newcastle Utd-Leeds United,0,0.13944721350605488
+567,Newcastle Utd,2023-05-18,19:30:00,Matchweek 25,Thu,Home,W,4,1,Brighton,1,1,2023-05-18 Newcastle Utd-Brighton,0,0.39132300660415575
+568,Newcastle Utd,2023-05-22,20:00:00,Matchweek 37,Mon,Home,D,0,0,Leicester City,0,1,2023-05-22 Newcastle Utd-Leicester City,0,0.2633969447482886
+569,Newcastle Utd,2023-05-28,16:30:00,Matchweek 38,Sun,Away,D,1,1,Chelsea,0,0,2023-05-28 Newcastle Utd-Chelsea,0,0.08267675913307374
+570,Nott'ham Forest,2022-08-06,15:00:00,Matchweek 1,Sat,Away,L,0,2,Newcastle Utd,0,0,2022-08-06 Nott'ham Forest-Newcastle Utd,1,0.9027276478356141
+571,Nott'ham Forest,2022-08-14,14:00:00,Matchweek 2,Sun,Home,W,1,0,West Ham,1,1,2022-08-14 Nott'ham Forest-West Ham,1,0.7005192472922078
+572,Nott'ham Forest,2022-08-20,15:00:00,Matchweek 3,Sat,Away,D,1,1,Everton,0,0,2022-08-20 Nott'ham Forest-Everton,0,0.43172088482261073
+573,Nott'ham Forest,2022-08-28,16:30:00,Matchweek 4,Sun,Home,L,0,2,Tottenham,0,1,2022-08-28 Nott'ham Forest-Tottenham,1,0.750878100922886
+574,Nott'ham Forest,2022-08-31,19:30:00,Matchweek 5,Wed,Away,L,0,6,Manchester City,0,0,2022-08-31 Nott'ham Forest-Manchester City,0,0.11532218998421204
+575,Nott'ham Forest,2022-09-03,15:00:00,Matchweek 6,Sat,Home,L,2,3,Bournemouth,0,1,2022-09-03 Nott'ham Forest-Bournemouth,0,0.34088356206925363
+576,Nott'ham Forest,2022-09-16,20:00:00,Matchweek 8,Fri,Home,L,2,3,Fulham,0,1,2022-09-16 Nott'ham Forest-Fulham,0,0.33450039204223514
+577,Nott'ham Forest,2022-10-03,20:00:00,Matchweek 9,Mon,Away,L,0,4,Leicester City,0,0,2022-10-03 Nott'ham Forest-Leicester City,1,0.6660190710754293
+578,Nott'ham Forest,2022-10-10,20:00:00,Matchweek 10,Mon,Home,D,1,1,Aston Villa,0,1,2022-10-10 Nott'ham Forest-Aston Villa,1,0.7735745490717235
+579,Nott'ham Forest,2022-10-15,15:00:00,Matchweek 11,Sat,Away,L,0,1,Wolves,0,0,2022-10-15 Nott'ham Forest-Wolves,0,0.46268746519736714
+580,Nott'ham Forest,2022-10-18,19:30:00,Matchweek 12,Tue,Away,D,0,0,Brighton,0,0,2022-10-18 Nott'ham Forest-Brighton,0,0.39210383769293017
+581,Nott'ham Forest,2022-10-22,12:30:00,Matchweek 13,Sat,Home,W,1,0,Liverpool,1,1,2022-10-22 Nott'ham Forest-Liverpool,1,0.7190303729182713
+582,Nott'ham Forest,2022-10-30,14:00:00,Matchweek 14,Sun,Away,L,0,5,Arsenal,0,0,2022-10-30 Nott'ham Forest-Arsenal,0,0.27095671602736304
+583,Nott'ham Forest,2022-11-05,15:00:00,Matchweek 15,Sat,Home,D,2,2,Brentford,0,1,2022-11-05 Nott'ham Forest-Brentford,0,0.5958879353442346
+584,Nott'ham Forest,2022-11-12,15:00:00,Matchweek 16,Sat,Home,W,1,0,Crystal Palace,1,1,2022-11-12 Nott'ham Forest-Crystal Palace,0,0.3413665749303554
+585,Nott'ham Forest,2022-12-27,20:00:00,Matchweek 17,Tue,Away,L,0,3,Manchester Utd,0,0,2022-12-27 Nott'ham Forest-Manchester Utd,0,0.11554162157412813
+586,Nott'ham Forest,2023-01-01,16:30:00,Matchweek 18,Sun,Home,D,1,1,Chelsea,0,1,2023-01-01 Nott'ham Forest-Chelsea,0,0.32057655675123353
+587,Nott'ham Forest,2023-01-04,19:30:00,Matchweek 19,Wed,Away,W,1,0,Southampton,1,0,2023-01-04 Nott'ham Forest-Southampton,1,0.6518113987372736
+588,Nott'ham Forest,2023-01-14,15:00:00,Matchweek 20,Sat,Home,W,2,0,Leicester City,1,1,2023-01-14 Nott'ham Forest-Leicester City,0,0.09582088453570095
+589,Nott'ham Forest,2023-01-21,15:00:00,Matchweek 21,Sat,Away,D,1,1,Bournemouth,0,0,2023-01-21 Nott'ham Forest-Bournemouth,0,0.29600135394270694
+590,Nott'ham Forest,2023-02-05,14:00:00,Matchweek 22,Sun,Home,W,1,0,Leeds United,1,1,2023-02-05 Nott'ham Forest-Leeds United,0,0.34458212391194265
+591,Nott'ham Forest,2023-02-11,15:00:00,Matchweek 23,Sat,Away,L,0,2,Fulham,0,0,2023-02-11 Nott'ham Forest-Fulham,0,0.11700788208260111
+592,Nott'ham Forest,2023-02-18,15:00:00,Matchweek 24,Sat,Home,D,1,1,Manchester City,0,1,2023-02-18 Nott'ham Forest-Manchester City,0,0.5257052172317579
+593,Nott'ham Forest,2023-02-25,15:00:00,Matchweek 25,Sat,Away,L,0,4,West Ham,0,0,2023-02-25 Nott'ham Forest-West Ham,1,0.8147305222575791
+594,Nott'ham Forest,2023-03-05,14:00:00,Matchweek 26,Sun,Home,D,2,2,Everton,0,1,2023-03-05 Nott'ham Forest-Everton,1,0.8498496096567598
+595,Nott'ham Forest,2023-03-11,15:00:00,Matchweek 27,Sat,Away,L,1,3,Tottenham,0,0,2023-03-11 Nott'ham Forest-Tottenham,0,0.5878992180927362
+596,Nott'ham Forest,2023-03-17,20:00:00,Matchweek 28,Fri,Home,L,1,2,Newcastle Utd,0,1,2023-03-17 Nott'ham Forest-Newcastle Utd,1,0.7830162926738521
+597,Nott'ham Forest,2023-04-01,15:00:00,Matchweek 29,Sat,Home,D,1,1,Wolves,0,1,2023-04-01 Nott'ham Forest-Wolves,0,0.4763169413237978
+598,Nott'ham Forest,2023-04-04,19:45:00,Matchweek 7,Tue,Away,L,1,2,Leeds United,0,0,2023-04-04 Nott'ham Forest-Leeds United,1,0.7606787306969474
+599,Nott'ham Forest,2023-04-08,15:00:00,Matchweek 30,Sat,Away,L,0,2,Aston Villa,0,0,2023-04-08 Nott'ham Forest-Aston Villa,0,0.44479345209861315
+600,Nott'ham Forest,2023-04-16,16:30:00,Matchweek 31,Sun,Home,L,0,2,Manchester Utd,0,1,2023-04-16 Nott'ham Forest-Manchester Utd,0,0.3085094910453961
+601,Nott'ham Forest,2023-04-22,15:00:00,Matchweek 32,Sat,Away,L,2,3,Liverpool,0,0,2023-04-22 Nott'ham Forest-Liverpool,0,0.10108459160234388
+602,Nott'ham Forest,2023-04-26,19:30:00,Matchweek 33,Wed,Home,W,3,1,Brighton,1,1,2023-04-26 Nott'ham Forest-Brighton,0,0.41486909276998346
+603,Nott'ham Forest,2023-04-29,15:00:00,Matchweek 34,Sat,Away,L,1,2,Brentford,0,0,2023-04-29 Nott'ham Forest-Brentford,1,0.7377413089708301
+604,Nott'ham Forest,2023-05-08,20:00:00,Matchweek 35,Mon,Home,W,4,3,Southampton,1,1,2023-05-08 Nott'ham Forest-Southampton,0,0.3809617016126849
+605,Nott'ham Forest,2023-05-13,15:00:00,Matchweek 36,Sat,Away,D,2,2,Chelsea,0,0,2023-05-13 Nott'ham Forest-Chelsea,1,0.7094400590392821
+606,Nott'ham Forest,2023-05-20,17:30:00,Matchweek 37,Sat,Home,W,1,0,Arsenal,1,1,2023-05-20 Nott'ham Forest-Arsenal,0,0.5759168068089591
+607,Nott'ham Forest,2023-05-28,16:30:00,Matchweek 38,Sun,Away,D,1,1,Crystal Palace,0,0,2023-05-28 Nott'ham Forest-Crystal Palace,0,0.2550037680416925
+608,Southampton,2022-08-06,15:00:00,Matchweek 1,Sat,Away,L,1,4,Tottenham,0,0,2022-08-06 Southampton-Tottenham,1,0.8143991504358599
+609,Southampton,2022-08-13,15:00:00,Matchweek 2,Sat,Home,D,2,2,Leeds United,0,1,2022-08-13 Southampton-Leeds United,1,0.9456787081956779
+610,Southampton,2022-08-20,15:00:00,Matchweek 3,Sat,Away,W,2,1,Leicester City,1,0,2022-08-20 Southampton-Leicester City,1,0.8497167874849392
+611,Southampton,2022-08-27,12:30:00,Matchweek 4,Sat,Home,L,0,1,Manchester Utd,0,1,2022-08-27 Southampton-Manchester Utd,0,0.5876471081608673
+612,Southampton,2022-08-30,19:45:00,Matchweek 5,Tue,Home,W,2,1,Chelsea,1,1,2022-08-30 Southampton-Chelsea,0,0.49243089446510496
+613,Southampton,2022-09-03,15:00:00,Matchweek 6,Sat,Away,L,0,1,Wolves,0,0,2022-09-03 Southampton-Wolves,0,0.19648446564056743
+614,Southampton,2022-09-16,20:00:00,Matchweek 8,Fri,Away,L,0,1,Aston Villa,0,0,2022-09-16 Southampton-Aston Villa,1,0.7890677056107405
+615,Southampton,2022-10-01,15:00:00,Matchweek 9,Sat,Home,L,1,2,Everton,0,1,2022-10-01 Southampton-Everton,0,0.48529936725210404
+616,Southampton,2022-10-08,15:00:00,Matchweek 10,Sat,Away,L,0,4,Manchester City,0,0,2022-10-08 Southampton-Manchester City,1,0.617642173088477
+617,Southampton,2022-10-16,14:00:00,Matchweek 11,Sun,Home,D,1,1,West Ham,0,1,2022-10-16 Southampton-West Ham,1,0.8650270981124156
+618,Southampton,2022-10-19,19:30:00,Matchweek 12,Wed,Away,W,1,0,Bournemouth,1,0,2022-10-19 Southampton-Bournemouth,0,0.5475070434082568
+619,Southampton,2022-10-23,14:00:00,Matchweek 13,Sun,Home,D,1,1,Arsenal,0,1,2022-10-23 Southampton-Arsenal,1,0.8276035599887501
+620,Southampton,2022-10-29,15:00:00,Matchweek 14,Sat,Away,L,0,1,Crystal Palace,0,0,2022-10-29 Southampton-Crystal Palace,1,0.7344738196960351
+621,Southampton,2022-11-06,14:00:00,Matchweek 15,Sun,Home,L,1,4,Newcastle Utd,0,1,2022-11-06 Southampton-Newcastle Utd,0,0.4107916989611732
+622,Southampton,2022-11-12,15:00:00,Matchweek 16,Sat,Away,L,1,3,Liverpool,0,0,2022-11-12 Southampton-Liverpool,0,0.19682397193176426
+623,Southampton,2022-12-26,15:00:00,Matchweek 17,Mon,Home,L,1,3,Brighton,0,1,2022-12-26 Southampton-Brighton,0,0.4929680369432714
+624,Southampton,2022-12-31,15:00:00,Matchweek 18,Sat,Away,L,1,2,Fulham,0,0,2022-12-31 Southampton-Fulham,1,0.7783525436691214
+625,Southampton,2023-01-04,19:30:00,Matchweek 19,Wed,Home,L,0,1,Nott'ham Forest,0,1,2023-01-04 Southampton-Nott'ham Forest,0,0.4695270806061409
+626,Southampton,2023-01-14,15:00:00,Matchweek 20,Sat,Away,W,2,1,Everton,1,0,2023-01-14 Southampton-Everton,0,0.16583107210553943
+627,Southampton,2023-01-21,15:00:00,Matchweek 21,Sat,Home,L,0,1,Aston Villa,0,1,2023-01-21 Southampton-Aston Villa,0,0.44094396869136615
+628,Southampton,2023-02-04,15:00:00,Matchweek 22,Sat,Away,L,0,3,Brentford,0,0,2023-02-04 Southampton-Brentford,0,0.4965350431186587
+629,Southampton,2023-02-11,15:00:00,Matchweek 23,Sat,Home,L,1,2,Wolves,0,1,2023-02-11 Southampton-Wolves,0,0.19908954361443634
+630,Southampton,2023-02-18,15:00:00,Matchweek 24,Sat,Away,W,1,0,Chelsea,1,0,2023-02-18 Southampton-Chelsea,1,0.8918835341223227
+631,Southampton,2023-02-25,15:00:00,Matchweek 25,Sat,Away,L,0,1,Leeds United,0,0,2023-02-25 Southampton-Leeds United,1,0.6752422757187206
+632,Southampton,2023-03-04,17:30:00,Matchweek 26,Sat,Home,W,1,0,Leicester City,1,1,2023-03-04 Southampton-Leicester City,1,0.913922877694881
+633,Southampton,2023-03-12,14:00:00,Matchweek 27,Sun,Away,D,0,0,Manchester Utd,0,0,2023-03-12 Southampton-Manchester Utd,1,0.7279740851719316
+634,Southampton,2023-03-15,19:30:00,Matchweek 7,Wed,Home,L,0,2,Brentford,0,1,2023-03-15 Southampton-Brentford,1,0.6304801794138042
+635,Southampton,2023-03-18,15:00:00,Matchweek 28,Sat,Home,D,3,3,Tottenham,0,1,2023-03-18 Southampton-Tottenham,1,0.871289852847645
+636,Southampton,2023-04-02,14:00:00,Matchweek 29,Sun,Away,L,0,1,West Ham,0,0,2023-04-02 Southampton-West Ham,1,0.6004523684751307
+637,Southampton,2023-04-08,17:30:00,Matchweek 30,Sat,Home,L,1,4,Manchester City,0,1,2023-04-08 Southampton-Manchester City,1,0.8563728001512042
+638,Southampton,2023-04-15,15:00:00,Matchweek 31,Sat,Home,L,0,2,Crystal Palace,0,1,2023-04-15 Southampton-Crystal Palace,0,0.2835194851561967
+639,Southampton,2023-04-21,20:00:00,Matchweek 32,Fri,Away,D,3,3,Arsenal,0,0,2023-04-21 Southampton-Arsenal,1,0.6108922295378733
+640,Southampton,2023-04-27,19:45:00,Matchweek 33,Thu,Home,L,0,1,Bournemouth,0,1,2023-04-27 Southampton-Bournemouth,1,0.8406861650569103
+641,Southampton,2023-04-30,14:00:00,Matchweek 34,Sun,Away,L,1,3,Newcastle Utd,0,0,2023-04-30 Southampton-Newcastle Utd,0,0.5708225570624551
+642,Southampton,2023-05-08,20:00:00,Matchweek 35,Mon,Away,L,3,4,Nott'ham Forest,0,0,2023-05-08 Southampton-Nott'ham Forest,0,0.5358414754456136
+643,Southampton,2023-05-13,15:00:00,Matchweek 36,Sat,Home,L,0,2,Fulham,0,1,2023-05-13 Southampton-Fulham,1,0.8207955369245049
+644,Southampton,2023-05-21,14:00:00,Matchweek 37,Sun,Away,L,1,3,Brighton,0,0,2023-05-21 Southampton-Brighton,1,0.7181116696803918
+645,Southampton,2023-05-28,16:30:00,Matchweek 38,Sun,Home,D,4,4,Liverpool,0,1,2023-05-28 Southampton-Liverpool,0,0.39102152201084134
+646,Tottenham,2022-08-06,15:00:00,Matchweek 1,Sat,Home,W,4,1,Southampton,1,1,2022-08-06 Tottenham-Southampton,1,0.7341201029123455
+647,Tottenham,2022-08-14,16:30:00,Matchweek 2,Sun,Away,D,2,2,Chelsea,0,0,2022-08-14 Tottenham-Chelsea,0,0.4103529585597894
+648,Tottenham,2022-08-20,12:30:00,Matchweek 3,Sat,Home,W,1,0,Wolves,1,1,2022-08-20 Tottenham-Wolves,0,0.18435566099583553
+649,Tottenham,2022-08-28,16:30:00,Matchweek 4,Sun,Away,W,2,0,Nott'ham Forest,1,0,2022-08-28 Tottenham-Nott'ham Forest,0,0.4727826411808909
+650,Tottenham,2022-08-31,19:45:00,Matchweek 5,Wed,Away,D,1,1,West Ham,0,0,2022-08-31 Tottenham-West Ham,0,0.133352375456293
+651,Tottenham,2022-09-03,15:00:00,Matchweek 6,Sat,Home,W,2,1,Fulham,1,1,2022-09-03 Tottenham-Fulham,0,0.037335087915243315
+652,Tottenham,2022-09-17,17:30:00,Matchweek 8,Sat,Home,W,6,2,Leicester City,1,1,2022-09-17 Tottenham-Leicester City,0,0.3723744638824994
+653,Tottenham,2022-10-01,12:30:00,Matchweek 9,Sat,Away,L,1,3,Arsenal,0,0,2022-10-01 Tottenham-Arsenal,0,0.13008831291630932
+654,Tottenham,2022-10-08,17:30:00,Matchweek 10,Sat,Away,W,1,0,Brighton,1,0,2022-10-08 Tottenham-Brighton,0,0.5040819438554244
+655,Tottenham,2022-10-15,17:30:00,Matchweek 11,Sat,Home,W,2,0,Everton,1,1,2022-10-15 Tottenham-Everton,0,0.20394689257866935
+656,Tottenham,2022-10-19,20:15:00,Matchweek 12,Wed,Away,L,0,2,Manchester Utd,0,0,2022-10-19 Tottenham-Manchester Utd,0,0.43226372617551423
+657,Tottenham,2022-10-23,16:30:00,Matchweek 13,Sun,Home,L,1,2,Newcastle Utd,0,1,2022-10-23 Tottenham-Newcastle Utd,0,0.161006862977008
+658,Tottenham,2022-10-29,15:00:00,Matchweek 14,Sat,Away,W,3,2,Bournemouth,1,0,2022-10-29 Tottenham-Bournemouth,0,0.30493266243452516
+659,Tottenham,2022-11-06,16:30:00,Matchweek 15,Sun,Home,L,1,2,Liverpool,0,1,2022-11-06 Tottenham-Liverpool,0,0.09956635521583067
+660,Tottenham,2022-11-12,15:00:00,Matchweek 16,Sat,Home,W,4,3,Leeds United,1,1,2022-11-12 Tottenham-Leeds United,0,0.037412403368817085
+661,Tottenham,2022-12-26,12:30:00,Matchweek 17,Mon,Away,D,2,2,Brentford,0,0,2022-12-26 Tottenham-Brentford,0,0.13360093337316628
+662,Tottenham,2023-01-01,14:00:00,Matchweek 18,Sun,Home,L,0,2,Aston Villa,0,1,2023-01-01 Tottenham-Aston Villa,0,0.12309938803152586
+663,Tottenham,2023-01-04,20:00:00,Matchweek 19,Wed,Away,W,4,0,Crystal Palace,1,0,2023-01-04 Tottenham-Crystal Palace,0,0.35772151676511266
+664,Tottenham,2023-01-15,16:30:00,Matchweek 20,Sun,Home,L,0,2,Arsenal,0,1,2023-01-15 Tottenham-Arsenal,0,0.030565974840226925
+665,Tottenham,2023-01-19,20:00:00,Matchweek 7,Thu,Away,L,2,4,Manchester City,0,0,2023-01-19 Tottenham-Manchester City,0,0.11118530431892885
+666,Tottenham,2023-01-23,20:00:00,Matchweek 21,Mon,Away,W,1,0,Fulham,1,0,2023-01-23 Tottenham-Fulham,0,0.037929698355015626
+667,Tottenham,2023-02-05,16:30:00,Matchweek 22,Sun,Home,W,1,0,Manchester City,1,1,2023-02-05 Tottenham-Manchester City,0,0.13526132382889258
+668,Tottenham,2023-02-11,15:00:00,Matchweek 23,Sat,Away,L,1,4,Leicester City,0,0,2023-02-11 Tottenham-Leicester City,0,0.24798900186736547
+669,Tottenham,2023-02-19,16:30:00,Matchweek 24,Sun,Home,W,2,0,West Ham,1,1,2023-02-19 Tottenham-West Ham,0,0.5667903911916935
+670,Tottenham,2023-02-26,13:30:00,Matchweek 25,Sun,Home,W,2,0,Chelsea,1,1,2023-02-26 Tottenham-Chelsea,1,0.6274152000184199
+671,Tottenham,2023-03-04,15:00:00,Matchweek 26,Sat,Away,L,0,1,Wolves,0,0,2023-03-04 Tottenham-Wolves,0,0.29796848911770446
+672,Tottenham,2023-03-11,15:00:00,Matchweek 27,Sat,Home,W,3,1,Nott'ham Forest,1,1,2023-03-11 Tottenham-Nott'ham Forest,0,0.5177558016053859
+673,Tottenham,2023-03-18,15:00:00,Matchweek 28,Sat,Away,D,3,3,Southampton,0,0,2023-03-18 Tottenham-Southampton,0,0.21297565373574368
+674,Tottenham,2023-04-03,20:00:00,Matchweek 29,Mon,Away,D,1,1,Everton,0,0,2023-04-03 Tottenham-Everton,0,0.19247490796017944
+675,Tottenham,2023-04-08,15:00:00,Matchweek 30,Sat,Home,W,2,1,Brighton,1,1,2023-04-08 Tottenham-Brighton,0,0.48603515258528057
+676,Tottenham,2023-04-15,15:00:00,Matchweek 31,Sat,Home,L,2,3,Bournemouth,0,1,2023-04-15 Tottenham-Bournemouth,0,0.19936075305986656
+677,Tottenham,2023-04-23,14:00:00,Matchweek 32,Sun,Away,L,1,6,Newcastle Utd,0,0,2023-04-23 Tottenham-Newcastle Utd,0,0.05905425605874583
+678,Tottenham,2023-04-27,20:15:00,Matchweek 33,Thu,Home,D,2,2,Manchester Utd,0,1,2023-04-27 Tottenham-Manchester Utd,0,0.03237339351227055
+679,Tottenham,2023-04-30,16:30:00,Matchweek 34,Sun,Away,L,3,4,Liverpool,0,0,2023-04-30 Tottenham-Liverpool,0,0.1171836359853161
+680,Tottenham,2023-05-06,15:00:00,Matchweek 35,Sat,Home,W,1,0,Crystal Palace,1,1,2023-05-06 Tottenham-Crystal Palace,0,0.42077030131967574
+681,Tottenham,2023-05-13,15:00:00,Matchweek 36,Sat,Away,L,1,2,Aston Villa,0,0,2023-05-13 Tottenham-Aston Villa,0,0.15475982180840275
+682,Tottenham,2023-05-20,12:30:00,Matchweek 37,Sat,Home,L,1,3,Brentford,0,1,2023-05-20 Tottenham-Brentford,0,0.09242497595189997
+683,Tottenham,2023-05-28,16:30:00,Matchweek 38,Sun,Away,W,4,1,Leeds United,1,0,2023-05-28 Tottenham-Leeds United,0,0.2877689268352929
+684,West Ham,2022-08-07,16:30:00,Matchweek 1,Sun,Home,L,0,2,Manchester City,0,1,2022-08-07 West Ham-Manchester City,1,0.7608278770650301
+685,West Ham,2022-08-14,14:00:00,Matchweek 2,Sun,Away,L,0,1,Nott'ham Forest,0,0,2022-08-14 West Ham-Nott'ham Forest,0,0.44499582645699
+686,West Ham,2022-08-21,14:00:00,Matchweek 3,Sun,Home,L,0,2,Brighton,0,1,2022-08-21 West Ham-Brighton,0,0.5081539196275887
+687,West Ham,2022-08-28,14:00:00,Matchweek 4,Sun,Away,W,1,0,Aston Villa,1,0,2022-08-28 West Ham-Aston Villa,0,0.20660444405423087
+688,West Ham,2022-08-31,19:45:00,Matchweek 5,Wed,Home,D,1,1,Tottenham,0,1,2022-08-31 West Ham-Tottenham,0,0.04277125665868202
+689,West Ham,2022-09-03,15:00:00,Matchweek 6,Sat,Away,L,1,2,Chelsea,0,0,2022-09-03 West Ham-Chelsea,0,0.15058224972868312
+690,West Ham,2022-09-18,14:15:00,Matchweek 8,Sun,Away,L,0,1,Everton,0,0,2022-09-18 West Ham-Everton,0,0.14696797077437956
+691,West Ham,2022-10-01,17:30:00,Matchweek 9,Sat,Home,W,2,0,Wolves,1,1,2022-10-01 West Ham-Wolves,0,0.4060188474466551
+692,West Ham,2022-10-09,14:00:00,Matchweek 10,Sun,Home,W,3,1,Fulham,1,1,2022-10-09 West Ham-Fulham,0,0.22789940101616404
+693,West Ham,2022-10-16,14:00:00,Matchweek 11,Sun,Away,D,1,1,Southampton,0,0,2022-10-16 West Ham-Southampton,0,0.5393991164613295
+694,West Ham,2022-10-19,19:30:00,Matchweek 12,Wed,Away,L,0,1,Liverpool,0,0,2022-10-19 West Ham-Liverpool,0,0.4672904331333005
+695,West Ham,2022-10-24,20:00:00,Matchweek 13,Mon,Home,W,2,0,Bournemouth,1,1,2022-10-24 West Ham-Bournemouth,0,0.18106334319160644
+696,West Ham,2022-10-30,16:15:00,Matchweek 14,Sun,Away,L,0,1,Manchester Utd,0,0,2022-10-30 West Ham-Manchester Utd,0,0.11300007278427598
+697,West Ham,2022-11-06,14:00:00,Matchweek 15,Sun,Home,L,1,2,Crystal Palace,0,1,2022-11-06 West Ham-Crystal Palace,0,0.33574324737837036
+698,West Ham,2022-11-12,15:00:00,Matchweek 16,Sat,Home,L,0,2,Leicester City,0,1,2022-11-12 West Ham-Leicester City,0,0.15085733245090602
+699,West Ham,2022-12-26,20:00:00,Matchweek 17,Mon,Away,L,1,3,Arsenal,0,0,2022-12-26 West Ham-Arsenal,0,0.04285932841352872
+700,West Ham,2022-12-30,19:45:00,Matchweek 18,Fri,Home,L,0,2,Brentford,0,1,2022-12-30 West Ham-Brentford,0,0.1392173241998436
+701,West Ham,2023-01-04,19:45:00,Matchweek 19,Wed,Away,D,2,2,Leeds United,0,0,2023-01-04 West Ham-Leeds United,0,0.3908664829446785
+702,West Ham,2023-01-14,15:00:00,Matchweek 20,Sat,Away,L,0,1,Wolves,0,0,2023-01-14 West Ham-Wolves,0,0.1259673675769927
+703,West Ham,2023-01-21,15:00:00,Matchweek 21,Sat,Home,W,2,0,Everton,1,1,2023-01-21 West Ham-Everton,0,0.035052416184293944
+704,West Ham,2023-02-04,17:30:00,Matchweek 22,Sat,Away,D,1,1,Newcastle Utd,0,0,2023-02-04 West Ham-Newcastle Utd,0,0.04344853766049783
+705,West Ham,2023-02-11,12:30:00,Matchweek 23,Sat,Home,D,1,1,Chelsea,0,1,2023-02-11 West Ham-Chelsea,0,0.15269438829795157
+706,West Ham,2023-02-19,16:30:00,Matchweek 24,Sun,Away,L,0,2,Tottenham,0,0,2023-02-19 West Ham-Tottenham,1,0.6011750572166342
+707,West Ham,2023-02-25,15:00:00,Matchweek 25,Sat,Home,W,4,0,Nott'ham Forest,1,1,2023-02-25 West Ham-Nott'ham Forest,0,0.27532504752435183
+708,West Ham,2023-03-04,15:00:00,Matchweek 26,Sat,Away,L,0,4,Brighton,0,0,2023-03-04 West Ham-Brighton,0,0.3284078795209651
+709,West Ham,2023-03-12,14:00:00,Matchweek 27,Sun,Home,D,1,1,Aston Villa,0,1,2023-03-12 West Ham-Aston Villa,1,0.65987553022916
+710,West Ham,2023-04-02,14:00:00,Matchweek 29,Sun,Home,W,1,0,Southampton,1,1,2023-04-02 West Ham-Southampton,0,0.5529627742703919
+711,West Ham,2023-04-05,20:00:00,Matchweek 7,Wed,Home,L,1,5,Newcastle Utd,0,1,2023-04-05 West Ham-Newcastle Utd,0,0.23767195294214222
+712,West Ham,2023-04-08,15:00:00,Matchweek 30,Sat,Away,W,1,0,Fulham,1,0,2023-04-08 West Ham-Fulham,0,0.5214173385823926
+713,West Ham,2023-04-16,14:00:00,Matchweek 31,Sun,Home,D,2,2,Arsenal,0,1,2023-04-16 West Ham-Arsenal,0,0.21544473277309484
+714,West Ham,2023-04-23,14:00:00,Matchweek 32,Sun,Away,W,4,0,Bournemouth,1,0,2023-04-23 West Ham-Bournemouth,0,0.22292547697049095
+715,West Ham,2023-04-26,19:45:00,Matchweek 33,Wed,Home,L,1,2,Liverpool,0,1,2023-04-26 West Ham-Liverpool,0,0.06743132416772306
+716,West Ham,2023-04-29,12:30:00,Matchweek 34,Sat,Away,L,3,4,Crystal Palace,0,0,2023-04-29 West Ham-Crystal Palace,0,0.13264416302011642
+717,West Ham,2023-05-03,20:00:00,Matchweek 28,Wed,Away,L,0,3,Manchester City,0,0,2023-05-03 West Ham-Manchester City,0,0.037114969133590026
+718,West Ham,2023-05-07,19:00:00,Matchweek 35,Sun,Home,W,1,0,Manchester Utd,1,1,2023-05-07 West Ham-Manchester Utd,0,0.19551660954647004
+719,West Ham,2023-05-14,14:00:00,Matchweek 36,Sun,Away,L,0,2,Brentford,0,0,2023-05-14 West Ham-Brentford,0,0.49089586256357465
+720,West Ham,2023-05-21,13:30:00,Matchweek 37,Sun,Home,W,3,1,Leeds United,1,1,2023-05-21 West Ham-Leeds United,0,0.10500752836900223
+721,West Ham,2023-05-28,16:30:00,Matchweek 38,Sun,Away,L,1,2,Leicester City,0,0,2023-05-28 West Ham-Leicester City,0,0.3176378025756254
+722,Wolves,2022-08-06,15:00:00,Matchweek 1,Sat,Away,L,1,2,Leeds United,0,0,2022-08-06 Wolves-Leeds United,0,0.590424815253695
+723,Wolves,2022-08-13,15:00:00,Matchweek 2,Sat,Home,D,0,0,Fulham,0,1,2022-08-13 Wolves-Fulham,1,0.8511762157418218
+724,Wolves,2022-08-20,12:30:00,Matchweek 3,Sat,Away,L,0,1,Tottenham,0,0,2022-08-20 Wolves-Tottenham,1,0.6500482075429721
+725,Wolves,2022-08-28,14:00:00,Matchweek 4,Sun,Home,D,1,1,Newcastle Utd,0,1,2022-08-28 Wolves-Newcastle Utd,0,0.31888876430322977
+726,Wolves,2022-08-31,19:30:00,Matchweek 5,Wed,Away,D,0,0,Bournemouth,0,0,2022-08-31 Wolves-Bournemouth,0,0.2416949916538733
+727,Wolves,2022-09-03,15:00:00,Matchweek 6,Sat,Home,W,1,0,Southampton,1,1,2022-09-03 Wolves-Southampton,0,0.07436163081062809
+728,Wolves,2022-09-17,12:30:00,Matchweek 8,Sat,Home,L,0,3,Manchester City,0,1,2022-09-17 Wolves-Manchester City,0,0.5513642963918649
+729,Wolves,2022-10-01,17:30:00,Matchweek 9,Sat,Away,L,0,2,West Ham,0,0,2022-10-01 Wolves-West Ham,0,0.23650271652607466
+730,Wolves,2022-10-08,15:00:00,Matchweek 10,Sat,Away,L,0,3,Chelsea,0,0,2022-10-08 Wolves-Chelsea,0,0.3466996811245517
+731,Wolves,2022-10-15,15:00:00,Matchweek 11,Sat,Home,W,1,0,Nott'ham Forest,1,1,2022-10-15 Wolves-Nott'ham Forest,1,0.6779914137490768
+732,Wolves,2022-10-18,20:15:00,Matchweek 12,Tue,Away,L,1,2,Crystal Palace,0,0,2022-10-18 Wolves-Crystal Palace,1,0.6119715540817787
+733,Wolves,2022-10-23,14:00:00,Matchweek 13,Sun,Home,L,0,4,Leicester City,0,1,2022-10-23 Wolves-Leicester City,0,0.2844432275932053
+734,Wolves,2022-10-29,15:00:00,Matchweek 14,Sat,Away,D,1,1,Brentford,0,0,2022-10-29 Wolves-Brentford,0,0.4760958667463095
+735,Wolves,2022-11-05,15:00:00,Matchweek 15,Sat,Home,L,2,3,Brighton,0,1,2022-11-05 Wolves-Brighton,0,0.18636209697243322
+736,Wolves,2022-11-12,19:45:00,Matchweek 16,Sat,Home,L,0,2,Arsenal,0,1,2022-11-12 Wolves-Arsenal,0,0.242089080990192
+737,Wolves,2022-12-26,15:00:00,Matchweek 17,Mon,Away,W,2,1,Everton,1,0,2022-12-26 Wolves-Everton,0,0.07450968805120826
+738,Wolves,2022-12-31,12:30:00,Matchweek 18,Sat,Home,L,0,1,Manchester Utd,0,1,2022-12-31 Wolves-Manchester Utd,0,0.2252772562449665
+739,Wolves,2023-01-04,20:00:00,Matchweek 19,Wed,Away,D,1,1,Aston Villa,0,0,2023-01-04 Wolves-Aston Villa,0,0.5356795250003997
+740,Wolves,2023-01-14,15:00:00,Matchweek 20,Sat,Home,W,1,0,West Ham,1,1,2023-01-14 Wolves-West Ham,0,0.20579480499113756
+741,Wolves,2023-01-22,14:00:00,Matchweek 21,Sun,Away,L,0,3,Manchester City,0,0,2023-01-22 Wolves-Manchester City,0,0.06130687128089681
+742,Wolves,2023-02-04,15:00:00,Matchweek 22,Sat,Home,W,3,0,Liverpool,1,1,2023-02-04 Wolves-Liverpool,0,0.07549968911014236
+743,Wolves,2023-02-11,15:00:00,Matchweek 23,Sat,Away,W,2,1,Southampton,1,0,2023-02-11 Wolves-Southampton,0,0.24471693238840764
+744,Wolves,2023-02-18,15:00:00,Matchweek 24,Sat,Home,L,0,1,Bournemouth,0,1,2023-02-18 Wolves-Bournemouth,0,0.4058523880689871
+745,Wolves,2023-02-24,20:00:00,Matchweek 25,Fri,Away,D,1,1,Fulham,0,0,2023-02-24 Wolves-Fulham,1,0.7304675729922308
+746,Wolves,2023-03-01,20:00:00,Matchweek 7,Wed,Away,L,0,2,Liverpool,0,0,2023-03-01 Wolves-Liverpool,0,0.46785383338144837
+747,Wolves,2023-03-04,15:00:00,Matchweek 26,Sat,Home,W,1,0,Tottenham,1,1,2023-03-04 Wolves-Tottenham,1,0.7771911557493011
+748,Wolves,2023-03-12,16:30:00,Matchweek 27,Sun,Away,L,1,2,Newcastle Utd,0,0,2023-03-12 Wolves-Newcastle Utd,0,0.3591965492988141
+749,Wolves,2023-03-18,15:00:00,Matchweek 28,Sat,Home,L,2,4,Leeds United,0,1,2023-03-18 Wolves-Leeds United,1,0.6898207359159901
+750,Wolves,2023-04-01,15:00:00,Matchweek 29,Sat,Away,D,1,1,Nott'ham Forest,0,0,2023-04-01 Wolves-Nott'ham Forest,0,0.33053196308593935
+751,Wolves,2023-04-08,15:00:00,Matchweek 30,Sat,Home,W,1,0,Chelsea,1,1,2023-04-08 Wolves-Chelsea,1,0.6620301378008704
+752,Wolves,2023-04-15,15:00:00,Matchweek 31,Sat,Home,W,2,0,Brentford,1,1,2023-04-15 Wolves-Brentford,0,0.11504630832349426
+753,Wolves,2023-04-22,15:00:00,Matchweek 32,Sat,Away,L,1,2,Leicester City,0,0,2023-04-22 Wolves-Leicester City,0,0.3402756258834466
+754,Wolves,2023-04-25,19:30:00,Matchweek 33,Tue,Home,W,2,0,Crystal Palace,1,1,2023-04-25 Wolves-Crystal Palace,0,0.06481052740151255
+755,Wolves,2023-04-29,15:00:00,Matchweek 34,Sat,Away,L,0,6,Brighton,0,0,2023-04-29 Wolves-Brighton,0,0.21565878438009392
+756,Wolves,2023-05-06,15:00:00,Matchweek 35,Sat,Home,W,1,0,Aston Villa,1,1,2023-05-06 Wolves-Aston Villa,1,0.6341847685161043
+757,Wolves,2023-05-13,15:00:00,Matchweek 36,Sat,Away,L,0,2,Manchester Utd,0,0,2023-05-13 Wolves-Manchester Utd,0,0.30408453860958257
+758,Wolves,2023-05-20,15:00:00,Matchweek 37,Sat,Home,D,1,1,Everton,0,1,2023-05-20 Wolves-Everton,1,0.6007560333075531
+759,Wolves,2023-05-28,16:30:00,Matchweek 38,Sun,Away,L,0,5,Arsenal,0,0,2023-05-28 Wolves-Arsenal,0,0.2749765519525732
